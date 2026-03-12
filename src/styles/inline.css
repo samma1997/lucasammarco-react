@@ -1,7 +1,7 @@
 html.w-mod-js:not(.w-mod-ix3) :is(.last-section, .last-section-mask, .h-line, .manifesto, .expertise-split, .split-tag, .load-split, .logo-footer, .value-item__line, .value-divider, .value-icon svg, .value-text h4, .value-text p, [data-wf-target*='["68f77e4ac7ca6bd68b326cb4","6efb697d-d0ab-36b3-30f7-aca4aff8ec9f"]'], [data-wf-target*='["68f77e4ac7ca6bd68b326cb4","f795206b-cfea-47c2-42e7-3d1c4abaf727"]']) {visibility: hidden !important;}
 
   .clipping-text * {
-  	background-image: url('https://cdn.prod.website-files.com/68f77e49c7ca6bd68b326c3d/6900c3d30f2eca17950257bd_Blizar%201.png');
+  	background-image: url('/images/blizar-bg.png');
   background-size: cover;
   background-position: center;
   -webkit-background-clip: text;

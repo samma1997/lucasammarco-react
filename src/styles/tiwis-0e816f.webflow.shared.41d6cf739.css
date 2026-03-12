@@ -2048,7 +2048,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Aratigo;
-  src: url("/fonts/68f78c51af813def1c065698_font.woff") format("woff");
+  src: url("../fonts/68f78c51af813def1c065698_font.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -2056,7 +2056,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Aratigo;
-  src: url("/fonts/68f78c8fd5d61debfc80a1bb_font.woff") format("woff");
+  src: url("../fonts/68f78c8fd5d61debfc80a1bb_font.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2064,7 +2064,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: Aratigo;
-  src: url("/fonts/68f78caefbe2b2ebe28feb28_font.woff") format("woff");
+  src: url("../fonts/68f78caefbe2b2ebe28feb28_font.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2072,7 +2072,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: AlmarenaNeueDisplay;
-  src: url("/fonts/68f78cd3c40cd277f46e30b0_font.woff") format("woff");
+  src: url("../fonts/68f78cd3c40cd277f46e30b0_font.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -2080,7 +2080,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: AlmarenaNeueDisplay;
-  src: url("/fonts/68f78ce8451628ecd9b75a35_font.woff") format("woff");
+  src: url("../fonts/68f78ce8451628ecd9b75a35_font.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -2088,7 +2088,7 @@ textarea.w-input, textarea.w-select {
 
 @font-face {
   font-family: AlmarenaNeueDisplay;
-  src: url("/fonts/691d968ff520bd9800fe5aa7_AlmarenaNeue-DisplayRegular.woff") format("woff");
+  src: url("../fonts/691d968ff520bd9800fe5aa7_AlmarenaNeue-DisplayRegular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

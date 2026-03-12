@@ -1,7 +1,10 @@
 import type { Metadata } from 'next'
+import '../styles/lenis.css'
 import '../styles/webflow.css'
 import '../styles/inline.css'
 import './globals.css'
+import Navigation from '@/components/Navigation'
+import SmoothScrollProvider from '@/components/SmoothScrollProvider'
 
 export const metadata: Metadata = {
   title: 'TIWIS | Strategic sparring partners and drivers of your growth',
@@ -31,10 +34,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.15/dist/lenis.css" />
-      </head>
-      <body suppressHydrationWarning>{children}</body>
+      <head />
+      <body suppressHydrationWarning>
+        <SmoothScrollProvider>
+          <Navigation />
+          {children}
+        </SmoothScrollProvider>
+      </body>
     </html>
   )
 }
