@@ -22,7 +22,7 @@ export default function ExpertiseCards({
           <span className="tag mb-4 block w-fit">Expertise</span>
           <h2
             className="heading-md"
-            style={{ fontFamily: "Syne, sans-serif" }}
+            style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
           >
             {title}
           </h2>
@@ -37,7 +37,7 @@ export default function ExpertiseCards({
             >
               <h3
                 className="text-lg font-semibold mb-3 group-hover:text-[var(--cyan)] transition-colors"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 {card.title}
               </h3>

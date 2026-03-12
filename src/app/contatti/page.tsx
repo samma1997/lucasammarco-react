@@ -56,7 +56,7 @@ export default function ContattiPage() {
                   </div>
                   <h3
                     className="text-2xl font-semibold mb-3"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                   >
                     Messaggio inviato!
                   </h3>
@@ -83,17 +83,7 @@ export default function ContattiPage() {
                         onChange={(e) =>
                           setFormData({ ...formData, nome: e.target.value })
                         }
-                        className="w-full bg-transparent border-b py-3 text-base focus:outline-none transition-colors"
-                        style={{
-                          borderColor: "var(--border)",
-                          color: "var(--fg)",
-                        }}
-                        onFocus={(e) =>
-                          (e.target.style.borderColor = "var(--cyan)")
-                        }
-                        onBlur={(e) =>
-                          (e.target.style.borderColor = "var(--border)")
-                        }
+                        className="w-full bg-transparent border-b border-[var(--border)] text-[var(--fg)] py-3 text-base focus:outline-none focus:border-[var(--cyan)] transition-colors"
                         placeholder="Il tuo nome"
                       />
                     </div>
@@ -113,17 +103,7 @@ export default function ContattiPage() {
                         onChange={(e) =>
                           setFormData({ ...formData, email: e.target.value })
                         }
-                        className="w-full bg-transparent border-b py-3 text-base focus:outline-none transition-colors"
-                        style={{
-                          borderColor: "var(--border)",
-                          color: "var(--fg)",
-                        }}
-                        onFocus={(e) =>
-                          (e.target.style.borderColor = "var(--cyan)")
-                        }
-                        onBlur={(e) =>
-                          (e.target.style.borderColor = "var(--border)")
-                        }
+                        className="w-full bg-transparent border-b border-[var(--border)] text-[var(--fg)] py-3 text-base focus:outline-none focus:border-[var(--cyan)] transition-colors"
                         placeholder="tua@email.com"
                       />
                     </div>
@@ -144,17 +124,7 @@ export default function ContattiPage() {
                       onChange={(e) =>
                         setFormData({ ...formData, azienda: e.target.value })
                       }
-                      className="w-full bg-transparent border-b py-3 text-base focus:outline-none"
-                      style={{
-                        borderColor: "var(--border)",
-                        color: "var(--fg)",
-                      }}
-                      onFocus={(e) =>
-                        (e.target.style.borderColor = "var(--cyan)")
-                      }
-                      onBlur={(e) =>
-                        (e.target.style.borderColor = "var(--border)")
-                      }
+                      className="w-full bg-transparent border-b border-[var(--border)] text-[var(--fg)] py-3 text-base focus:outline-none focus:border-[var(--cyan)] transition-colors"
                       placeholder="Nome azienda (opzionale)"
                     />
                   </div>
@@ -175,17 +145,7 @@ export default function ContattiPage() {
                       onChange={(e) =>
                         setFormData({ ...formData, messaggio: e.target.value })
                       }
-                      className="w-full bg-transparent border-b py-3 text-base focus:outline-none resize-none"
-                      style={{
-                        borderColor: "var(--border)",
-                        color: "var(--fg)",
-                      }}
-                      onFocus={(e) =>
-                        (e.target.style.borderColor = "var(--cyan)")
-                      }
-                      onBlur={(e) =>
-                        (e.target.style.borderColor = "var(--border)")
-                      }
+                      className="w-full bg-transparent border-b border-[var(--border)] text-[var(--fg)] py-3 text-base focus:outline-none focus:border-[var(--cyan)] transition-colors resize-none"
                       placeholder="Raccontami del tuo progetto..."
                     />
                   </div>
@@ -223,7 +183,7 @@ export default function ContattiPage() {
               >
                 <h3
                   className="text-xl font-semibold mb-3"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                 >
                   Prenota una call
                 </h3>
@@ -253,7 +213,7 @@ export default function ContattiPage() {
               >
                 <h3
                   className="text-xl font-semibold mb-6"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                 >
                   Contatti diretti
                 </h3>

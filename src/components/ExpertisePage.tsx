@@ -61,7 +61,7 @@ export default function ExpertisePageTemplate({
               <span className="tag mb-4 block w-fit">Output</span>
               <h2
                 className="heading-md"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 Cosa ricevi
               </h2>
@@ -107,7 +107,7 @@ export default function ExpertisePageTemplate({
               <span className="tag mb-4 block w-fit">Case Study</span>
               <h2
                 className="heading-md"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 Progetti correlati
               </h2>
@@ -122,7 +122,7 @@ export default function ExpertisePageTemplate({
                   <span className="tag mb-4 block w-fit">{c.service}</span>
                   <h3
                     className="text-lg font-semibold group-hover:text-[var(--cyan)] transition-colors"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                   >
                     {c.title}
                   </h3>

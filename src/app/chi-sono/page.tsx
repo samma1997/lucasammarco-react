@@ -50,7 +50,7 @@ export default function ChiSonoPage() {
                   className="w-full h-full flex items-center justify-center"
                   style={{
                     fontSize: "120px",
-                    fontFamily: "Syne, sans-serif",
+                    fontFamily: "'AlmarenaNeueDisplay', sans-serif",
                     fontWeight: 700,
                     color: "rgba(255,255,255,0.1)",
                     letterSpacing: "-0.05em",
@@ -70,7 +70,7 @@ export default function ChiSonoPage() {
                   <div key={i} className="text-center p-4 rounded-2xl border border-[var(--border)]">
                     <div
                       className="text-2xl font-bold mb-1"
-                      style={{ fontFamily: "Syne, sans-serif", color: "var(--cyan)" }}
+                      style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif", color: "var(--cyan)" }}
                     >
                       {stat.value}
                     </div>
@@ -89,7 +89,7 @@ export default function ChiSonoPage() {
             <div>
               <h2
                 className="heading-md mb-6"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 Luca Sammarco
               </h2>
@@ -173,7 +173,7 @@ export default function ChiSonoPage() {
               <span className="tag mb-6 block w-fit">Filosofia</span>
               <h2
                 className="heading-lg mb-6"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 Siamo
                 <br />
@@ -201,7 +201,7 @@ export default function ChiSonoPage() {
               <span className="tag mb-6 block w-fit">Approccio</span>
               <h2
                 className="heading-lg mb-6"
-                style={{ fontFamily: "Syne, sans-serif" }}
+                style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
               >
                 Product centric,
                 <br />

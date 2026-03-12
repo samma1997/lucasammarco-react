@@ -79,7 +79,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
           className="absolute inset-0 flex items-center justify-center opacity-10"
           style={{
             fontSize: "100px",
-            fontFamily: "Syne, sans-serif",
+            fontFamily: "'AlmarenaNeueDisplay', sans-serif",
             fontWeight: 700,
             letterSpacing: "-0.05em",
           }}
@@ -108,7 +108,7 @@ function ProjectCard({ project, index }: { project: typeof projects[0]; index: n
       {/* Content */}
       <h3
         className="text-xl font-semibold mb-3 group-hover:text-[var(--cyan)] transition-colors"
-        style={{ fontFamily: "Syne, sans-serif" }}
+        style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
       >
         {project.title}
       </h3>

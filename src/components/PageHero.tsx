@@ -67,7 +67,7 @@ export default function PageHero({
         <h1
           className="heading-xl mb-6 max-w-4xl animate-in"
           style={{
-            fontFamily: "Syne, sans-serif",
+            fontFamily: "'AlmarenaNeueDisplay', sans-serif",
             opacity: 0,
           }}
           dangerouslySetInnerHTML={{
@@ -82,7 +82,7 @@ export default function PageHero({
           <p
             className="text-xl md:text-2xl font-medium mb-6 animate-in"
             style={{
-              fontFamily: "Syne, sans-serif",
+              fontFamily: "'AlmarenaNeueDisplay', sans-serif",
               color: accentColor,
               opacity: 0,
             }}

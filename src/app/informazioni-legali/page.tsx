@@ -22,7 +22,7 @@ export default function InformazioniLegaliPage() {
             style={{ color: "rgba(240,240,240,0.55)" }}
           >
             <div>
-              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Titolare del sito
               </h2>
               <p>Luca Sammarco</p>
@@ -30,13 +30,13 @@ export default function InformazioniLegaliPage() {
               <p>Email: info@lucasammarco.com</p>
             </div>
             <div>
-              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Partita IVA
               </h2>
               <p>IT — (in aggiornamento)</p>
             </div>
             <div>
-              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-2" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Responsabilità
               </h2>
               <p>

@@ -10,13 +10,13 @@ export default function NotFound() {
       >
         <div
           className="text-[200px] font-bold leading-none mb-8 opacity-[0.04]"
-          style={{ fontFamily: "Syne, sans-serif", letterSpacing: "-0.05em" }}
+          style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif", letterSpacing: "-0.05em" }}
         >
           404
         </div>
         <h1
           className="text-4xl md:text-6xl font-bold mb-6 -mt-32"
-          style={{ fontFamily: "Syne, sans-serif" }}
+          style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
         >
           Pagina non trovata
         </h1>

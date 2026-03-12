@@ -73,7 +73,7 @@ export default function ApproccioPage() {
         <div className="max-w-screen-xl mx-auto">
           <div className="mb-16">
             <span className="tag mb-4 block w-fit">I 4 Pilastri</span>
-            <h2 className="heading-lg" style={{ fontFamily: "Syne, sans-serif" }}>
+            <h2 className="heading-lg" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
               Come opero
             </h2>
           </div>
@@ -92,7 +92,7 @@ export default function ApproccioPage() {
                 </div>
                 <h3
                   className="text-2xl md:text-3xl font-semibold mb-5"
-                  style={{ fontFamily: "Syne, sans-serif" }}
+                  style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                 >
                   {pillar.title}
                 </h3>
@@ -113,7 +113,7 @@ export default function ApproccioPage() {
         <div className="max-w-screen-xl mx-auto">
           <div className="mb-16">
             <span className="tag mb-4 block w-fit">Filosofia</span>
-            <h2 className="heading-lg" style={{ fontFamily: "Syne, sans-serif" }}>
+            <h2 className="heading-lg" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
               Tre principi
               <br />
               <span style={{ color: "var(--lime)" }}>irrinunciabili</span>
@@ -129,7 +129,7 @@ export default function ApproccioPage() {
                 <div
                   className="flex-none md:w-48 text-5xl font-bold"
                   style={{
-                    fontFamily: "Syne, sans-serif",
+                    fontFamily: "'AlmarenaNeueDisplay', sans-serif",
                     color: "rgba(255,255,255,0.06)",
                     transition: "color 0.3s",
                   }}
@@ -139,7 +139,7 @@ export default function ApproccioPage() {
                 <div className="flex-1">
                   <h3
                     className="text-xl md:text-2xl font-semibold mb-4"
-                    style={{ fontFamily: "Syne, sans-serif" }}
+                    style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}
                   >
                     {concept.title}
                   </h3>

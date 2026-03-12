@@ -1,8 +1,134 @@
-/* Tiwis — global overrides */
+@import "tailwindcss";
+
+/* ── Custom properties ─────────────────────────────────── */
+:root {
+  --bg: #0A0A0A;
+  --fg: #f0f0f0;
+  --cyan: #58D0F5;
+  --lime: #EAFD9C;
+  --primary: #045CB4;
+  --primary-light: #046BD2;
+  --border: rgba(240, 240, 240, 0.08);
+  --orange: #FA4838;
+}
+
+/* ── Base resets ────────────────────────────────────────── */
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Aratigo', sans-serif;
+}
+
+/* ── Heading utilities ─────────────────────────────────── */
+.heading-xl {
+  font-size: clamp(2.5rem, 5vw + 1rem, 4.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.heading-lg {
+  font-size: clamp(2rem, 4vw + 0.5rem, 3.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.heading-md {
+  font-size: clamp(1.5rem, 3vw + 0.5rem, 2.5rem);
+  font-weight: 700;
+  line-height: 1.1;
+  color: #fff;
+}
+
+/* ── Tag / label ───────────────────────────────────────── */
+.tag {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: rgba(240, 240, 240, 0.4);
+  line-height: 1.4;
+}
+
+/* ── Buttons ───────────────────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--primary);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.25s ease, transform 0.15s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--primary-light);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: transparent;
+  color: #fff;
+  padding: 12px 24px;
+  border: 1px solid var(--border);
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.25s ease, border-color 0.25s ease;
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* ── Section divider ───────────────────────────────────── */
+.section-divider {
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── Step number (decorative) ──────────────────────────── */
+.step-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.04);
+  line-height: 1;
+}
+
+/* ── Link with underline ───────────────────────────────── */
+.link-underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+
+.link-underline:hover {
+  color: #fff;
+}
+
+/* ── Lenis smooth-scroll overrides ─────────────────────── */
 html.lenis,
 html.lenis body {
   height: auto;
@@ -16,7 +142,7 @@ html.lenis body {
   overflow: hidden;
 }
 
-/* Hide real cursor over hero */
+/* ── Custom cursor on hero ─────────────────────────────── */
 .home-hero.cursor-replaced {
   cursor: none !important;
 }

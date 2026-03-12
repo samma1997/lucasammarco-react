@@ -22,13 +22,13 @@ export default function PrivacyPage() {
             style={{ color: "rgba(240,240,240,0.55)" }}
           >
             <div>
-              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Titolare del trattamento
               </h2>
               <p>Luca Sammarco — info@lucasammarco.com</p>
             </div>
             <div>
-              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Dati raccolti
               </h2>
               <p>
@@ -38,7 +38,7 @@ export default function PrivacyPage() {
               </p>
             </div>
             <div>
-              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Cookie
               </h2>
               <p>
@@ -48,7 +48,7 @@ export default function PrivacyPage() {
               </p>
             </div>
             <div>
-              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "Syne, sans-serif" }}>
+              <h2 className="text-white font-semibold mb-3" style={{ fontFamily: "'AlmarenaNeueDisplay', sans-serif" }}>
                 Diritti dell&apos;utente
               </h2>
               <p>
