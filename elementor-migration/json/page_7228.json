@@ -1,0 +1,855 @@
+[
+  {
+    "id": "04w3tho",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "10",
+        "right": "3",
+        "bottom": "2",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "8",
+        "right": "2",
+        "bottom": "1.5",
+        "left": "2",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "6",
+        "right": "1",
+        "bottom": "1",
+        "left": "1",
+        "isLinked": false
+      },
+      "background_background": "classic",
+      "background_image": {
+        "url": "https://lucasammarco.com/wp-content/uploads/2024/12/elementor-siti-web-sfondo-scaled.jpg",
+        "id": 171,
+        "size": "",
+        "alt": "Background Header",
+        "source": "library"
+      }
+    },
+    "elements": [
+      {
+        "id": "9csueq2",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Web Developer Brescia | Realizzazione Siti Web Brescia",
+          "header_size": "h1",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 2.5,
+            "sizes": []
+          },
+          "typography_font_size_tablet": {
+            "unit": "rem",
+            "size": 2,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "rem",
+            "size": 1.75,
+            "sizes": []
+          },
+          "align": "left"
+        },
+        "elements": []
+      },
+      {
+        "id": "njkf5ho",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Sono Luca Sammarco, web developer specializzato in realizzazione siti web professionali con focus su WordPress, SEO e sviluppo custom. Offro servizi di web development a <strong>Brescia</strong> e provincia, aiutando aziende, professionisti e startup a creare una forte presenza online.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "lqob9fn",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "2",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "2",
+        "left": "1",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "iio2jhq",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "padding": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "padding_tablet": {
+            "unit": "em",
+            "top": "1.5",
+            "right": "1.5",
+            "bottom": "1.5",
+            "left": "1.5",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "em",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#1D1C20",
+          "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          },
+          "margin": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "87ja0lq",
+            "elType": "widget",
+            "widgetType": "nested-accordion",
+            "settings": {
+              "items": [
+                {
+                  "item_title": "Indice dei contenuti",
+                  "_id": "3y8strp"
+                }
+              ],
+              "accordion_item_title_position_horizontal": "stretch",
+              "accordion_item_title_icon_position": "end",
+              "accordion_item_title_distance_from_content": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile_extra": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile": {
+                "unit": "em",
+                "size": -1,
+                "sizes": []
+              },
+              "accordion_background_normal_background": "classic",
+              "accordion_background_normal_color": "#1D1C20",
+              "accordion_border_normal_border": "none",
+              "accordion_background_hover_background": "classic",
+              "accordion_background_hover_color": "#1D1C20",
+              "accordion_border_hover_border": "none",
+              "accordion_background_active_background": "classic",
+              "accordion_background_active_color": "#1D1C20",
+              "accordion_border_radius": {
+                "unit": "px",
+                "top": "8",
+                "right": "8",
+                "bottom": "8",
+                "left": "8",
+                "isLinked": true
+              },
+              "accordion_padding": {
+                "unit": "em",
+                "top": "1",
+                "right": "3",
+                "bottom": "1",
+                "left": "3",
+                "isLinked": false
+              },
+              "accordion_padding_widescreen": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_laptop": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_mobile_extra": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "Bricolage Grotesque",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 35,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet_extra": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "title_typography_font_size_mobile_extra": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "normal_title_color": "#FFFFFF",
+              "hover_title_color": "#FFFFFF",
+              "active_title_color": "#FFFFFF",
+              "_animation": "fadeIn"
+            },
+            "elements": [
+              {
+                "id": "scmo79o",
+                "elType": "container",
+                "settings": {
+                  "_title": "Indice dei contenuti",
+                  "content_width": "full",
+                  "background_background": "classic",
+                  "background_color": "#1D1C20",
+                  "border_border": "none",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "8",
+                    "left": "8",
+                    "isLinked": true
+                  },
+                  "padding": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "2",
+                    "bottom": "1",
+                    "left": "2",
+                    "isLinked": false
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "fa3rtme",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:0.75em;\"><a href=\"#servizi-web-developer-a-brescia\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Servizi Web Developer a Brescia</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#perch-scegliere-un-web-developer-locale\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Perché Scegliere un Web Developer Locale a Brescia</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#portfolio-lavori-a-brescia\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Portfolio Lavori a Brescia</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#quanto-costa-un-sito-web-a-brescia\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Quanto Costa un Sito Web a Brescia</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#faq-8211-web-developer-brescia\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; FAQ &#8211; Web Developer Brescia</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#contatti-e-prossimi-step\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Contatti e Prossimi Step</a></li></ul>",
+                      "_animation": "fadeIn"
+                    },
+                    "elements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gylzg6s",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Servizi Web Developer a Brescia",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "servizi-web-developer-a-brescia"
+        },
+        "elements": []
+      },
+      {
+        "id": "pfed2gd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>La mia expertise copre una gamma completa di servizi per il tuo sito web:</p> <ul> <li><strong>Realizzazione Siti Web Professionali:</strong> Siti vetrina, ecommerce, blog e portali custom. Tutti i progetti sono ottimizzati per mobile, velocità e SEO.</li> <li><strong>WordPress Development:</strong> Setup, customizzazione, ottimizzazione di WordPress per prestazioni massime.</li> <li><strong>SEO Optimization:</strong> Keyword research, on-page SEO, technical SEO, link building per ranking Google.</li> <li><strong>Ecommerce Solutions:</strong> WooCommerce setup, integrazione pagamenti, gestione catalogo, ottimizzazione conversioni.</li> <li><strong>Web Performance:</strong> Ottimizzazione velocità, Core Web Vitals, image optimization, caching strategies.</li> <li><strong>Supporto e Manutenzione:</strong> Backup automatici, aggiornamenti, monitoraggio, bug fixing.</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "q2whk1b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Perché Scegliere un Web Developer Locale a Brescia",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "perch-scegliere-un-web-developer-locale"
+        },
+        "elements": []
+      },
+      {
+        "id": "b5w48b6",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Scegliere uno sviluppatore web a Brescia porta vantaggi significativi:</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "p40lirk",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Comunicazione Diretta",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "comunicazione-diretta"
+        },
+        "elements": []
+      },
+      {
+        "id": "kipg1m5",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Essere nella stessa città facilita riunioni di persona, discussioni di strategia e review di progetti. Non devi affidarti solo a email e videocall.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "sqjfojy",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Comprensione del Mercato Locale",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "comprensione-del-mercato-locale"
+        },
+        "elements": []
+      },
+      {
+        "id": "6c6jaxm",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Conosco il mercato di Brescia, i competitor locali, e come posizionare il tuo business online rispetto alla concorrenza della zona.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "1udcd4a",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Supporto Responsabile",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "supporto-responsabile"
+        },
+        "elements": []
+      },
+      {
+        "id": "6ogvx9l",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Supporto veloce e diretto. Non sei un ticket in una coda internazionale. Se hai un problema, sei prioritario.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "fra76cl",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Prezzi Competitivi",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "prezzi-competitivi"
+        },
+        "elements": []
+      },
+      {
+        "id": "se7fgc8",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Non paghi markup di agenzie grandi. Prezzi diretti, trasparenti, senza sorprese.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "g49wuht",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Portfolio Lavori a Brescia",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "portfolio-lavori-a-brescia"
+        },
+        "elements": []
+      },
+      {
+        "id": "956zb11",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Ho realizzato decine di progetti per aziende, professionisti e startup a Brescia. Dal semplice sito vetrina ai complessi ecommerce con centinaia di prodotti. Ogni progetto è stato costruito con focus su:<br />&#8211; SEO e visibilità Google<br />&#8211; Velocità e performance<br />&#8211; Conversioni e ROI<br />&#8211; Mobile-first responsiveness<br />&#8211; Scalabilità futura</p> <p>Posso mostrarti portfolio dettagliato durante una consulenza iniziale.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "5pffea4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quanto Costa un Sito Web a Brescia",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quanto-costa-un-sito-web-a-brescia"
+        },
+        "elements": []
+      },
+      {
+        "id": "br0nscc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Il prezzo dipende dalla complessità, ma ecco i range:</p> <ul> <li><strong>Sito Vetrina Semplice:</strong> €1.500-3.000. Perfetto per professionisti, studi legali, consulenti.</li> <li><strong>Sito Vetrina Professionale:</strong> €3.000-6.000. Siti con blog, portfolio, SEO completo.</li> <li><strong>Sito Ecommerce Piccolo:</strong> €4.000-8.000. Fino a 500 prodotti con WooCommerce.</li> <li><strong>Sito Ecommerce Medio:</strong> €8.000-15.000. Catalogo più grande, integrazioni avanzate.</li> <li><strong>Progetto Custom:</strong> Valutazione individuale. Per esigenze uniche e complesse.</li> </ul> <p>Tutti i prezzi includono: hosting primo anno, dominio, SSL, setup SEO base, testing completo, training per gestire il sito.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "dyw074v",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "FAQ &#8211; Web Developer Brescia",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "faq-8211-web-developer-brescia"
+        },
+        "elements": []
+      },
+      {
+        "id": "3j6myk7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quanto tempo per realizzare un sito web a Brescia?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quanto-tempo-per-realizzare-un-sito-web"
+        },
+        "elements": []
+      },
+      {
+        "id": "z6rmo5g",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Un sito vetrina: 4-6 settimane. Un sito con contenuti personalizzati: 8-12 settimane. Un ecommerce: 6-10 settimane. Timeline esatta dipende dalla complessità.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "rsya7hp",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Offri supporto post-lancio?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "offri-supporto-post-lancio"
+        },
+        "elements": []
+      },
+      {
+        "id": "l5mca52",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Sì, assoluto. Offro pacchetti manutenzione mensili (€50-200) che includono backup, aggiornamenti, monitoraggio, bug fixing, e supporto email/chat.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "xcv2jd0",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Puoi fare un sito che venda online?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "puoi-fare-un-sito-che-venda-online"
+        },
+        "elements": []
+      },
+      {
+        "id": "gz0a7v7",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Sì, specializzato in ecommerce con WooCommerce. Integro pagamenti (Stripe, PayPal), gestione spedizioni, analytics avanzati, ottimizzazione conversioni.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "rvke8zb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Mi serve SEO, quanto mi costa aggiuntivamente?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "mi-serve-seo-quanto-mi-costa-aggiuntiva"
+        },
+        "elements": []
+      },
+      {
+        "id": "b81hzna",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>SEO è incluso nel setup base (titoli, meta, heading structure, URL). Per SEO avanzato (keyword strategy, content planning, link building): €500-2000 extra.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "kp2241r",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Come funziona il processo di sviluppo?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "come-funziona-il-processo-di-sviluppo"
+        },
+        "elements": []
+      },
+      {
+        "id": "3wky98t",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>1. Consulenza iniziale gratuita. 2. Stima e proposta. 3. Kick-off con brief dettagliato. 4. Design mockup per approvazione. 5. Sviluppo e testing. 6. Lancio e training.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "epk1v8p",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Qual è il passo dopo il lancio del sito?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "qual--il-passo-dopo-il-lancio-del-sito"
+        },
+        "elements": []
+      },
+      {
+        "id": "u4uf9ca",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Monitorare performance su Google Analytics, verificare ranking per keyword target, raccogliere feedback utenti, aggiornare contenuti regolarmente. Aiuto in tutto questo.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "lhg84lv",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contatti e Prossimi Step",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contatti-e-prossimi-step"
+        },
+        "elements": []
+      },
+      {
+        "id": "bq77310",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Se stai cercando un web developer a Brescia per realizzare il tuo sito web, sei nel posto giusto. Offro una consulenza iniziale gratuita (30 minuti) per capire le tue esigenze e fare una stima accurata.</p> <p><a href=\"/contatti/\"><strong>Contattami adesso per fissare una consulenza gratuita</strong></a> &#8211; Telefono, email, o form contatti disponibili.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "3tdpcgl",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "em",
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "2",
+        "right": "1.5",
+        "bottom": "2",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "background_background": "classic",
+      "background_color": "#111111",
+      "border_radius": {
+        "unit": "px",
+        "top": "12",
+        "right": "12",
+        "bottom": "12",
+        "left": "12",
+        "isLinked": true
+      },
+      "margin": {
+        "unit": "em",
+        "top": "3",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "2e4p7ck",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Hai bisogno di aiuto?",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600"
+        },
+        "elements": []
+      },
+      {
+        "id": "tgwogoj",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Se hai domande o vuoi realizzare un progetto, sono qui per aiutarti. Offro una consulenza iniziale gratuita per capire le tue esigenze e trovare la soluzione migliore.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "h430au0",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Contattami Ora",
+          "link": {
+            "url": "https://lucasammarco.com/contatti/",
+            "is_external": "",
+            "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 1.1,
+            "sizes": []
+          },
+          "button_text_color": "#000000",
+          "background_color": "#EAFF9C",
+          "border_radius": {
+            "unit": "px",
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100",
+            "isLinked": true
+          },
+          "text_padding": {
+            "unit": "rem",
+            "top": "0.75",
+            "right": "2",
+            "bottom": "0.75",
+            "left": "2",
+            "isLinked": false
+          },
+          "align": "left",
+          "_animation": "fadeIn",
+          "button_background_hover_color": "#FFFFFF",
+          "button_hover_border_color": "#FFFFFF"
+        },
+        "elements": []
+      }
+    ]
+  }
+]

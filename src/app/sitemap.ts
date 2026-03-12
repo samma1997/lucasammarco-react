@@ -1,76 +1,33 @@
-import type { MetadataRoute } from 'next';
-import { CITIES } from '@/data/cities';
-import { SERVICES } from '@/data/services';
-import { SITE_CONFIG } from '@/lib/constants';
+import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = SITE_CONFIG.url;
+  const baseUrl = "https://lucasammarco.com";
   const now = new Date();
 
-  const staticPages: MetadataRoute.Sitemap = [
-    {
-      url: baseUrl,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 1.0,
-    },
-    {
-      url: `${baseUrl}/chi-sono`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/servizi`,
-      lastModified: now,
-      changeFrequency: 'weekly',
-      priority: 0.9,
-    },
-    {
-      url: `${baseUrl}/portfolio`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: now,
-      changeFrequency: 'daily',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/contatti`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
-    {
-      url: `${baseUrl}/preventivo`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/tools/audit-seo`,
-      lastModified: now,
-      changeFrequency: 'monthly',
-      priority: 0.7,
-    },
+  const pages = [
+    { path: "/", priority: 1.0 },
+    { path: "/approccio", priority: 0.8 },
+    { path: "/chi-sono", priority: 0.8 },
+    { path: "/progetti", priority: 0.8 },
+    { path: "/contatti", priority: 0.9 },
+    { path: "/servizi/seo-geo", priority: 0.9 },
+    { path: "/servizi/software", priority: 0.9 },
+    { path: "/servizi/trasformazione-digitale", priority: 0.9 },
+    { path: "/expertise/audit-seo", priority: 0.7 },
+    { path: "/expertise/geo-local-seo", priority: 0.7 },
+    { path: "/expertise/analisi-strategica", priority: 0.7 },
+    { path: "/expertise/web-app-saas", priority: 0.7 },
+    { path: "/expertise/ecommerce", priority: 0.7 },
+    { path: "/expertise/sito-vetrina", priority: 0.7 },
+    { path: "/expertise/automazione-ai", priority: 0.7 },
+    { path: "/expertise/app-mobile", priority: 0.7 },
+    { path: "/expertise/data-strategy", priority: 0.7 },
   ];
 
-  const servicePages: MetadataRoute.Sitemap = SERVICES.map((service) => ({
-    url: `${baseUrl}/servizi/${service.slug}`,
+  return pages.map(({ path, priority }) => ({
+    url: `${baseUrl}${path}`,
     lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.9,
+    changeFrequency: "monthly",
+    priority,
   }));
-
-  const cityPages: MetadataRoute.Sitemap = CITIES.map((city) => ({
-    url: `${baseUrl}/citta/${city.slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly' as const,
-    priority: 0.7,
-  }));
-
-  return [...staticPages, ...servicePages, ...cityPages];
 }

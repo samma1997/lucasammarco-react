@@ -1,258 +1,353 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
-import { Container } from '@/components/ui/Container';
-import { Button } from '@/components/ui/Button';
-import { FadeIn } from '@/components/animations/FadeIn';
-import { SITE_CONFIG } from '@/lib/constants';
+import { useState } from "react";
+import PageHero from "@/components/PageHero";
+import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function ContattiPage() {
   const [formData, setFormData] = useState({
-    nome: '',
-    email: '',
-    telefono: '',
-    messaggio: '',
-    budget: '',
+    nome: "",
+    email: "",
+    azienda: "",
+    messaggio: "",
   });
   const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Form submission logic here
+    setLoading(true);
+    // Simulate form submission
+    await new Promise((r) => setTimeout(r, 1200));
     setSubmitted(true);
+    setLoading(false);
   };
 
   return (
-    <>
-      {/* Hero */}
-      <section className="pt-32 pb-16 bg-gradient-to-b from-[#f8fafc] to-white">
-        <Container>
-          <FadeIn className="max-w-2xl">
-            <nav className="flex items-center gap-2 text-sm text-slate-500 mb-6">
-              <Link href="/" className="hover:text-[#045CB4] transition-colors">Home</Link>
-              <span>/</span>
-              <span className="text-slate-700">Contatti</span>
-            </nav>
-            <span className="inline-block rounded-full bg-blue-50 px-4 py-2 text-sm font-medium text-[#045CB4] mb-4">
-              Contatti
-            </span>
-            <h1 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-6">
-              Parliamo del tuo progetto
-            </h1>
-            <p className="text-xl text-slate-500 leading-relaxed">
-              Hai un&apos;idea? Una sfida da risolvere? Vuoi migliorare la tua presenza online?
-              Scrivimi e rispondo entro 24 ore.
-            </p>
-          </FadeIn>
-        </Container>
-      </section>
+    <main>
+      <PageHero
+        tag="Contatti"
+        title="Iniziamo a [parlare]"
+        description="Hai un progetto in mente? Vuoi capire se posso aiutarti? Scrivimi — rispondo entro 24 ore."
+        accentColor="var(--cyan)"
+      />
 
-      {/* Content */}
-      <section className="py-16 bg-white">
-        <Container>
-          <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
-            {/* Contact Info */}
-            <div className="lg:col-span-2 space-y-6">
-              <FadeIn>
-                <div className="rounded-2xl bg-[#f8fafc] border border-slate-100 p-6">
-                  <h2 className="font-bold text-slate-900 mb-6">Informazioni di Contatto</h2>
-                  <div className="space-y-4">
-                    <div className="flex items-start gap-4">
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-blue-100">
-                        <svg className="h-5 w-5 text-[#045CB4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-slate-500">Email</p>
-                        <a href={`mailto:${SITE_CONFIG.email}`} className="font-medium text-[#045CB4] hover:underline">
-                          {SITE_CONFIG.email}
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-blue-100">
-                        <svg className="h-5 w-5 text-[#045CB4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-slate-500">Telefono</p>
-                        <a href={`tel:${SITE_CONFIG.phone}`} className="font-medium text-[#045CB4] hover:underline">
-                          {SITE_CONFIG.phone}
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-blue-100">
-                        <svg className="h-5 w-5 text-[#045CB4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-slate-500">Sede</p>
-                        <p className="font-medium text-slate-900">Monza (MB), Italia</p>
-                        <p className="text-sm text-slate-500">Lavoro con clienti in tutta Italia</p>
-                      </div>
-                    </div>
-
-                    <div className="flex items-start gap-4">
-                      <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-xl bg-blue-100">
-                        <svg className="h-5 w-5 text-[#045CB4]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                        </svg>
-                      </div>
-                      <div>
-                        <p className="text-sm font-medium text-slate-500">Orari</p>
-                        <p className="font-medium text-slate-900">Lun–Ven: 9:00–18:00</p>
-                        <p className="text-sm text-slate-500">Risposta entro 24h</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Social */}
-                <div className="rounded-2xl bg-[#0f172a] p-6 text-white mt-6">
-                  <h3 className="font-bold mb-4">Seguimi sui social</h3>
-                  <div className="flex gap-3">
-                    <a
-                      href={SITE_CONFIG.social.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 rounded-xl bg-slate-800 px-4 py-2 text-sm font-medium text-slate-300 hover:bg-[#045CB4] hover:text-white transition-all"
-                    >
-                      LinkedIn
-                    </a>
-                    <a
-                      href={SITE_CONFIG.social.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 rounded-xl bg-slate-800 px-4 py-2 text-sm font-medium text-slate-300 hover:bg-[#045CB4] hover:text-white transition-all"
-                    >
-                      GitHub
-                    </a>
-                  </div>
-                </div>
-              </FadeIn>
-            </div>
-
+      <section className="py-16 md:py-24 px-6 md:px-10 section-divider">
+        <div className="max-w-screen-xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
             {/* Form */}
-            <div className="lg:col-span-3">
-              <FadeIn direction="left">
-                {submitted ? (
-                  <div className="rounded-2xl bg-green-50 border border-green-200 p-8 text-center">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 mx-auto mb-4">
-                      <svg className="h-8 w-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                    </div>
-                    <h2 className="text-xl font-bold text-slate-900 mb-2">Messaggio inviato!</h2>
-                    <p className="text-slate-600">
-                      Grazie per avermi contattato. Ti risponder&ograve; entro 24 ore.
-                    </p>
+            <div>
+              {submitted ? (
+                <div className="py-16 text-center">
+                  <div
+                    className="w-16 h-16 rounded-full border-2 flex items-center justify-center mx-auto mb-6"
+                    style={{ borderColor: "var(--lime)" }}
+                  >
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path
+                        d="M5 13l4 4L19 7"
+                        stroke="var(--lime)"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
                   </div>
-                ) : (
-                  <form onSubmit={handleSubmit} className="space-y-6">
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <label htmlFor="nome" className="block text-sm font-medium text-slate-700 mb-1.5">
-                          Nome e Cognome *
-                        </label>
-                        <input
-                          id="nome"
-                          type="text"
-                          required
-                          value={formData.nome}
-                          onChange={(e) => setFormData({ ...formData, nome: e.target.value })}
-                          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#045CB4] focus:outline-none focus:ring-2 focus:ring-[#045CB4]/20 transition"
-                          placeholder="Mario Rossi"
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="email" className="block text-sm font-medium text-slate-700 mb-1.5">
-                          Email *
-                        </label>
-                        <input
-                          id="email"
-                          type="email"
-                          required
-                          value={formData.email}
-                          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#045CB4] focus:outline-none focus:ring-2 focus:ring-[#045CB4]/20 transition"
-                          placeholder="mario@azienda.it"
-                        />
-                      </div>
-                    </div>
-
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                      <div>
-                        <label htmlFor="telefono" className="block text-sm font-medium text-slate-700 mb-1.5">
-                          Telefono
-                        </label>
-                        <input
-                          id="telefono"
-                          type="tel"
-                          value={formData.telefono}
-                          onChange={(e) => setFormData({ ...formData, telefono: e.target.value })}
-                          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#045CB4] focus:outline-none focus:ring-2 focus:ring-[#045CB4]/20 transition"
-                          placeholder="+39 333 000 0000"
-                        />
-                      </div>
-                      <div>
-                        <label htmlFor="budget" className="block text-sm font-medium text-slate-700 mb-1.5">
-                          Budget indicativo
-                        </label>
-                        <select
-                          id="budget"
-                          value={formData.budget}
-                          onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
-                          className="w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 focus:border-[#045CB4] focus:outline-none focus:ring-2 focus:ring-[#045CB4]/20 transition bg-white"
-                        >
-                          <option value="">Seleziona budget</option>
-                          <option value="<1000">Meno di 1.000€</option>
-                          <option value="1000-3000">1.000€ – 3.000€</option>
-                          <option value="3000-7000">3.000€ – 7.000€</option>
-                          <option value="7000-15000">7.000€ – 15.000€</option>
-                          <option value=">15000">Oltre 15.000€</option>
-                        </select>
-                      </div>
-                    </div>
-
+                  <h3
+                    className="text-2xl font-semibold mb-3"
+                    style={{ fontFamily: "Syne, sans-serif" }}
+                  >
+                    Messaggio inviato!
+                  </h3>
+                  <p style={{ color: "rgba(240,240,240,0.45)" }}>
+                    Ti rispondo entro 24 ore. Grazie per avermi contattato.
+                  </p>
+                </div>
+              ) : (
+                <form onSubmit={handleSubmit} className="flex flex-col gap-6">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
-                      <label htmlFor="messaggio" className="block text-sm font-medium text-slate-700 mb-1.5">
-                        Descrivi il tuo progetto *
+                      <label
+                        htmlFor="nome"
+                        className="block text-xs tracking-widest uppercase mb-2"
+                        style={{ color: "rgba(240,240,240,0.35)" }}
+                      >
+                        Nome *
                       </label>
-                      <textarea
-                        id="messaggio"
+                      <input
+                        id="nome"
+                        type="text"
                         required
-                        rows={5}
-                        value={formData.messaggio}
-                        onChange={(e) => setFormData({ ...formData, messaggio: e.target.value })}
-                        className="w-full rounded-xl border border-slate-200 px-4 py-3 text-slate-900 placeholder-slate-400 focus:border-[#045CB4] focus:outline-none focus:ring-2 focus:ring-[#045CB4]/20 transition resize-none"
-                        placeholder="Raccontami del tuo progetto: cosa vorresti realizzare, quali problemi vuoi risolvere, eventuali riferimenti..."
+                        value={formData.nome}
+                        onChange={(e) =>
+                          setFormData({ ...formData, nome: e.target.value })
+                        }
+                        className="w-full bg-transparent border-b py-3 text-base focus:outline-none transition-colors"
+                        style={{
+                          borderColor: "var(--border)",
+                          color: "var(--fg)",
+                        }}
+                        onFocus={(e) =>
+                          (e.target.style.borderColor = "var(--cyan)")
+                        }
+                        onBlur={(e) =>
+                          (e.target.style.borderColor = "var(--border)")
+                        }
+                        placeholder="Il tuo nome"
                       />
                     </div>
+                    <div>
+                      <label
+                        htmlFor="email"
+                        className="block text-xs tracking-widest uppercase mb-2"
+                        style={{ color: "rgba(240,240,240,0.35)" }}
+                      >
+                        Email *
+                      </label>
+                      <input
+                        id="email"
+                        type="email"
+                        required
+                        value={formData.email}
+                        onChange={(e) =>
+                          setFormData({ ...formData, email: e.target.value })
+                        }
+                        className="w-full bg-transparent border-b py-3 text-base focus:outline-none transition-colors"
+                        style={{
+                          borderColor: "var(--border)",
+                          color: "var(--fg)",
+                        }}
+                        onFocus={(e) =>
+                          (e.target.style.borderColor = "var(--cyan)")
+                        }
+                        onBlur={(e) =>
+                          (e.target.style.borderColor = "var(--border)")
+                        }
+                        placeholder="tua@email.com"
+                      />
+                    </div>
+                  </div>
 
-                    <Button type="submit" size="lg" className="w-full justify-center">
-                      Invia Messaggio
-                      <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                  <div>
+                    <label
+                      htmlFor="azienda"
+                      className="block text-xs tracking-widest uppercase mb-2"
+                      style={{ color: "rgba(240,240,240,0.35)" }}
+                    >
+                      Azienda
+                    </label>
+                    <input
+                      id="azienda"
+                      type="text"
+                      value={formData.azienda}
+                      onChange={(e) =>
+                        setFormData({ ...formData, azienda: e.target.value })
+                      }
+                      className="w-full bg-transparent border-b py-3 text-base focus:outline-none"
+                      style={{
+                        borderColor: "var(--border)",
+                        color: "var(--fg)",
+                      }}
+                      onFocus={(e) =>
+                        (e.target.style.borderColor = "var(--cyan)")
+                      }
+                      onBlur={(e) =>
+                        (e.target.style.borderColor = "var(--border)")
+                      }
+                      placeholder="Nome azienda (opzionale)"
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="messaggio"
+                      className="block text-xs tracking-widest uppercase mb-2"
+                      style={{ color: "rgba(240,240,240,0.35)" }}
+                    >
+                      Messaggio *
+                    </label>
+                    <textarea
+                      id="messaggio"
+                      required
+                      rows={5}
+                      value={formData.messaggio}
+                      onChange={(e) =>
+                        setFormData({ ...formData, messaggio: e.target.value })
+                      }
+                      className="w-full bg-transparent border-b py-3 text-base focus:outline-none resize-none"
+                      style={{
+                        borderColor: "var(--border)",
+                        color: "var(--fg)",
+                      }}
+                      onFocus={(e) =>
+                        (e.target.style.borderColor = "var(--cyan)")
+                      }
+                      onBlur={(e) =>
+                        (e.target.style.borderColor = "var(--border)")
+                      }
+                      placeholder="Raccontami del tuo progetto..."
+                    />
+                  </div>
+
+                  <div className="flex items-center gap-4 pt-4">
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="btn-primary disabled:opacity-50"
+                    >
+                      {loading ? "Invio in corso..." : "Invia messaggio"}
+                      {!loading && (
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                          <path
+                            d="M3 8h10M9 4l4 4-4 4"
+                            stroke="currentColor"
+                            strokeWidth="1.5"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                          />
+                        </svg>
+                      )}
+                    </button>
+                  </div>
+                </form>
+              )}
+            </div>
+
+            {/* Sidebar */}
+            <div className="flex flex-col gap-8">
+              {/* Booking button */}
+              <div
+                className="rounded-3xl p-8 border border-[var(--border)]"
+                style={{ background: "rgba(255,255,255,0.02)" }}
+              >
+                <h3
+                  className="text-xl font-semibold mb-3"
+                  style={{ fontFamily: "Syne, sans-serif" }}
+                >
+                  Prenota una call
+                </h3>
+                <p
+                  className="text-sm leading-relaxed mb-6"
+                  style={{ color: "rgba(240,240,240,0.45)" }}
+                >
+                  Preferisci parlare direttamente? Prenota una call di 30 minuti
+                  per esplorare come posso aiutarti.
+                </p>
+                <a
+                  href="https://calendly.com/lucasammarco"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-24 h-24 rounded-full border-2 border-[var(--lime)] text-[var(--lime)] font-semibold text-sm text-center hover:bg-[var(--lime)] hover:text-black transition-all duration-300 leading-snug"
+                >
+                  Prenota
+                  <br />
+                  call
+                </a>
+              </div>
+
+              {/* Contact info */}
+              <div
+                className="rounded-3xl p-8 border border-[var(--border)]"
+                style={{ background: "rgba(255,255,255,0.02)" }}
+              >
+                <h3
+                  className="text-xl font-semibold mb-6"
+                  style={{ fontFamily: "Syne, sans-serif" }}
+                >
+                  Contatti diretti
+                </h3>
+                <div className="flex flex-col gap-5">
+                  <a
+                    href="mailto:info@lucasammarco.com"
+                    className="flex items-center gap-4 group"
+                  >
+                    <div
+                      className="w-10 h-10 rounded-full flex items-center justify-center flex-none border border-[var(--border)]"
+                      style={{ transition: "all 0.3s ease" }}
+                    >
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                        <path
+                          d="M2 4l6 4 6-4M2 4h12v8H2V4z"
+                          stroke="currentColor"
+                          strokeWidth="1.2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
                       </svg>
-                    </Button>
-                    <p className="text-center text-sm text-slate-500">
-                      Rispondo entro 24 ore. Nessun impegno, nessuna pressione.
-                    </p>
-                  </form>
-                )}
-              </FadeIn>
+                    </div>
+                    <div>
+                      <div
+                        className="text-xs tracking-widest uppercase mb-0.5"
+                        style={{ color: "rgba(240,240,240,0.25)" }}
+                      >
+                        Email
+                      </div>
+                      <div
+                        className="text-sm group-hover:text-[var(--cyan)] transition-colors"
+                      >
+                        info@lucasammarco.com
+                      </div>
+                    </div>
+                  </a>
+
+                  <a
+                    href="https://linkedin.com/in/lucasammarco"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-4 group"
+                  >
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center flex-none border border-[var(--border)]">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path
+                          d="M2 5h2v7H2V5zM3 4a1 1 0 100-2 1 1 0 000 2zM6 5h1.9v1h.05C8.3 5.4 9.1 5 10 5c1.9 0 2 1.3 2 3v4h-2V8.5c0-.8 0-1.7-1-1.7S8 7.5 8 8.5V12H6V5z"
+                          fill="currentColor"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <div
+                        className="text-xs tracking-widest uppercase mb-0.5"
+                        style={{ color: "rgba(240,240,240,0.25)" }}
+                      >
+                        LinkedIn
+                      </div>
+                      <div className="text-sm group-hover:text-[var(--cyan)] transition-colors">
+                        linkedin.com/in/lucasammarco
+                      </div>
+                    </div>
+                  </a>
+
+                  <div className="flex items-center gap-4">
+                    <div className="w-10 h-10 rounded-full flex items-center justify-center flex-none border border-[var(--border)]">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                        <path
+                          d="M7 2a4 4 0 100 8A4 4 0 007 2zM2 12s1-2 5-2 5 2 5 2"
+                          stroke="currentColor"
+                          strokeWidth="1.2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                        />
+                      </svg>
+                    </div>
+                    <div>
+                      <div
+                        className="text-xs tracking-widest uppercase mb-0.5"
+                        style={{ color: "rgba(240,240,240,0.25)" }}
+                      >
+                        Sede
+                      </div>
+                      <div className="text-sm">Monza, Italia</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </Container>
+        </div>
       </section>
-    </>
+
+      <Footer />
+    </main>
   );
 }

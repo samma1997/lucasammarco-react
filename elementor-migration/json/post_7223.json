@@ -1,0 +1,1760 @@
+[
+  {
+    "id": "afc612e",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "0.5",
+        "right": "3",
+        "bottom": "0.5",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "0.5",
+        "right": "0",
+        "bottom": "0.5",
+        "left": "1",
+        "isLinked": false
+      },
+      "flex_justify_content_laptop": "space-between",
+      "flex_gap": {
+        "column": "0",
+        "row": "2",
+        "isLinked": false,
+        "unit": "em",
+        "size": 0
+      },
+      "flex_align_items_mobile": "center",
+      "background_background": "classic",
+      "background_image": {
+        "url": "https://lucasammarco.com/wp-content/uploads/2024/12/elementor-siti-web-sfondo-scaled.jpg",
+        "id": 171,
+        "size": "",
+        "alt": "Sfondo per Home Page",
+        "source": "library"
+      },
+      "sticky_offset": 90,
+      "sticky_effects_offset": 1,
+      "css_classes": "sliding-sticky-container",
+      "margin": {
+        "unit": "em",
+        "top": "9",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "cra8cos",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "cwgli9p",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Blog",
+              "link": {
+                "url": "https://lucasammarco.com/blog/",
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Work Sans",
+              "typography_font_size": {
+                "unit": "rem",
+                "size": 1.125,
+                "sizes": []
+              },
+              "typography_font_weight": "500",
+              "button_text_color": "#000000",
+              "background_color": "#EAFF9C",
+              "border_border": "solid",
+              "border_color": "#EAFF9C",
+              "border_radius": {
+                "unit": "px",
+                "top": "100",
+                "right": "100",
+                "bottom": "100",
+                "left": "100",
+                "isLinked": true
+              },
+              "text_padding": {
+                "unit": "rem",
+                "top": "0.625",
+                "right": "1.25",
+                "bottom": "0.625",
+                "left": "1.25",
+                "isLinked": false
+              },
+              "align": "left",
+              "_animation": "fadeIn",
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2025/01/arrow-button-icon-6-6-return.svg",
+                  "id": 3493
+                },
+                "library": "svg"
+              },
+              "icon_indent": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "button_background_hover_color": "#FFFFFF",
+              "button_hover_border_color": "#FFFFFF"
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "3gli2hi",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_justify_content": "flex-end",
+          "flex_align_items": "center",
+          "flex_gap": {
+            "column": "1",
+            "row": "0",
+            "isLinked": false,
+            "unit": "em",
+            "size": 1
+          },
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "animation": "fadeIn"
+        },
+        "elements": [
+          {
+            "id": "aqeshnw",
+            "elType": "widget",
+            "widgetType": "icon",
+            "settings": {
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2024/12/play-btn.svg",
+                  "id": 4822
+                },
+                "library": "svg"
+              },
+              "primary_color": "#FFFFFF00",
+              "_element_id": "play-btn-icon-08",
+              "size": {
+                "unit": "px",
+                "size": 49,
+                "sizes": []
+              },
+              "_animation": "fadeIn"
+            },
+            "elements": []
+          },
+          {
+            "id": "mcasyup",
+            "elType": "widget",
+            "widgetType": "icon",
+            "settings": {
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2024/12/pause-btn.svg",
+                  "id": 4823
+                },
+                "library": "svg"
+              },
+              "primary_color": "#FFFFFF00",
+              "_element_id": "pause-btn-icon-08",
+              "size": {
+                "unit": "px",
+                "size": 49,
+                "sizes": []
+              },
+              "_animation": "fadeIn"
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ojt23tr",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "2",
+        "right": "3",
+        "bottom": "1",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "0.5",
+        "left": "1",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "mns83hl",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p class=\"post-date\" style=\"color:#888888;font-size:0.875rem;margin-bottom:0.5em;\">12 Marzo 2026</p>",
+          "_animation": "fadeIn"
+        },
+        "elements": []
+      },
+      {
+        "id": "6wqsk82",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior CMS per Siti Web nel 2026 | Confronto Completo",
+          "header_size": "h1",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 2.5,
+            "sizes": []
+          },
+          "typography_font_size_tablet": {
+            "unit": "rem",
+            "size": 2,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "rem",
+            "size": 1.75,
+            "sizes": []
+          },
+          "align": "left"
+        },
+        "elements": []
+      },
+      {
+        "id": "zq5yo1g",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Scegliere il <strong>miglior CMS</strong> per il tuo sito web è una decisione critica che influenzerà il tuo successo online. Esistono molti CMS disponibili, ognuno con strengths e debolezze. In questa analisi completa, confronto i principali sistemi e ti aiuto a scegliere quello giusto per le tue esigenze.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "o8twh1u",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "2",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "2",
+        "left": "1",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "nwje75p",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "padding": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "padding_tablet": {
+            "unit": "em",
+            "top": "1.5",
+            "right": "1.5",
+            "bottom": "1.5",
+            "left": "1.5",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "em",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#1D1C20",
+          "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          },
+          "margin": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "c8qaf77",
+            "elType": "widget",
+            "widgetType": "nested-accordion",
+            "settings": {
+              "items": [
+                {
+                  "item_title": "Indice dei contenuti",
+                  "_id": "n2wghdw"
+                }
+              ],
+              "accordion_item_title_position_horizontal": "stretch",
+              "accordion_item_title_icon_position": "end",
+              "accordion_item_title_distance_from_content": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile_extra": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile": {
+                "unit": "em",
+                "size": -1,
+                "sizes": []
+              },
+              "accordion_background_normal_background": "classic",
+              "accordion_background_normal_color": "#1D1C20",
+              "accordion_border_normal_border": "none",
+              "accordion_background_hover_background": "classic",
+              "accordion_background_hover_color": "#1D1C20",
+              "accordion_border_hover_border": "none",
+              "accordion_background_active_background": "classic",
+              "accordion_background_active_color": "#1D1C20",
+              "accordion_border_radius": {
+                "unit": "px",
+                "top": "8",
+                "right": "8",
+                "bottom": "8",
+                "left": "8",
+                "isLinked": true
+              },
+              "accordion_padding": {
+                "unit": "em",
+                "top": "1",
+                "right": "3",
+                "bottom": "1",
+                "left": "3",
+                "isLinked": false
+              },
+              "accordion_padding_widescreen": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_laptop": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_mobile_extra": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "Bricolage Grotesque",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 35,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet_extra": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "title_typography_font_size_mobile_extra": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "normal_title_color": "#FFFFFF",
+              "hover_title_color": "#FFFFFF",
+              "active_title_color": "#FFFFFF",
+              "_animation": "fadeIn"
+            },
+            "elements": [
+              {
+                "id": "rdtqoi7",
+                "elType": "container",
+                "settings": {
+                  "_title": "Indice dei contenuti",
+                  "content_width": "full",
+                  "background_background": "classic",
+                  "background_color": "#1D1C20",
+                  "border_border": "none",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "8",
+                    "left": "8",
+                    "isLinked": true
+                  },
+                  "padding": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "2",
+                    "bottom": "1",
+                    "left": "2",
+                    "isLinked": false
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "4c1a3qg",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:0.75em;\"><a href=\"#cos-un-cms-e-perch--importante\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Cosè un CMS e Perché è Importante</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#wordpress-il-re-dei-cms\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; WordPress: Il Re dei CMS</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#wix-semplicit-massima\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Wix: Semplicità Massima</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#shopify-ecommerce-dominante\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Shopify: Ecommerce Dominante</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#webflow-designer-developer-paradise\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Webflow: Designer Developer Paradise</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#joomla-tra-wordpress-e-drupal\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Joomla: Tra WordPress e Drupal</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#drupal-enterprise-cms\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Drupal: Enterprise CMS</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#tabella-comparativa-completa\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Tabella Comparativa Completa</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#come-scegliere-il-miglior-cms-per-te\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Come Scegliere il Miglior CMS per Te</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#faq-8211-quale-cms-scegliere\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; FAQ &#8211; Quale CMS Scegliere</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#conclusione\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Conclusione</a></li></ul>",
+                      "_animation": "fadeIn"
+                    },
+                    "elements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "axpz0xu",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Cosè un CMS e Perché è Importante",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "cos-un-cms-e-perch--importante"
+        },
+        "elements": []
+      },
+      {
+        "id": "ss877q4",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Un CMS (Content Management System) è una piattaforma che ti permette di creare, gestire e pubblicare contenuti senza dover scrivere codice. Il <strong>miglior CMS</strong> per te dipende da:</p> <ul> <li>Livello tecnico (principiante vs sviluppatore)</li> <li>Tipo di progetto (vetrina, ecommerce, blog, marketplace)</li> <li>Budget disponibile</li> <li>Necessità di customizzazione</li> <li>Scalabilità futura</li> <li>SEO requirements</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "bi6goit",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "WordPress: Il Re dei CMS",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "wordpress-il-re-dei-cms"
+        },
+        "elements": []
+      },
+      {
+        "id": "wzdh4pf",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "dglrqbe",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>WordPress è il CMS dominante, utilizzato dal 43% di tutti i siti web. È open-source, gratuito, e ha uno dei migliori ecosistemi plugin al mondo.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "7cz66y7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro di WordPress",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro-di-wordpress"
+        },
+        "elements": []
+      },
+      {
+        "id": "c26az5q",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Enorme Comunità:</strong> Milioni di developer, forum, tutorial disponibili</li> <li><strong>SEO Nativo:</strong> Costruito con SEO in mente, ranking molto più semplice</li> <li><strong>Plugin Ecosystem:</strong> 60.000+ plugin per aggiungere qualunque funzionalità</li> <li><strong>Tema Infinito:</strong> Decine di migliaia di tema (free e premium)</li> <li><strong>Proprietà Dati:</strong> Tu controlli completamente database e file</li> <li><strong>Scalabilità:</strong> Dalla piccola vetrina ai siti con milioni utenti</li> <li><strong>Costi Bassi:</strong> Self-hosted WordPress: €5-50/mese solo hosting</li> <li><strong>WooCommerce:</strong> Miglior plugin ecommerce al mondo, trasforma WordPress in shop robusto</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "l5gmg11",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro di WordPress",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro-di-wordpress"
+        },
+        "elements": []
+      },
+      {
+        "id": "ahp70wd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Curva Apprendimento:</strong> Richiede un po<strong> di conoscenza tecnica iniziale</li> <li><strong>Manutenzione:</strong> Aggiornamenti, backup, sicurezza (plugin, theme, core)</li> <li><strong>Velocità:</strong> Senza optimizzazione, può essere lento (risolvibile con caching, CDN)</li> <li><strong>Sicurezza:</strong> Più popolare = più target per hacker (risolvibile con plugins e best practices)</li> <li><strong>Troppi Plugin:</strong> Facile abusare e creare site bloat</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "20bdnlb",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Costi",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "costi"
+        },
+        "elements": []
+      },
+      {
+        "id": "te3q4yh",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Software: Gratis</li> <li>Hosting: €5-50/mese</li> <li>Dominio: €10-20/anno</li> <li>Tema premium: €30-100</li> <li>Plugin premium: €0-50/mese</li> <li>SSL: Incluso con hosting</li> <li><strong>Totale primo anno: €150-700</strong></li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "xsb2uda",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "m795vez",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Blogger, piccoli business, agenzie, developer, chiunque vuole massima libertà. Anche grandi aziende &#8211; Fortune 500 usano WordPress.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "o9od1m7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Wix: Semplicità Massima",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "wix-semplicit-massima"
+        },
+        "elements": []
+      },
+      {
+        "id": "8ggcx7k",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "kmi21q2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Wix è un page builder cloud-based che promette &#8220;chiunque può creare un sito bello senza codice&#8221;.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "orm5ez4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro di Wix",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro-di-wix"
+        },
+        "elements": []
+      },
+      {
+        "id": "cigz6fw",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Facilissimo:</strong> Drag-and-drop intuitivo, nessun codice richiesto</li> <li><strong>All-in-One:</strong> Hosting, dominio, email, SSL incluso nel prezzo</li> <li><strong>Template Bellissimi:</strong> Designer moderni, ottimizzati per mobile</li> <li><strong>Veloce da Avviare:</strong> Sito live in ore, non giorni</li> <li><strong>Support Italiano:</strong> Chat, email, phone support in italiano</li> <li><strong>Wix Stores:</strong> Ecommerce integrato (non il migliore, ma funzionale)</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "pt744ti",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro di Wix",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro-di-wix"
+        },
+        "elements": []
+      },
+      {
+        "id": "m5wybmx",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>SEO Limitato:</strong> Non competitivo con WordPress per ranking Google</li> <li><strong>Vendor Lock-in:</strong> Difficile migrare a piattaforma diversa dopo</li> <li><strong>Costi Crescenti:</strong> Inizi a €15/mese, poi paghi per tutto (ecommerce, email, app)</li> <li><strong>Personalizzazione Limitata:</strong> Vincoli all<strong>interno di loro sistema</li> <li><strong>Performance Variabile:</strong> Dipendi dalla loro infrastructure</li> <li><strong>Ecommerce Debole:</strong> Se vuoi negozio serio, Shopify/WooCommerce migliori</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "88jv14y",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Costi",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "costi"
+        },
+        "elements": []
+      },
+      {
+        "id": "h1mqix2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Piano base: €15/mese</li> <li>Piano Business: €30/mese</li> <li>Piano ecommerce: €50+/mese</li> <li>Dominio: €10/anno (o free con piano business+)</li> <li>Integrazioni premium: €10-30/mese extra</li> <li><strong>Totale primo anno: €300-800</strong></li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "pldh1bx",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "kmv4xqh",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Principianti assoluti, freelancer, artisti, piccoli negozianti che non vogliono pensare a tecnica. Non per chi ha ambizioni growth significative.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "chubhor",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Shopify: Ecommerce Dominante",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "shopify-ecommerce-dominante"
+        },
+        "elements": []
+      },
+      {
+        "id": "b7kqmva",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "a47p21t",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Shopify è il CMS specializzato per ecommerce. Se il tuo focus è vendere online, è il gold standard.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "10x1nd5",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro di Shopify",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro-di-shopify"
+        },
+        "elements": []
+      },
+      {
+        "id": "advhgz8",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Ecommerce Ottimizzato:</strong> Fatto da chi conosce bene il business online</li> <li><strong>Pagamenti Semplici:</strong> Integrazione nativa con 200+ payment gateway</li> <li><strong>Scalabilità:</strong> Dalla piccola boutique a miliardi vendite/anno</li> <li><strong>Apps Ecosystem:</strong> 8000+ app per estendere funzionalità</li> <li><strong>Hosting Incluso:</strong> Non devi pensare a infrastructure</li> <li><strong>Mobile Optimized:</strong> Template responsive out-of-box</li> <li><strong>Multi-Channel:</strong> Vendi su Shopify, Facebook, Instagram, TikTok simultaneamente</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "0tpdhe6",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro di Shopify",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro-di-shopify"
+        },
+        "elements": []
+      },
+      {
+        "id": "37fqbfr",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Costo Alto:</strong> €29/mese minimo, app extra aggiungono €5-50/mese ognuna</li> <li><strong>Transaction Fees:</strong> Oltre al piano, paghi 2.9% su ogni transazione (a meno di usi Shopify Payments)</li> <li><strong>Customizzazione Limitata:</strong> Meno flessibile di WordPress per progetti unici</li> <li><strong>Curva Apprendimento:</strong> Interfaccia complessa per principianti</li> <li><strong>Vendor Lock-in:</strong> Difficile migrare a piattaforma diversa</li> <li><strong>SEO Media:</strong> Non male, ma WordPress ancora migliore</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "62vdez0",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Costi",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "costi"
+        },
+        "elements": []
+      },
+      {
+        "id": "98400xa",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Piano Starter: €29/mese</li> <li>Piano Basic: €39/mese</li> <li>Piano Standard: €105/mese</li> <li>Plan Premium: €399/mese</li> <li>Transazione fees: 2.9% + €0.30 (con Shopify Payments)</li> <li>App premium: €5-100/mese ciascuna</li> <li>Tema premium: €100-300 una-tantum</li> <li><strong>Totale primo anno: €400-2000+ (dipende da traffico e vendite)</strong></li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "7tybkwh",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "xtpf3fl",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Negozi online, dropshipping, brand che vendono fisicamente e digitalmente. Se l<strong>ecommerce è core business, Shopify è scelta eccellente.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "mn16jha",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Webflow: Designer Developer Paradise",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "webflow-designer-developer-paradise"
+        },
+        "elements": []
+      },
+      {
+        "id": "nwx6iaw",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "ieucgnk",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Webflow è un visual builder che da accesso al codice sottostante. Sweet spot tra drag-and-drop e full control.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "6fo9ii8",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro di Webflow",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro-di-webflow"
+        },
+        "elements": []
+      },
+      {
+        "id": "5wv7lmc",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Visual + Code:</strong> Crea visualmente, ma accesso a HTML/CSS/JS sottostante</li> <li><strong>Hosting Incluso:</strong> No problemi con infrastructure</li> <li><strong>CMS Integrato:</strong> Manage collezioni come database</li> <li><strong>Ecommerce Solido:</strong> Webflow ecommerce per negozi online</li> <li><strong>Animazioni e Interazioni:</strong> Crea interazioni avanzate senza JavaScript</li> <li><strong>Export HTML:</strong> Puoi esportare codice se cambii idea</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "gzfd6e1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro di Webflow",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro-di-webflow"
+        },
+        "elements": []
+      },
+      {
+        "id": "q9c0unq",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li><strong>Curva Apprendimento Steep:</strong> Non è per principianti assoluti</li> <li><strong>Costi Elevati:</strong> €12-32/mese per siti, +hosting, +ecommerce</li> <li><strong>Performan ce Passable:</strong> Non pessima, ma non velocissima</li> <li><strong>SEO Media:</strong> Decent ma non competitive con WordPress</li> <li><strong>Comunità Minore:</strong> Meno resources online rispetto WordPress/Shopify</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "kqd1y5q",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Costi",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "costi"
+        },
+        "elements": []
+      },
+      {
+        "id": "ohbsh72",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Starter Site: €12/mese</li> <li>Pro Site: €25/mese</li> <li>Business Site: €38/mese</li> <li>Ecommerce: €29/mese extra</li> <li><strong>Totale primo anno: €240-600+</strong></li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "h2qqd5q",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "5c5508y",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Designer, developer, chi vuole massima customizzazione senza full-coding, agency che crea client sites.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "u3jda65",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Joomla: Tra WordPress e Drupal",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "joomla-tra-wordpress-e-drupal"
+        },
+        "elements": []
+      },
+      {
+        "id": "gn96kqn",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "z4vp3vo",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Joomla è il terzo CMS più usato dopo WordPress e Drupal. Buon middle ground di complessità e funzionalità.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "ajr0qhh",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro"
+        },
+        "elements": []
+      },
+      {
+        "id": "6maytq5",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Potente e flessibile</li> <li>Community solida</li> <li>Gestione permessi avanzata (utile per multi-user sites)</li> <li>Gratuito e open-source</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "gwhj1k1",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro"
+        },
+        "elements": []
+      },
+      {
+        "id": "mpl5c1q",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>SEO non nativo come WordPress</li> <li>Curva apprendimento più ripida</li> <li>Comunità più piccola di WordPress</li> <li>Migliaia plugin meno di WordPress</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "zqmrumg",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "rd834z6",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Community portals, intranet, siti con gestione permessi complessa. Se scegli tra Joomla e WordPress, WordPress.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "6i418g4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Drupal: Enterprise CMS",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "drupal-enterprise-cms"
+        },
+        "elements": []
+      },
+      {
+        "id": "qontksl",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Panoramica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "panoramica"
+        },
+        "elements": []
+      },
+      {
+        "id": "jlub774",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Drupal è il CMS preferito dalle grandi aziende per i siti mission-critical. Massimo controllo e scalabilità.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "6rzu5s2",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Pro",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "pro"
+        },
+        "elements": []
+      },
+      {
+        "id": "7hf8yw7",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Estremamente scalabile</li> <li>Sicurezza robusta</li> <li>Perfetto per progetti complessi</li> <li>Usato da governi e Fortune 500</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "w3epl73",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Contro",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "contro"
+        },
+        "elements": []
+      },
+      {
+        "id": "zczen2f",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Curva apprendimento molto steep</li> <li>Requires developer skills</li> <li>Costi implementation alti</li> <li>Overkill per piccoli siti</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "eeghebr",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Miglior Per",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "miglior-per"
+        },
+        "elements": []
+      },
+      {
+        "id": "bxqt1r7",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Grandi aziende, media, governi, siti con milioni utenti. No per piccoli business.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "gcb5b74",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Tabella Comparativa Completa",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "tabella-comparativa-completa"
+        },
+        "elements": []
+      },
+      {
+        "id": "71qvyrb",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<table style=\"width:100%;border-collapse:collapse;background:#2E2E2E;color:#ffffff;\" border=\"1\" cellpadding=\"10\" cellspacing=\"0\"> <tr> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Criterio</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">WordPress</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Wix</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Shopify</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Webflow</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Joomla</th> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Facilità Uso</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Molto Facile</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Difficile</td> <td style=\"padding:10px;border:1px solid #555;\">Difficile</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>SEO</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Eccellente</td> <td style=\"padding:10px;border:1px solid #555;\">Medio</td> <td style=\"padding:10px;border:1px solid #555;\">Buono</td> <td style=\"padding:10px;border:1px solid #555;\">Buono</td> <td style=\"padding:10px;border:1px solid #555;\">Medio</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Ecommerce</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Eccellente (WooCommerce)</td> <td style=\"padding:10px;border:1px solid #555;\">Medio</td> <td style=\"padding:10px;border:1px solid #555;\">Eccellente</td> <td style=\"padding:10px;border:1px solid #555;\">Buono</td> <td style=\"padding:10px;border:1px solid #555;\">Medio</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Scalabilità</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Illimitata</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Illimitata</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Costo Annuale</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€200-1000</td> <td style=\"padding:10px;border:1px solid #555;\">€300-800</td> <td style=\"padding:10px;border:1px solid #555;\">€400-2000+</td> <td style=\"padding:10px;border:1px solid #555;\">€300-800</td> <td style=\"padding:10px;border:1px solid #555;\">€100-500</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Vendor Lock-in</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Basso</td> <td style=\"padding:10px;border:1px solid #555;\">Alto</td> <td style=\"padding:10px;border:1px solid #555;\">Alto</td> <td style=\"padding:10px;border:1px solid #555;\">Medio</td> <td style=\"padding:10px;border:1px solid #555;\">Basso</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Community Size</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Massima</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Customizzazione</strong></td> <td style=\"padding:10px;border:1px solid #555;\">Illimitata</td> <td style=\"padding:10px;border:1px solid #555;\">Limitata</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> </tr> </table>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "l9af4qo",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Come Scegliere il Miglior CMS per Te",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "come-scegliere-il-miglior-cms-per-te"
+        },
+        "elements": []
+      },
+      {
+        "id": "kqzff4y",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Domandati Questi Punti",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "domandati-questi-punti"
+        },
+        "elements": []
+      },
+      {
+        "id": "u6h9rii",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<h4>1. Livello Tecnico?</h4> <p><strong>Principiante Assoluto:</strong> Wix. <strong>Intermedio:</strong> WordPress. <strong>Developer:</strong> WordPress, Webflow, Drupal.</p> <h4>2. Tipo Sito?</h4> <p><strong>Vetrina/Blog:</strong> WordPress, Wix, Webflow. <strong>Ecommerce:</strong> Shopify, WordPress + WooCommerce. <strong>Enterprise:</strong> Drupal, WordPress managed.</p> <h4>3. Budget?</h4> <p><strong>Minimale:</strong> Wix/Joomla. <strong>Moderato:</strong> WordPress. <strong>Alto:</strong> Shopify, Webflow, Drupal.</p> <h4>4. SEO Importante?</h4> <p><strong>Sì, critico:</strong> WordPress #1 scelta. <strong>No, supportive:</strong> Qualunque piattaforma va.</p> <h4>5. Voglio Proprietà Dati?</h4> <p><strong>Sì:</strong> WordPress, Joomla, Drupal (self-hosted). <strong>No, prefer managed:</strong> Wix, Shopify, Webflow.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "8q87yfl",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "FAQ &#8211; Quale CMS Scegliere",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "faq-8211-quale-cms-scegliere"
+        },
+        "elements": []
+      },
+      {
+        "id": "ar3ef7z",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "WordPress è ancora il miglior CMS nel 2026?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "wordpress--ancora-il-miglior-cms-nel-20"
+        },
+        "elements": []
+      },
+      {
+        "id": "tbv827n",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Sì, assolamente. 43% di tutti i siti web usano WordPress. La comunità è massima, ecosystem plugin infinito, SEO nativo. Se non hai controindicazioni specifiche, WordPress.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "ntb346x",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Posso migrare da Wix a WordPress dopo?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "posso-migrare-da-wix-a-wordpress-dopo"
+        },
+        "elements": []
+      },
+      {
+        "id": "orkk52o",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Tecnicamente sì, ma è faticoso. Perdi domini custom, dati non esportabili facilmente. Meglio valutare bene prima.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "wi1991d",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Shopify vs WooCommerce (WordPress)?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "shopify-vs-woocommerce-wordpress"
+        },
+        "elements": []
+      },
+      {
+        "id": "8n5b37x",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Shopify: managed, zero downtime, payment ready. WooCommerce: meno costo, più controllo, più scalabile. Se sei novizio, Shopify. Se sei developer o vuoi long-term, WooCommerce.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "5bf9qp7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quale CMS per startup/SaaS?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quale-cms-per-startupsaas"
+        },
+        "elements": []
+      },
+      {
+        "id": "kismkm3",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Dipende da tech team. Se hai developer: Next.js, Bubble, o custom build. Se no tech: Webflow o no-code tools. WordPress se il prodotto è blog/community.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "0semj48",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Ho molti contenuti da migrare, quale CMS?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "ho-molti-contenuti-da-migrare-quale-cms"
+        },
+        "elements": []
+      },
+      {
+        "id": "fdp5cbx",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>WordPress, perché ha strumenti migliori per import batch. WP All Import plugin può importare da qualunque fonte.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "gkc7b4b",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Conclusione",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "conclusione"
+        },
+        "elements": []
+      },
+      {
+        "id": "e2lhrt3",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Non esiste un &#8220;miglior CMS&#8221; assoluto. Dipende dalle tue esigenze. Per 90% dei case, <strong>WordPress</strong> è la scelta migliore. Equilibra potenza, flessibilità, costi, e comunità. Per principianti assoluti, Wix. Per ecommerce puro, Shopify. Per massima customizzazione, Webflow.</p> <p><strong>Non sai quale CMS è giusto per te?</strong> <a href=\"/contatti/\">Contattami per una consulenza gratuita</a>. Analizziamo le tue esigenze e sceglieremo insieme la piattaforma migliore.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "a5fsa92",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "em",
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "2",
+        "right": "1.5",
+        "bottom": "2",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "background_background": "classic",
+      "background_color": "#111111",
+      "border_radius": {
+        "unit": "px",
+        "top": "12",
+        "right": "12",
+        "bottom": "12",
+        "left": "12",
+        "isLinked": true
+      },
+      "margin": {
+        "unit": "em",
+        "top": "3",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "ivincgy",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Hai bisogno di aiuto?",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600"
+        },
+        "elements": []
+      },
+      {
+        "id": "6mxbe1h",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Se hai domande o vuoi realizzare un progetto, sono qui per aiutarti. Offro una consulenza iniziale gratuita per capire le tue esigenze e trovare la soluzione migliore.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "yj07lmy",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Contattami Ora",
+          "link": {
+            "url": "https://lucasammarco.com/contatti/",
+            "is_external": "",
+            "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 1.1,
+            "sizes": []
+          },
+          "button_text_color": "#000000",
+          "background_color": "#EAFF9C",
+          "border_radius": {
+            "unit": "px",
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100",
+            "isLinked": true
+          },
+          "text_padding": {
+            "unit": "rem",
+            "top": "0.75",
+            "right": "2",
+            "bottom": "0.75",
+            "left": "2",
+            "isLinked": false
+          },
+          "align": "left",
+          "_animation": "fadeIn",
+          "button_background_hover_color": "#FFFFFF",
+          "button_hover_border_color": "#FFFFFF"
+        },
+        "elements": []
+      }
+    ]
+  }
+]

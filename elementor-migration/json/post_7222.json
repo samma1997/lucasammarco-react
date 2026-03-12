@@ -1,0 +1,1391 @@
+[
+  {
+    "id": "t6kw5ld",
+    "elType": "container",
+    "settings": {
+      "flex_direction": "row",
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "0.5",
+        "right": "3",
+        "bottom": "0.5",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "0.5",
+        "right": "0",
+        "bottom": "0.5",
+        "left": "1",
+        "isLinked": false
+      },
+      "flex_justify_content_laptop": "space-between",
+      "flex_gap": {
+        "column": "0",
+        "row": "2",
+        "isLinked": false,
+        "unit": "em",
+        "size": 0
+      },
+      "flex_align_items_mobile": "center",
+      "background_background": "classic",
+      "background_image": {
+        "url": "https://lucasammarco.com/wp-content/uploads/2024/12/elementor-siti-web-sfondo-scaled.jpg",
+        "id": 171,
+        "size": "",
+        "alt": "Sfondo per Home Page",
+        "source": "library"
+      },
+      "sticky_offset": 90,
+      "sticky_effects_offset": 1,
+      "css_classes": "sliding-sticky-container",
+      "margin": {
+        "unit": "em",
+        "top": "9",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "fyh924t",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "spr22na",
+            "elType": "widget",
+            "widgetType": "button",
+            "settings": {
+              "text": "Blog",
+              "link": {
+                "url": "https://lucasammarco.com/blog/",
+                "is_external": "",
+                "nofollow": "",
+                "custom_attributes": ""
+              },
+              "typography_typography": "custom",
+              "typography_font_family": "Work Sans",
+              "typography_font_size": {
+                "unit": "rem",
+                "size": 1.125,
+                "sizes": []
+              },
+              "typography_font_weight": "500",
+              "button_text_color": "#000000",
+              "background_color": "#EAFF9C",
+              "border_border": "solid",
+              "border_color": "#EAFF9C",
+              "border_radius": {
+                "unit": "px",
+                "top": "100",
+                "right": "100",
+                "bottom": "100",
+                "left": "100",
+                "isLinked": true
+              },
+              "text_padding": {
+                "unit": "rem",
+                "top": "0.625",
+                "right": "1.25",
+                "bottom": "0.625",
+                "left": "1.25",
+                "isLinked": false
+              },
+              "align": "left",
+              "_animation": "fadeIn",
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2025/01/arrow-button-icon-6-6-return.svg",
+                  "id": 3493
+                },
+                "library": "svg"
+              },
+              "icon_indent": {
+                "unit": "px",
+                "size": 20,
+                "sizes": []
+              },
+              "button_background_hover_color": "#FFFFFF",
+              "button_hover_border_color": "#FFFFFF"
+            },
+            "elements": []
+          }
+        ]
+      },
+      {
+        "id": "4ei517y",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "flex_direction": "row",
+          "flex_justify_content": "flex-end",
+          "flex_align_items": "center",
+          "flex_gap": {
+            "column": "1",
+            "row": "0",
+            "isLinked": false,
+            "unit": "em",
+            "size": 1
+          },
+          "padding": {
+            "unit": "px",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": false
+          },
+          "animation": "fadeIn"
+        },
+        "elements": [
+          {
+            "id": "vtgxb1a",
+            "elType": "widget",
+            "widgetType": "icon",
+            "settings": {
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2024/12/play-btn.svg",
+                  "id": 4822
+                },
+                "library": "svg"
+              },
+              "primary_color": "#FFFFFF00",
+              "_element_id": "play-btn-icon-08",
+              "size": {
+                "unit": "px",
+                "size": 49,
+                "sizes": []
+              },
+              "_animation": "fadeIn"
+            },
+            "elements": []
+          },
+          {
+            "id": "kvo89on",
+            "elType": "widget",
+            "widgetType": "icon",
+            "settings": {
+              "selected_icon": {
+                "value": {
+                  "url": "https://lucasammarco.com/wp-content/uploads/2024/12/pause-btn.svg",
+                  "id": 4823
+                },
+                "library": "svg"
+              },
+              "primary_color": "#FFFFFF00",
+              "_element_id": "pause-btn-icon-08",
+              "size": {
+                "unit": "px",
+                "size": 49,
+                "sizes": []
+              },
+              "_animation": "fadeIn"
+            },
+            "elements": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "t3fw1os",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "2",
+        "right": "3",
+        "bottom": "1",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "0.5",
+        "left": "1",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "ny3ks4f",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p class=\"post-date\" style=\"color:#888888;font-size:0.875rem;margin-bottom:0.5em;\">12 Marzo 2026</p>",
+          "_animation": "fadeIn"
+        },
+        "elements": []
+      },
+      {
+        "id": "nytowcq",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quanto Costa un Sito Web nel 2026 | Prezzi Reali e Preventivo",
+          "header_size": "h1",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "700",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 2.5,
+            "sizes": []
+          },
+          "typography_font_size_tablet": {
+            "unit": "rem",
+            "size": 2,
+            "sizes": []
+          },
+          "typography_font_size_mobile": {
+            "unit": "rem",
+            "size": 1.75,
+            "sizes": []
+          },
+          "align": "left"
+        },
+        "elements": []
+      },
+      {
+        "id": "y0nio83",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>&#8220;Quanto costa un sito web?&#8221; è una delle domande più frequenti che ricevo. La risposta non è semplice perché il <strong>costo sito web</strong> varia enormemente in base a esigenze, complessità, e chi lo sviluppa. In questa guida dettagliata, analizzerò tutti i fattori che influenzano il prezzo.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "0nvrfps",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "vw",
+        "top": "2",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "1",
+        "right": "1",
+        "bottom": "2",
+        "left": "1",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "p7j8dyv",
+        "elType": "container",
+        "settings": {
+          "content_width": "full",
+          "padding": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "0",
+            "left": "0",
+            "isLinked": true
+          },
+          "padding_tablet": {
+            "unit": "em",
+            "top": "1.5",
+            "right": "1.5",
+            "bottom": "1.5",
+            "left": "1.5",
+            "isLinked": false
+          },
+          "padding_mobile": {
+            "unit": "em",
+            "top": "1",
+            "right": "1",
+            "bottom": "1",
+            "left": "1",
+            "isLinked": false
+          },
+          "background_background": "classic",
+          "background_color": "#1D1C20",
+          "border_radius": {
+            "unit": "px",
+            "top": "8",
+            "right": "8",
+            "bottom": "8",
+            "left": "8",
+            "isLinked": true
+          },
+          "margin": {
+            "unit": "em",
+            "top": "0",
+            "right": "0",
+            "bottom": "2",
+            "left": "0",
+            "isLinked": false
+          }
+        },
+        "elements": [
+          {
+            "id": "26glygx",
+            "elType": "widget",
+            "widgetType": "nested-accordion",
+            "settings": {
+              "items": [
+                {
+                  "item_title": "Indice dei contenuti",
+                  "_id": "o3l7tdt"
+                }
+              ],
+              "accordion_item_title_position_horizontal": "stretch",
+              "accordion_item_title_icon_position": "end",
+              "accordion_item_title_distance_from_content": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile_extra": {
+                "unit": "em",
+                "size": -2,
+                "sizes": []
+              },
+              "accordion_item_title_distance_from_content_mobile": {
+                "unit": "em",
+                "size": -1,
+                "sizes": []
+              },
+              "accordion_background_normal_background": "classic",
+              "accordion_background_normal_color": "#1D1C20",
+              "accordion_border_normal_border": "none",
+              "accordion_background_hover_background": "classic",
+              "accordion_background_hover_color": "#1D1C20",
+              "accordion_border_hover_border": "none",
+              "accordion_background_active_background": "classic",
+              "accordion_background_active_color": "#1D1C20",
+              "accordion_border_radius": {
+                "unit": "px",
+                "top": "8",
+                "right": "8",
+                "bottom": "8",
+                "left": "8",
+                "isLinked": true
+              },
+              "accordion_padding": {
+                "unit": "em",
+                "top": "1",
+                "right": "3",
+                "bottom": "1",
+                "left": "3",
+                "isLinked": false
+              },
+              "accordion_padding_widescreen": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_laptop": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "accordion_padding_mobile_extra": {
+                "unit": "em",
+                "top": "1",
+                "right": "2",
+                "bottom": "1",
+                "left": "2",
+                "isLinked": false
+              },
+              "title_typography_typography": "custom",
+              "title_typography_font_family": "Bricolage Grotesque",
+              "title_typography_font_size": {
+                "unit": "px",
+                "size": 35,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet_extra": {
+                "unit": "px",
+                "size": 30,
+                "sizes": []
+              },
+              "title_typography_font_size_tablet": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "title_typography_font_size_mobile_extra": {
+                "unit": "px",
+                "size": 25,
+                "sizes": []
+              },
+              "normal_title_color": "#FFFFFF",
+              "hover_title_color": "#FFFFFF",
+              "active_title_color": "#FFFFFF",
+              "_animation": "fadeIn"
+            },
+            "elements": [
+              {
+                "id": "fyfhp83",
+                "elType": "container",
+                "settings": {
+                  "_title": "Indice dei contenuti",
+                  "content_width": "full",
+                  "background_background": "classic",
+                  "background_color": "#1D1C20",
+                  "border_border": "none",
+                  "border_radius": {
+                    "unit": "px",
+                    "top": "8",
+                    "right": "8",
+                    "bottom": "8",
+                    "left": "8",
+                    "isLinked": true
+                  },
+                  "padding": {
+                    "unit": "em",
+                    "top": "1",
+                    "right": "2",
+                    "bottom": "1",
+                    "left": "2",
+                    "isLinked": false
+                  }
+                },
+                "elements": [
+                  {
+                    "id": "agz33gy",
+                    "elType": "widget",
+                    "widgetType": "text-editor",
+                    "settings": {
+                      "editor": "<ul style=\"list-style:none;padding:0;margin:0;\"><li style=\"margin-bottom:0.75em;\"><a href=\"#quanto-costa-un-sito-web-la-verit-sui\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Quanto Costa un Sito Web: La Verità sui Prezzi</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#analisi-dettagliata-per-tipo-di-sito\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Analisi Dettagliata per Tipo di Sito</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#fattori-che-influenzano-il-costo\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Fattori che Influenzano il Costo</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#tabella-comparativa-prezzi-piattaforme\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Tabella Comparativa Prezzi Piattaforme</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#come-risparmiare-senza-compromessi\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Come Risparmiare Senza Compromessi</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#preventivo-quanto-costa-un-sito-per-la\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Preventivo: Quanto Costa un Sito per la Tua Attività?</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#faq-8211-costi-sito-web\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; FAQ &#8211; Costi Sito Web</a></li><li style=\"margin-bottom:0.75em;\"><a href=\"#conclusione\" style=\"color:#EAFF9C;text-decoration:none;font-family:Work Sans,sans-serif;\">&#x2192; Conclusione</a></li></ul>",
+                      "_animation": "fadeIn"
+                    },
+                    "elements": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "1j4iqra",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quanto Costa un Sito Web: La Verità sui Prezzi",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quanto-costa-un-sito-web-la-verit-sui"
+        },
+        "elements": []
+      },
+      {
+        "id": "j57qeh2",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Posso dire subito: il <strong>costo sito web</strong> può variare da €500 a €50.000+ Tutto dipende da cosa vuoi realizzare. Ecco una panoramica veloce:</p> <ul> <li>Sito vetrina basic: €500-1500</li> <li>Sito vetrina professionale: €2000-5000</li> <li>Sito ecommerce piccolo: €3000-8000</li> <li>Sito ecommerce medio: €8000-20000</li> <li>Progetto custom enterprise: €20000-100000+</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "mp55w2x",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Analisi Dettagliata per Tipo di Sito",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "analisi-dettagliata-per-tipo-di-sito"
+        },
+        "elements": []
+      },
+      {
+        "id": "06y6v6v",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sito Vetrina Basic (€500-1500)",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sito-vetrina-basic-500-1500"
+        },
+        "elements": []
+      },
+      {
+        "id": "ymklhnl",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Per una piccola attività locale, un sito vetrina basic include:</p> <ul> <li>5-8 pagine statiche</li> <li>Form contatti semplice</li> <li>Responsive design</li> <li>Tema template generico</li> <li>SSL certificate</li> <li>No integrazioni complesse</li> </ul> <p><strong>Quando scegliere:</strong> Idraulico, avvocato, commercialista che ha bisogno semplicemente di &#8220;essere online&#8221;.</p> <p><strong>Breakdown costi:</strong></p> <ul> <li>Template tema: €50-150</li> <li>Sviluppo setup: €300-600</li> <li>Dominio primo anno: €10-15</li> <li>Hosting annuale: €100-300</li> <li>Email professionale: €30-100/anno</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "nb72t4k",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sito Vetrina Professionale (€2000-5000)",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sito-vetrina-professionale-2000-5000"
+        },
+        "elements": []
+      },
+      {
+        "id": "cob4gjx",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Un <strong>sito web professionale</strong> include più pagine, design personalizzato, e ottimizzazione SEO:</p> <ul> <li>10-15 pagine custom-designed</li> <li>Blog section per SEO</li> <li>Portfolio/Galleria media</li> <li>Form contatti avanzato (CRM integration)</li> <li>Grafica personalizzata (non template)</li> <li>Ottimizzazione SEO on-page</li> <li>Mobile-first responsive</li> <li>Performance optimization</li> </ul> <p><strong>Quando scegliere:</strong> Agenzie, consulenti, professionisti, piccole imprese che vendono servizi.</p> <p><strong>Breakdown costi:</strong></p> <ul> <li>Design e UX: €600-1500</li> <li>Sviluppo WordPress: €800-2000</li> <li>SEO setup: €300-700</li> <li>Contenuti e copywriting: €300-800</li> <li>Hosting managed: €200-500/anno</li> <li>Manutenzione: €50-150/mese</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "fdlwbtu",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sito Ecommerce Piccolo (€3000-8000)",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sito-ecommerce-piccolo-3000-8000"
+        },
+        "elements": []
+      },
+      {
+        "id": "h9rpa8f",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Perfetto per negozi online con poche decine di prodotti:</p> <ul> <li>Catalog prodotti fino a 500 items</li> <li>Carrello e checkout</li> <li>Gateway pagamenti (Stripe, PayPal)</li> <li>Sistema gestione inventario basic</li> <li>Shipping integration</li> <li>Email notifiche transazioni</li> </ul> <p><strong>Quando scegliere:</strong> Negoziante che vuole vendere online senza spese eccessive.</p> <p><strong>Breakdown costi:</strong></p> <ul> <li>Setup WooCommerce: €1000-2000</li> <li>Design e customization: €800-2000</li> <li>Integrazioni pagamenti: €300-600</li> <li>Testing e QA: €400-800</li> <li>Hosting ecommerce: €300-1000/anno</li> <li>Certificato SSL: Incluso</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "dp2jgts",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sito Ecommerce Medio (€8000-20000)",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sito-ecommerce-medio-8000-20000"
+        },
+        "elements": []
+      },
+      {
+        "id": "y90wech",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Per negozi online più ambizioni con centinaia di prodotti:</p> <ul> <li>Catalogo prodotti fino a 10000 items</li> <li>Multi-valuta e multi-lingua</li> <li>Inventory management avanzato</li> <li>Multiple shipping methods</li> <li>Sistema affiliate/referral</li> <li>Marketing automation integration</li> <li>Analytics e reportistica</li> </ul> <p><strong>Quando scegliere:</strong> Azienda con intenzione di crescita e investimento nel canale online.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "4jjzffw",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sito Custom Enterprise (€20000+)",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sito-custom-enterprise-20000"
+        },
+        "elements": []
+      },
+      {
+        "id": "zyun8lu",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Progetti completamente custom per grandi aziende:</p> <ul> <li>Funzionalità uniche e proprietarie</li> <li>Scalabilità per milioni di utenti</li> <li>Integration con sistemi legacy</li> <li>API custom development</li> <li>Dashboard e reporting avanzati</li> <li>Sicurezza enterprise-grade</li> <li>Dedicated support team</li> </ul> <p><strong>Quando scegliere:</strong> Grandi aziende, fintech, marketplace, piattaforme SaaS.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "aj9ergc",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Fattori che Influenzano il Costo",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "fattori-che-influenzano-il-costo"
+        },
+        "elements": []
+      },
+      {
+        "id": "dje8a60",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "1. Design e Grafica",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "1-design-e-grafica"
+        },
+        "elements": []
+      },
+      {
+        "id": "h1vklmb",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Un design custom vs template generico può aggiungere €500-3000. Il design influenza percezione qualità e conversioni.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "i5pmr4r",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "2. Numero di Pagine",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "2-numero-di-pagine"
+        },
+        "elements": []
+      },
+      {
+        "id": "l05rdb3",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Ogni pagina aggiuntiva oltre le 5 base: €100-300. Non è lineare perché molti elementi sono reusabili.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "8yyopay",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "3. Funzionalità Complesse",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "3-funzionalit-complesse"
+        },
+        "elements": []
+      },
+      {
+        "id": "e03dmro",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Sistema booking/prenotazioni: +€1000-3000</li> <li>Integrazione CRM: +€500-2000</li> <li>Marketplace features: +€3000-10000</li> <li>Chat/Support system: +€500-1500</li> </ul>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "ko0jtpf",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "4. Integrazioni Terze",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "4-integrazioni-terze"
+        },
+        "elements": []
+      },
+      {
+        "id": "by3cibi",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Integrare Mailchimp, Zapier, Slack, payment gateway: €200-1000 per integrazione.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "gh71srr",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "5. SEO e Content",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "5-seo-e-content"
+        },
+        "elements": []
+      },
+      {
+        "id": "8jj18lj",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Keyword research, ottimizzazione SEO, copywriting professionale: €500-3000.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "t996hfi",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "6. Manutenzione e Support",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "6-manutenzione-e-support"
+        },
+        "elements": []
+      },
+      {
+        "id": "jhlzqin",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Support annuale post-lancio: €500-3000/anno. Aggiorna, backup, monitoraggio, bug fixes.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "49h1eq2",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Tabella Comparativa Prezzi Piattaforme",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "tabella-comparativa-prezzi-piattaforme"
+        },
+        "elements": []
+      },
+      {
+        "id": "sn5bnpr",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<table style=\"width:100%;border-collapse:collapse;background:#2E2E2E;color:#ffffff;\" border=\"1\" cellpadding=\"10\" cellspacing=\"0\"> <tr> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Piattaforma</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Sito Vetrina</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Ecommerce</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Scalabilità</th> <th style=\"background:#484748;padding:12px;text-align:left;border:1px solid #555;\">Costo Annuale</th> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>WordPress</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€2000-4000</td> <td style=\"padding:10px;border:1px solid #555;\">€5000-15000</td> <td style=\"padding:10px;border:1px solid #555;\">Eccellente</td> <td style=\"padding:10px;border:1px solid #555;\">€200-1000</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Wix</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€500-2000</td> <td style=\"padding:10px;border:1px solid #555;\">€2000-8000</td> <td style=\"padding:10px;border:1px solid #555;\">Media</td> <td style=\"padding:10px;border:1px solid #555;\">€200-800</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Shopify</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€1000-3000</td> <td style=\"padding:10px;border:1px solid #555;\">€3000-10000</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> <td style=\"padding:10px;border:1px solid #555;\">€400-2000</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Webflow</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€2000-5000</td> <td style=\"padding:10px;border:1px solid #555;\">€5000-15000</td> <td style=\"padding:10px;border:1px solid #555;\">Buona</td> <td style=\"padding:10px;border:1px solid #555;\">€300-1500</td> </tr> <tr> <td style=\"padding:10px;border:1px solid #555;\"><strong>Custom Dev</strong></td> <td style=\"padding:10px;border:1px solid #555;\">€5000-20000</td> <td style=\"padding:10px;border:1px solid #555;\">€15000-100000</td> <td style=\"padding:10px;border:1px solid #555;\">Illimitata</td> <td style=\"padding:10px;border:1px solid #555;\">€500-5000</td> </tr> </table>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "9qbh4kc",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Come Risparmiare Senza Compromessi",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "come-risparmiare-senza-compromessi"
+        },
+        "elements": []
+      },
+      {
+        "id": "puspi4z",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "1. Inizia Piccolo, Scala Dopo",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "1-inizia-piccolo-scala-dopo"
+        },
+        "elements": []
+      },
+      {
+        "id": "vdqanap",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Non è necessario avere tutto dal primo giorno. Parti con sito base (€1500-2000), aggiungi funzionalità man mano che cresci.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "rbq6gk4",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "2. Usa Template Professionali",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "2-usa-template-professionali"
+        },
+        "elements": []
+      },
+      {
+        "id": "pat09db",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Template WordPress premium (€30-150) offrono qualità design 80% vs custom, a 5% del prezzo. Se il design è standard per il tuo settore, non investire in custom.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "67cnegn",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "3. Automatizza Marketing",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "3-automatizza-marketing"
+        },
+        "elements": []
+      },
+      {
+        "id": "nyh9swy",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Usa strumenti come Zapier, Make (Integromat) per automatizzare flussi. Costa €10-30/mese, risparmia ore di lavoro manuale.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "jtr3lww",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "4. Fai Manutenzione Preventiva",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "4-fai-manutenzione-preventiva"
+        },
+        "elements": []
+      },
+      {
+        "id": "i4wnha6",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>€50-100/mese di manutenzione preventiva evita problemi €3000 dopo. Un sito lento = perdita 40% conversioni.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "go1toq3",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "5. Investi in SEO Fin dallInizio",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "5-investi-in-seo-fin-dallinizio"
+        },
+        "elements": []
+      },
+      {
+        "id": "v9s72av",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>€500 di SEO setup vs pagare €2000/mese di ads Google. ROI long-term del SEO è 10x superiore agli ads.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "g685wr7",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Preventivo: Quanto Costa un Sito per la Tua Attività?",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "preventivo-quanto-costa-un-sito-per-la"
+        },
+        "elements": []
+      },
+      {
+        "id": "6x7p3bu",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Domande per Calcolare il Tuo Investimento",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "domande-per-calcolare-il-tuo-investiment"
+        },
+        "elements": []
+      },
+      {
+        "id": "4s6ow22",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<ul> <li>Quante pagine avrà il sito? (5-10 small, 15-30 medium, 50+ large)</li> <li>Devi vendere online (ecommerce) o solo presentare (vetrina)?</li> <li>Quali integrazioni servono? (CRM, email, booking, pagamenti)</li> <li>Vuoi supporto post-lancio?</li> <li>Quanto vale ogni cliente acquisito per te?</li> </ul> <p>Se ogni cliente vale €500+, investire €5000 in sito web è intelligente: pagherai in 10 clienti.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "rmay7np",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "FAQ &#8211; Costi Sito Web",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "faq-8211-costi-sito-web"
+        },
+        "elements": []
+      },
+      {
+        "id": "9mk6kym",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Conviene usare Wix per risparmiare?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "conviene-usare-wix-per-risparmiare"
+        },
+        "elements": []
+      },
+      {
+        "id": "2dw7bze",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Dipende. Wix costa meno inizialmente (€15-30/mese) ma vincola a loro piattaforma. Se domani vuoi cambiare, perdi tutto. WordPress è investimento migliore long-term.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "wxxtiuf",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Posso creare un sito gratis?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "posso-creare-un-sito-gratis"
+        },
+        "elements": []
+      },
+      {
+        "id": "vzeyodd",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Sì, tecnicamente. Blogger.com, WordPress.com free, Wix free tier. Ma avrai subdomain non-professional, limitazioni, e difficilmente ranking su Google. Non consigliato per attività seria.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "x3kr0iv",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quanto costa la manutenzione annuale?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quanto-costa-la-manutenzione-annuale"
+        },
+        "elements": []
+      },
+      {
+        "id": "dgadoj4",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>€200-500 per sito small (hosting + dominio + update). €1000-3000 per sito medium con supporto attivo. Enterprise: €5000-20000+ per full team support.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "7elfors",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Sviluppatore freelancer vs agenzia?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "sviluppatore-freelancer-vs-agenzia"
+        },
+        "elements": []
+      },
+      {
+        "id": "pa46hk5",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Freelancer: 30-50% più economico ma meno accountability. Agenzia: più caro ma garanzie, team backup, supporto professionale. Per sito business-critical, agenzia vale la spesa.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "wrckhgj",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Quando è opportuno rifare il sito?",
+          "header_size": "h3",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "quando--opportuno-rifare-il-sito"
+        },
+        "elements": []
+      },
+      {
+        "id": "hg6ipdb",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Ogni 3-5 anni. Tecnologia evolve, Google cambia algoritmi, design tendenze cambiano. Sito di 5+ anni probabilmente costa conversioni.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "33bjfvn",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Conclusione",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "_element_id": "conclusione"
+        },
+        "elements": []
+      },
+      {
+        "id": "2vjwk2w",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Il <strong>costo sito web</strong> dipende dalle tue esigenze. Una vetrina base costa €500-2000, un progetto serio €3000-8000, un ecommerce ambizioso €10000-30000. La chiave è investire quanto necessario per raggiungere i tuoi obiettivi business, non quanto costa &#8220;comperare il sito più economico&#8221;.</p> <p><strong>Hai un progetto in mente e vuoi sapere il costo esatto?</strong> <a href=\"/servizi/\">Contattami per un preventivo gratuito senza impegno</a>. Analizzerei le tue esigenze e ti darò una stima accurata.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      }
+    ]
+  },
+  {
+    "id": "ytyiike",
+    "elType": "container",
+    "settings": {
+      "content_width": "full",
+      "padding": {
+        "unit": "em",
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3",
+        "isLinked": false
+      },
+      "padding_tablet": {
+        "unit": "em",
+        "top": "1.5",
+        "right": "1.5",
+        "bottom": "1.5",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "padding_mobile": {
+        "unit": "em",
+        "top": "2",
+        "right": "1.5",
+        "bottom": "2",
+        "left": "1.5",
+        "isLinked": false
+      },
+      "background_background": "classic",
+      "background_color": "#111111",
+      "border_radius": {
+        "unit": "px",
+        "top": "12",
+        "right": "12",
+        "bottom": "12",
+        "left": "12",
+        "isLinked": true
+      },
+      "margin": {
+        "unit": "em",
+        "top": "3",
+        "right": "0",
+        "bottom": "0",
+        "left": "0",
+        "isLinked": false
+      }
+    },
+    "elements": [
+      {
+        "id": "ymi8cac",
+        "elType": "widget",
+        "widgetType": "heading",
+        "settings": {
+          "title": "Hai bisogno di aiuto?",
+          "header_size": "h2",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600"
+        },
+        "elements": []
+      },
+      {
+        "id": "b00ik1y",
+        "elType": "widget",
+        "widgetType": "text-editor",
+        "settings": {
+          "editor": "<p>Se hai domande o vuoi realizzare un progetto, sono qui per aiutarti. Offro una consulenza iniziale gratuita per capire le tue esigenze e trovare la soluzione migliore.</p>",
+          "_animation": "fadeIn",
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans"
+        },
+        "elements": []
+      },
+      {
+        "id": "6451j03",
+        "elType": "widget",
+        "widgetType": "button",
+        "settings": {
+          "text": "Contattami Ora",
+          "link": {
+            "url": "https://lucasammarco.com/contatti/",
+            "is_external": "",
+            "nofollow": ""
+          },
+          "typography_typography": "custom",
+          "typography_font_family": "Work Sans",
+          "typography_font_weight": "600",
+          "typography_font_size": {
+            "unit": "rem",
+            "size": 1.1,
+            "sizes": []
+          },
+          "button_text_color": "#000000",
+          "background_color": "#EAFF9C",
+          "border_radius": {
+            "unit": "px",
+            "top": "100",
+            "right": "100",
+            "bottom": "100",
+            "left": "100",
+            "isLinked": true
+          },
+          "text_padding": {
+            "unit": "rem",
+            "top": "0.75",
+            "right": "2",
+            "bottom": "0.75",
+            "left": "2",
+            "isLinked": false
+          },
+          "align": "left",
+          "_animation": "fadeIn",
+          "button_background_hover_color": "#FFFFFF",
+          "button_hover_border_color": "#FFFFFF"
+        },
+        "elements": []
+      }
+    ]
+  }
+]

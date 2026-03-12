@@ -1,154 +1,95 @@
-import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
-import './globals.css';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
-import { SITE_CONFIG } from '@/lib/constants';
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+import Navigation from "@/components/Navigation";
+import SmoothScrollProvider from "@/components/SmoothScrollProvider";
+import Script from "next/script";
 
 const inter = Inter({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-inter',
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(SITE_CONFIG.url),
   title: {
-    default: SITE_CONFIG.title,
-    template: `%s | Luca Sammarco`,
+    default: "Luca Sammarco — Consulente Digitale, SEO & AI a Monza",
+    template: "%s | Luca Sammarco",
   },
-  description: SITE_CONFIG.description,
+  description:
+    "Consulente in strategia digitale, sviluppo software custom e innovazione AI. Trasformo idee in prodotti digitali che generano crescita. Monza, Italia.",
   keywords: [
-    'web developer Monza',
-    'sviluppatore web Italia',
-    'SEO specialist Monza',
-    'Next.js developer',
-    'React developer',
-    'software custom',
-    'soluzioni AI',
-    'e-commerce',
-    'automazione aziendale',
+    "consulente digitale Monza",
+    "sviluppo software custom",
+    "SEO specialist Italia",
+    "AI automation",
+    "web developer Monza",
+    "Luca Sammarco",
   ],
-  authors: [{ name: 'Luca Sammarco', url: SITE_CONFIG.url }],
-  creator: 'Luca Sammarco',
-  publisher: 'Luca Sammarco',
+  authors: [{ name: "Luca Sammarco", url: "https://lucasammarco.com" }],
+  creator: "Luca Sammarco",
+  metadataBase: new URL("https://lucasammarco.com"),
+  openGraph: {
+    type: "website",
+    locale: "it_IT",
+    url: "https://lucasammarco.com",
+    siteName: "Luca Sammarco",
+    title: "Luca Sammarco — Consulente Digitale, SEO & AI",
+    description:
+      "Consulente in strategia digitale, sviluppo software e innovazione AI per aziende che vogliono dominare il mercato.",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Luca Sammarco — Consulente Digitale",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Luca Sammarco — Consulente Digitale, SEO & AI",
+    description:
+      "Consulente in strategia digitale, sviluppo software e innovazione AI.",
+    images: ["/og-image.jpg"],
+  },
   robots: {
     index: true,
     follow: true,
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
-  openGraph: {
-    type: 'website',
-    locale: 'it_IT',
-    url: SITE_CONFIG.url,
-    title: SITE_CONFIG.title,
-    description: SITE_CONFIG.description,
-    siteName: 'Luca Sammarco',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: SITE_CONFIG.title,
-    description: SITE_CONFIG.description,
-    creator: '@lucasammarco',
-  },
-  alternates: {
-    canonical: SITE_CONFIG.url,
-  },
-};
-
-const localBusinessSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': `${SITE_CONFIG.url}/#localbusiness`,
-  name: 'Luca Sammarco',
-  description: SITE_CONFIG.description,
-  url: SITE_CONFIG.url,
-  telephone: SITE_CONFIG.phone,
-  email: SITE_CONFIG.email,
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Monza',
-    addressRegion: 'MB',
-    addressCountry: 'IT',
-  },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: 45.5845,
-    longitude: 9.2744,
-  },
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-      opens: '09:00',
-      closes: '18:00',
-    },
-  ],
-  priceRange: '\u20ac\u20ac',
-  currenciesAccepted: 'EUR',
-  areaServed: {
-    '@type': 'Country',
-    name: 'Italia',
-  },
-  sameAs: [
-    SITE_CONFIG.social.linkedin,
-    SITE_CONFIG.social.github,
-    SITE_CONFIG.social.twitter,
-  ],
-};
-
-const personSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'Person',
-  name: 'Luca Sammarco',
-  jobTitle: 'Web Developer & SEO Specialist',
-  url: SITE_CONFIG.url,
-  sameAs: [SITE_CONFIG.social.linkedin, SITE_CONFIG.social.github],
-  address: {
-    '@type': 'PostalAddress',
-    addressLocality: 'Monza',
-    addressRegion: 'Lombardia',
-    addressCountry: 'IT',
-  },
-  knowsAbout: [
-    'Next.js',
-    'React',
-    'TypeScript',
-    'SEO',
-    'Web Development',
-    'AI Integration',
-    'E-Commerce',
-    'Software Development',
-  ],
 };
 
 export default function RootLayout({
   children,
-}: {
+}: Readonly<{
   children: React.ReactNode;
-}) {
+}>) {
   return (
-    <html lang="it" className={inter.variable}>
+    <html lang="it" suppressHydrationWarning>
       <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
         />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+          rel="stylesheet"
         />
       </head>
-      <body style={{ fontFamily: 'var(--font-inter), system-ui, sans-serif' }} className="antialiased">
-        <Header />
-        <main>{children}</main>
-        <Footer />
+      <body className={`${inter.variable} antialiased`}>
+        <SmoothScrollProvider>
+          <Navigation />
+          {children}
+        </SmoothScrollProvider>
       </body>
     </html>
   );
