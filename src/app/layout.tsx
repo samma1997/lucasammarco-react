@@ -1,96 +1,40 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Navigation from "@/components/Navigation";
-import SmoothScrollProvider from "@/components/SmoothScrollProvider";
-import Script from "next/script";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
+import type { Metadata } from 'next'
+import '../styles/webflow.css'
+import '../styles/inline.css'
+import './globals.css'
 
 export const metadata: Metadata = {
-  title: {
-    default: "Luca Sammarco — Consulente Digitale, SEO & AI a Monza",
-    template: "%s | Luca Sammarco",
-  },
+  title: 'TIWIS | Strategic sparring partners and drivers of your growth',
   description:
-    "Consulente in strategia digitale, sviluppo software custom e innovazione AI. Trasformo idee in prodotti digitali che generano crescita. Monza, Italia.",
-  keywords: [
-    "consulente digitale Monza",
-    "sviluppo software custom",
-    "SEO specialist Italia",
-    "AI automation",
-    "web developer Monza",
-    "Luca Sammarco",
-  ],
-  authors: [{ name: "Luca Sammarco", url: "https://lucasammarco.com" }],
-  creator: "Luca Sammarco",
-  metadataBase: new URL("https://lucasammarco.com"),
+    'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
   openGraph: {
-    type: "website",
-    locale: "it_IT",
-    url: "https://lucasammarco.com",
-    siteName: "Luca Sammarco",
-    title: "Luca Sammarco — Consulente Digitale, SEO & AI",
+    title: 'TIWIS | Strategic sparring partners and drivers of your growth',
     description:
-      "Consulente in strategia digitale, sviluppo software e innovazione AI per aziende che vogliono dominare il mercato.",
+      'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
+    type: 'website',
     images: [
-      {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Luca Sammarco — Consulente Digitale",
-      },
+      'https://cdn.prod.website-files.com/68f77e49c7ca6bd68b326c3d/69457111016b9c2b2ec75eb8_Tiwis_Screen.jpg',
     ],
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Luca Sammarco — Consulente Digitale, SEO & AI",
+    card: 'summary_large_image',
+    title: 'TIWIS | Strategic sparring partners and drivers of your growth',
     description:
-      "Consulente in strategia digitale, sviluppo software e innovazione AI.",
-    images: ["/og-image.jpg"],
+      'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
   },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      "max-video-preview": -1,
-      "max-image-preview": "large",
-      "max-snippet": -1,
-    },
-  },
-};
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="it" suppressHydrationWarning>
+    <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
-        />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
-          rel="stylesheet"
-        />
+        <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.15/dist/lenis.css" />
       </head>
-      <body className={`${inter.variable} antialiased`}>
-        <SmoothScrollProvider>
-          <Navigation />
-          {children}
-        </SmoothScrollProvider>
-      </body>
+      <body suppressHydrationWarning>{children}</body>
     </html>
-  );
+  )
 }

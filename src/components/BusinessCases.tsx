@@ -1,187 +1,125 @@
-"use client";
+'use client'
 
-import { useEffect, useRef } from "react";
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import Link from "next/link";
+import { useEffect, useRef } from 'react'
+import Link from 'next/link'
+import gsap from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger)
 
-const projects = [
+const MarqueeSVG = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" fill="none">
+    <path d="M8.3143 8.3143C-1.4381 18.0667 -1.4381 33.9333 8.3143 43.6857C18.0667 53.4381 33.9333 53.4381 43.6857 43.6857C53.4381 33.9333 53.4381 18.0667 43.6857 8.3143C33.9333 -1.4381 18.0667 -1.4381 8.3143 8.3143ZM9.23648 9.23648C16.2602 2.21273 26.6316 0.532593 35.266 4.18974C28.1728 3.09702 19.5447 6.15412 12.8494 12.8494C6.15412 19.5447 3.09702 28.1728 4.18974 35.266C0.532592 26.6316 2.21273 16.2602 9.23648 9.23648ZM34.6155 34.6155C41.715 27.5159 45.7701 19.5826 45.7322 13.8727C48.4166 20.9533 45.6501 30.8067 38.2284 38.2284C30.8067 45.6501 20.9596 48.4229 13.8727 45.7322C19.5826 45.7701 27.5159 41.715 34.6155 34.6155ZM11.144 43.9762C15.8434 42.6372 24.263 35.5061 29.8845 29.8845C35.5061 24.263 42.6309 15.837 43.9762 11.144C45.8901 16.216 41.7719 25.6147 33.6933 33.6933C25.6147 41.7719 16.2223 45.8964 11.144 43.9762ZM28.9624 28.9624C18.7299 39.1948 10.4429 43.9699 9.23648 42.7635C8.03007 41.5571 12.8052 33.2701 23.0376 23.0376C33.2701 12.8052 41.5571 8.03007 42.7635 9.23648C43.9699 10.4429 39.1948 18.7299 28.9624 28.9624ZM8.02375 40.856C6.1099 35.784 10.2281 26.3853 18.3067 18.3067C26.3853 10.2281 35.7777 6.10359 40.856 8.02375C36.1566 9.36281 27.737 16.4939 22.1155 22.1155C16.4939 27.737 9.36913 36.163 8.02375 40.856ZM17.3845 17.3845C10.2913 24.4778 6.22991 32.4174 6.26781 38.1273C3.58337 31.0467 6.35624 21.1996 13.7779 13.7779C21.1996 6.35624 31.0467 3.58337 38.1273 6.26781C32.4174 6.22991 24.4841 10.285 17.3845 17.3845ZM42.7635 42.7635C35.7398 49.7873 25.3684 51.4674 16.734 47.8103C23.8272 48.903 32.4553 45.8459 39.1506 39.1506C45.8459 32.4553 48.903 23.8272 47.8103 16.734C51.4674 25.3684 49.7873 35.7398 42.7635 42.7635Z" fill="#B2CBE6" stroke="#B2CBE6" />
+  </svg>
+)
+
+const ArrowSVG = () => (
+  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+    <path d="M8 7.33138H5.92082V3.41642L1.33724 8L0 6.66276L4.58358 2.07918H0.668622V0H8L8 7.33138Z" fill="#FA4838" />
+  </svg>
+)
+
+const useCases = [
   {
-    title: "Dubai Market Pulse",
-    description: "Piattaforma SaaS per analisi immobiliare Dubai",
-    service: "Sviluppo Software & Data Strategy",
-    href: "/progetti",
-    gradient: "linear-gradient(135deg, #045CB4 0%, #046BD2 50%, #58D0F5 100%)",
-    year: "2024",
+    href: '/en/use-case/superhead',
+    title: 'Superhead',
+    subtitle: 'Premium mountain stay booking platform',
+    description: '360 Brand Development and Product Development',
+    image: '/images/superhead.jpg',
   },
   {
-    title: "WUP Coach Booking",
-    description: "Sistema di prenotazione coach per centri sportivi",
-    service: "Web App & Automazione",
-    href: "/progetti",
-    gradient: "linear-gradient(135deg, #0A0A0A 0%, #1a1a2e 50%, #045CB4 100%)",
-    year: "2024",
+    href: '/en/use-case/pellegrin',
+    title: 'Pellegrin',
+    subtitle: 'Jewelry house in Provence',
+    description: 'Development strategy and digitalization',
+    image: '/images/pellegrin.png',
   },
   {
-    title: "SammaPix",
-    description: "Piattaforma di fotografia e contenuti visivi",
-    service: "Brand Development & Product Design",
-    href: "/progetti",
-    gradient: "linear-gradient(135deg, #EAFD9C 0%, #a8c44a 50%, #2d4a00 100%)",
-    year: "2023",
+    href: '/en/use-case/lumara-vision',
+    title: 'Lumara Vision',
+    subtitle: 'Solution for digitizing maritime oil and gas operations',
+    description: 'UX and app development',
+    image: '/images/lumara.png',
   },
-];
-
-function ProjectCard({
-  project,
-  index,
-}: {
-  project: (typeof projects)[0];
-  index: number;
-}) {
-  const cardRef = useRef<HTMLDivElement>(null);
-  const imageRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const image = imageRef.current;
-    if (!image) return;
-
-    gsap.set(image, { clipPath: "inset(30% 30% 30% 30% round 16px)" });
-
-    ScrollTrigger.create({
-      trigger: cardRef.current,
-      start: "top 75%",
-      onEnter: () => {
-        gsap.to(image, {
-          clipPath: "inset(0% 0% 0% 0% round 16px)",
-          duration: 1,
-          ease: "power2.out",
-        });
-      },
-    });
-  }, []);
-
-  return (
-    <Link href={project.href} className="project-card group block">
-      <div ref={cardRef} className="mb-6">
-        {/* Image */}
-        <div
-          ref={imageRef}
-          className="project-image w-full aspect-[4/3] rounded-2xl mb-4 overflow-hidden"
-          style={{ background: project.gradient }}
-        >
-          <div
-            className="w-full h-full flex items-center justify-center opacity-20"
-            style={{ fontSize: "80px", fontFamily: "Syne, sans-serif", fontWeight: 700 }}
-          >
-            {index + 1 < 10 ? `0${index + 1}` : index + 1}
-          </div>
-        </div>
-
-        {/* Meta */}
-        <div className="flex items-center justify-between mb-3">
-          <span className="tag">{project.service}</span>
-          <span
-            className="text-xs"
-            style={{ color: "rgba(240,240,240,0.3)" }}
-          >
-            {project.year}
-          </span>
-        </div>
-
-        {/* Title */}
-        <h3
-          className="text-xl font-semibold mb-2 group-hover:text-[var(--cyan)] transition-colors"
-          style={{ fontFamily: "Syne, sans-serif" }}
-        >
-          {project.title}
-        </h3>
-        <p
-          className="text-sm leading-relaxed"
-          style={{ color: "rgba(240,240,240,0.45)" }}
-        >
-          {project.description}
-        </p>
-      </div>
-    </Link>
-  );
-}
+]
 
 export default function BusinessCases() {
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const marqueeRef = useRef<HTMLDivElement>(null);
+  const wrapperRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    const wrapper = wrapperRef.current
+    if (!wrapper) return
+
+    const masks = Array.from(wrapper.querySelectorAll('.use-case__img-mask'))
+    if (!masks.length) return
+
+    gsap.set(masks, { clipPath: 'inset(30%)' })
+
+    gsap.timeline({
+      scrollTrigger: {
+        trigger: masks[0],
+        start: 'top bottom',
+        end: '30% bottom',
+        scrub: 1,
+      },
+    }).to(masks, {
+      clipPath: 'inset(0%)',
+      ease: 'none',
+      stagger: 0.1,
+    })
+
+    return () => {
+      ScrollTrigger.getAll().forEach((st) => st.kill())
+    }
+  }, [])
 
   return (
-    <section ref={sectionRef} className="py-24 md:py-32 section-divider overflow-hidden">
+    <>
       {/* Marquee */}
-      <div
-        className="mb-16 overflow-hidden"
-        style={{ borderTop: "1px solid var(--border)", borderBottom: "1px solid var(--border)" }}
-      >
-        <div ref={marqueeRef} className="marquee-inner py-4">
-          {Array.from({ length: 4 }).map((_, i) => (
-            <span
-              key={i}
-              className="flex-none text-[80px] font-bold opacity-[0.06] pr-16 whitespace-nowrap"
-              style={{
-                fontFamily: "Syne, sans-serif",
-                letterSpacing: "-0.03em",
-              }}
-            >
-              Progetti &mdash; Case Study &mdash;
-            </span>
+      <div className="item--marquee">
+        <div className="marquee">
+          {[0, 1, 2, 3].map((i) => (
+            <div key={i} className="marquee-content scroll-marquee">
+              <div className="marquee__text clipping-text">Buisness cases</div>
+              <div className="marquee__svg w-embed">
+                <MarqueeSVG />
+              </div>
+            </div>
           ))}
         </div>
       </div>
 
-      <div className="px-6 md:px-10">
-        <div className="max-w-screen-xl mx-auto">
-          {/* Header */}
-          <div className="flex items-end justify-between mb-16">
-            <div>
-              <span className="tag mb-4 block w-fit">Business Cases</span>
-              <h2
-                className="heading-lg"
-                style={{ fontFamily: "Syne, sans-serif" }}
-              >
-                Risultati
-                <br />
-                <span style={{ color: "var(--lime)" }}>concreti</span>
-              </h2>
+      {/* Use cases */}
+      <div className="use-case__wrapper collection-list-wrapper-2 w-dyn-list" ref={wrapperRef}>
+        <div role="list" className="use-case__list w-dyn-items">
+          {useCases.map((uc) => (
+            <div role="listitem" key={uc.href} className="use-case__item w-dyn-item">
+              <Link href={uc.href} className="use-case__block w-inline-block">
+                <div className="use-case__img-container">
+                  <div className="use-case__img-mask">
+                    <img
+                      src={uc.image}
+                      loading="lazy"
+                      alt={uc.title}
+                      className="use-case__img-item"
+                    />
+                  </div>
+                </div>
+                <div className="use-case__block-top">
+                  <div className="top use-case__top-margin">
+                    <h4 className="use-case-h4">{uc.title}</h4>
+                    <div className="w-embed">
+                      <ArrowSVG />
+                    </div>
+                  </div>
+                  <p className="use-case-text">{uc.subtitle}</p>
+                </div>
+                <p className="use-case-text">{uc.description}</p>
+              </Link>
             </div>
-            <Link
-              href="/progetti"
-              className="hidden md:flex btn-outline"
-            >
-              Tutti i progetti
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                <path
-                  d="M3 8h10M9 4l4 4-4 4"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </Link>
-          </div>
-
-          {/* Projects grid */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-6">
-            {projects.map((project, i) => (
-              <ProjectCard key={i} project={project} index={i} />
-            ))}
-          </div>
-
-          <div className="mt-8 md:hidden">
-            <Link href="/progetti" className="btn-outline w-full justify-center">
-              Tutti i progetti
-            </Link>
-          </div>
+          ))}
         </div>
       </div>
-    </section>
-  );
+    </>
+  )
 }
