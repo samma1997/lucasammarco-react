@@ -1,23 +1,21 @@
 import type { Metadata } from 'next'
 import './globals.css'
-import SmoothScrollProvider from '@/components/SmoothScrollProvider'
-import Navigation from '@/components/Navigation'
 
 export const metadata: Metadata = {
-  title: 'Museum of Money | MoMoney — Interactive Money Museum Dallas',
+  title: 'Block Library — UI Component Catalog',
   description:
-    'Discover the story of money at MoMoney, the interactive Museum of Money in Dallas, TX. Hands-on exhibits, live experiences, and more. Book your tickets today.',
-  keywords: ['museum of money', 'MoMoney', 'interactive museum', 'Dallas', 'money history', 'finance education'],
+    'A curated catalog of production-ready UI blocks built with Next.js, GSAP, and Tailwind. Browse, preview, and copy components for your next project.',
+  keywords: ['block library', 'UI components', 'Next.js', 'GSAP', 'Tailwind', 'component catalog'],
   openGraph: {
-    title: 'Museum of Money | MoMoney',
-    description: 'Money: it\'s all about change. Discover its story at MoMoney, the interactive Museum of Money.',
+    title: 'Block Library — UI Component Catalog',
+    description: 'Production-ready UI blocks built with Next.js, GSAP, and Tailwind.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Museum of Money | MoMoney',
-    description: 'Money: it\'s all about change. Discover its story at MoMoney, the interactive Museum of Money.',
+    title: 'Block Library — UI Component Catalog',
+    description: 'Production-ready UI blocks built with Next.js, GSAP, and Tailwind.',
   },
   robots: {
     index: true,
@@ -32,11 +30,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="theme-green">
-        <SmoothScrollProvider>
-          <Navigation />
-          {children}
-        </SmoothScrollProvider>
+      <body suppressHydrationWarning>
+        {children}
       </body>
     </html>
   )

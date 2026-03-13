@@ -1,0 +1,4847 @@
+[
+  {
+    "tag": "header",
+    "classes": "c-header",
+    "rect": {
+      "w": 1440,
+      "h": 0,
+      "y": -11774
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "c-header_wrapper",
+        "rect": {
+          "w": 1440,
+          "h": 136,
+          "y": -136
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "fixed",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-header_banner || o-marquee",
+            "rect": {
+              "w": 1440,
+              "h": 48,
+              "y": -136
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "overflow": "hidden",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-marquee_wrapper",
+                "rect": {
+                  "w": 2531,
+                  "h": 22,
+                  "y": -127
+                },
+                "display": "flex",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content || s-content",
+                    "rect": {
+                      "w": 490,
+                      "h": 22,
+                      "y": -127
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -title-small",
+                        "rect": {
+                          "w": 462,
+                          "h": 22,
+                          "y": -127
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "En savoir plus!",
+                            "href": "https://festivent.ca/programmation/?index=1",
+                            "rect": {
+                              "w": 121,
+                              "h": 23,
+                              "y": -126
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content || s-content",
+                    "rect": {
+                      "w": 490,
+                      "h": 22,
+                      "y": -127
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -title-small",
+                        "rect": {
+                          "w": 462,
+                          "h": 22,
+                          "y": -127
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "En savoir plus!",
+                            "href": "https://festivent.ca/programmation/?index=1",
+                            "rect": {
+                              "w": 121,
+                              "h": 23,
+                              "y": -126
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content || s-content",
+                    "rect": {
+                      "w": 490,
+                      "h": 22,
+                      "y": -127
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -title-small",
+                        "rect": {
+                          "w": 462,
+                          "h": 22,
+                          "y": -127
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "En savoir plus!",
+                            "href": "https://festivent.ca/programmation/?index=1",
+                            "rect": {
+                              "w": 121,
+                              "h": 23,
+                              "y": -126
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content || s-content",
+                    "rect": {
+                      "w": 490,
+                      "h": 22,
+                      "y": -127
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -title-small",
+                        "rect": {
+                          "w": 462,
+                          "h": 22,
+                          "y": -127
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "En savoir plus!",
+                            "href": "https://festivent.ca/programmation/?index=1",
+                            "rect": {
+                              "w": 121,
+                              "h": 23,
+                              "y": -126
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content || s-content",
+                    "rect": {
+                      "w": 490,
+                      "h": 22,
+                      "y": -127
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -title-small",
+                        "rect": {
+                          "w": 462,
+                          "h": 22,
+                          "y": -127
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "text": "En savoir plus!",
+                            "href": "https://festivent.ca/programmation/?index=1",
+                            "rect": {
+                              "w": 121,
+                              "h": 23,
+                              "y": -126
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-header_inner || o-container",
+            "rect": {
+              "w": 1440,
+              "h": 88,
+              "y": -88
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-header_logo",
+                "href": "https://festivent.ca",
+                "rect": {
+                  "w": 148,
+                  "h": 48,
+                  "y": -68
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "svg",
+                    "classes": {},
+                    "rect": {
+                      "w": 148,
+                      "h": 48,
+                      "y": -68
+                    },
+                    "display": "inline",
+                    "overflow": "hidden",
+                    "children": [
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 18,
+                          "h": 22,
+                          "y": -46
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 30,
+                          "h": 44,
+                          "y": -68
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 21,
+                          "h": 30,
+                          "y": -50
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 1,
+                          "h": 2,
+                          "y": -36
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 28,
+                          "h": 47,
+                          "y": -67
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 9,
+                          "h": 4,
+                          "y": -27
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 19,
+                          "h": 20,
+                          "y": -50
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 9,
+                          "h": 22,
+                          "y": -46
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 44,
+                          "h": 47,
+                          "y": -67
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 17,
+                          "h": 22,
+                          "y": -46
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 2,
+                          "h": 6,
+                          "y": -37
+                        },
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "path",
+                        "classes": {},
+                        "text": "",
+                        "rect": {
+                          "w": 16,
+                          "h": 22,
+                          "y": -46
+                        },
+                        "display": "inline"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "nav",
+                "classes": "c-header_nav",
+                "rect": {
+                  "w": 659,
+                  "h": 56,
+                  "y": -72
+                },
+                "display": "flex",
+                "children": [
+                  {
+                    "tag": "a",
+                    "classes": "c-header_link",
+                    "href": "https://festivent.ca/programmation/",
+                    "rect": {
+                      "w": 221,
+                      "h": 56,
+                      "y": -72
+                    },
+                    "bg": "rgb(255, 255, 255)",
+                    "textTransform": "uppercase",
+                    "display": "flex",
+                    "position": "relative",
+                    "borderRadius": "28px",
+                    "children": [
+                      {
+                        "tag": "svg",
+                        "classes": {},
+                        "rect": {
+                          "w": 213,
+                          "h": 48,
+                          "y": -68
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "position": "absolute",
+                        "children": [
+                          {
+                            "tag": "rect",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 213,
+                              "h": 48,
+                              "y": -68
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "span",
+                        "text": "Programmation",
+                        "rect": {
+                          "w": 149,
+                          "h": 17,
+                          "y": -51
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "a",
+                    "classes": "c-header_link",
+                    "href": "https://festivent.ca/horaire/",
+                    "rect": {
+                      "w": 189,
+                      "h": 56,
+                      "y": -72
+                    },
+                    "bg": "rgb(255, 255, 255)",
+                    "textTransform": "uppercase",
+                    "display": "flex",
+                    "position": "relative",
+                    "borderRadius": "28px",
+                    "children": [
+                      {
+                        "tag": "svg",
+                        "classes": {},
+                        "rect": {
+                          "w": 181,
+                          "h": 48,
+                          "y": -68
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "position": "absolute",
+                        "children": [
+                          {
+                            "tag": "rect",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 181,
+                              "h": 48,
+                              "y": -68
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "span",
+                        "rect": {
+                          "w": 117,
+                          "h": 17,
+                          "y": -51
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "a",
+                    "classes": "c-header_link",
+                    "href": "https://festivent.ca/billetterie/",
+                    "rect": {
+                      "w": 170,
+                      "h": 56,
+                      "y": -72
+                    },
+                    "bg": "rgb(255, 255, 255)",
+                    "textTransform": "uppercase",
+                    "display": "flex",
+                    "position": "relative",
+                    "borderRadius": "28px",
+                    "children": [
+                      {
+                        "tag": "svg",
+                        "classes": {},
+                        "rect": {
+                          "w": 162,
+                          "h": 48,
+                          "y": -68
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "position": "absolute",
+                        "children": [
+                          {
+                            "tag": "rect",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 162,
+                              "h": 48,
+                              "y": -68
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "span",
+                        "text": "Billetterie",
+                        "rect": {
+                          "w": 98,
+                          "h": 17,
+                          "y": -51
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "c-header_actions",
+        "rect": {
+          "w": 56,
+          "h": 88,
+          "y": 48
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "flex",
+        "position": "fixed",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-icon -lg -fill",
+            "rect": {
+              "w": 56,
+              "h": 56,
+              "y": -72
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "relative",
+            "borderRadius": "50%",
+            "children": [
+              {
+                "tag": "label",
+                "classes": "c-burger",
+                "rect": {
+                  "w": 56,
+                  "h": 56,
+                  "y": -72
+                },
+                "display": "block",
+                "position": "relative"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "classes": "c-menu",
+    "rect": {
+      "w": 1299,
+      "h": 1299,
+      "y": 1148
+    },
+    "bg": "rgb(21, 78, 133)",
+    "color": "rgb(199, 234, 251)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "flex",
+    "position": "fixed",
+    "borderRadius": "16px",
+    "overflow": "auto",
+    "children": [
+      {
+        "tag": "nav",
+        "classes": "c-menu_nav -main",
+        "rect": {
+          "w": 1011,
+          "h": 1011,
+          "y": 1210
+        },
+        "color": "rgb(199, 234, 251)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "flex",
+        "position": "relative",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-menu_item",
+            "rect": {
+              "w": 698,
+              "h": 698,
+              "y": 1349
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -display-small",
+                "href": "https://festivent.ca/programmation/",
+                "rect": {
+                  "w": 446,
+                  "h": 446,
+                  "y": 1475
+                },
+                "textTransform": "uppercase",
+                "display": "inline-block",
+                "position": "relative",
+                "children": [
+                  {
+                    "tag": "span",
+                    "text": "Programmation",
+                    "rect": {
+                      "w": 466,
+                      "h": 466,
+                      "y": 1465
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-menu_gradient",
+                "text": "",
+                "rect": {
+                  "w": 748,
+                  "h": 748,
+                  "y": 1300
+                },
+                "display": "block",
+                "position": "absolute"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-menu_item",
+            "rect": {
+              "w": 698,
+              "h": 698,
+              "y": 1416
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -display-small",
+                "href": "https://festivent.ca/horaire/",
+                "rect": {
+                  "w": 360,
+                  "h": 360,
+                  "y": 1585
+                },
+                "textTransform": "uppercase",
+                "display": "inline-block",
+                "position": "relative",
+                "children": [
+                  {
+                    "tag": "span",
+                    "text": "Mon horaire",
+                    "rect": {
+                      "w": 381,
+                      "h": 381,
+                      "y": 1574
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-menu_gradient",
+                "text": "",
+                "rect": {
+                  "w": 748,
+                  "h": 748,
+                  "y": 1366
+                },
+                "display": "block",
+                "position": "absolute"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-menu_item",
+            "rect": {
+              "w": 698,
+              "h": 698,
+              "y": 1483
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -display-small",
+                "href": "https://festivent.ca/billetterie/",
+                "rect": {
+                  "w": 310,
+                  "h": 310,
+                  "y": 1677
+                },
+                "textTransform": "uppercase",
+                "display": "inline-block",
+                "position": "relative",
+                "children": [
+                  {
+                    "tag": "span",
+                    "text": "Billetterie",
+                    "rect": {
+                      "w": 330,
+                      "h": 330,
+                      "y": 1666
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-menu_gradient",
+                "text": "",
+                "rect": {
+                  "w": 748,
+                  "h": 748,
+                  "y": 1433
+                },
+                "display": "block",
+                "position": "absolute"
+              }
+            ]
+          },
+          {
+            "tag": "svg",
+            "classes": {},
+            "rect": {
+              "w": 678,
+              "h": 678,
+              "y": 1543
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "children": [
+              {
+                "tag": "line",
+                "classes": {},
+                "text": "",
+                "rect": {
+                  "w": 676,
+                  "h": 676,
+                  "y": 1543
+                },
+                "display": "inline"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "o-grid -cols-2 -cols-1@tablet -gutters-none",
+        "rect": {
+          "w": 850,
+          "h": 850,
+          "y": 1544
+        },
+        "color": "rgb(199, 234, 251)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "grid",
+        "children": [
+          {
+            "tag": "nav",
+            "classes": "c-menu_nav -secondary",
+            "rect": {
+              "w": 512,
+              "h": 512,
+              "y": 1882
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "À propos",
+                "href": "https://festivent.ca/le-festivent/a-propos/",
+                "rect": {
+                  "w": 66,
+                  "h": 66,
+                  "y": 2073
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Zones expérience",
+                "href": "https://festivent.ca/zones-experience/",
+                "rect": {
+                  "w": 113,
+                  "h": 113,
+                  "y": 2080
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Éditions précédentes",
+                "href": "https://festivent.ca/editions-precedentes/",
+                "rect": {
+                  "w": 136,
+                  "h": 136,
+                  "y": 2099
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Festivent engagé",
+                "href": "https://festivent.ca/festivent-engage/",
+                "rect": {
+                  "w": 113,
+                  "h": 113,
+                  "y": 2142
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 164,
+                  "h": 164,
+                  "y": 1888
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 163,
+                      "h": 163,
+                      "y": 1889
+                    },
+                    "display": "inline"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 340,
+                  "h": 340,
+                  "y": 2055
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 338,
+                      "h": 338,
+                      "y": 2056
+                    },
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "nav",
+            "classes": "c-menu_nav -secondary",
+            "rect": {
+              "w": 512,
+              "h": 512,
+              "y": 1544
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Nous joindre",
+                "href": "https://festivent.ca/nous-joindre/",
+                "rect": {
+                  "w": 90,
+                  "h": 90,
+                  "y": 1723
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Partenaires",
+                "href": "https://festivent.ca/partenaires/",
+                "rect": {
+                  "w": 82,
+                  "h": 82,
+                  "y": 1757
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Politique de confidentialité",
+                "href": "https://festivent.ca/politique-de-confidentialite/",
+                "rect": {
+                  "w": 175,
+                  "h": 175,
+                  "y": 1742
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              },
+              {
+                "tag": "a",
+                "classes": "c-menu_link || o-typography -title-small",
+                "text": "Conditions générales de vente",
+                "href": "https://festivent.ca/conditions-de-vente/",
+                "rect": {
+                  "w": 192,
+                  "h": 192,
+                  "y": 1764
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "relative"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "c-menu_footer",
+        "rect": {
+          "w": 728,
+          "h": 728,
+          "y": 1718
+        },
+        "color": "rgb(199, 234, 251)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "relative",
+        "children": [
+          {
+            "tag": "svg",
+            "classes": {},
+            "rect": {
+              "w": 678,
+              "h": 678,
+              "y": 1718
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "children": [
+              {
+                "tag": "line",
+                "classes": {},
+                "text": "",
+                "rect": {
+                  "w": 676,
+                  "h": 676,
+                  "y": 1719
+                },
+                "display": "inline"
+              }
+            ]
+          },
+          {
+            "tag": "p",
+            "text": "© 2025 | Festivent",
+            "rect": {
+              "w": 661,
+              "h": 661,
+              "y": 1752
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "classes": "c-quick-access is-animated is-over-footer",
+    "rect": {
+      "w": 463,
+      "h": 880,
+      "y": 86
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "flex",
+    "position": "fixed",
+    "borderRadius": "16px 16px 28px 28px",
+    "overflow": "hidden",
+    "children": [
+      {
+        "tag": "nav",
+        "classes": "c-quick-access_nav",
+        "rect": {
+          "w": 463,
+          "h": 824,
+          "y": 910
+        },
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(21, 78, 133)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "flex",
+        "borderRadius": "28px 28px 0px 0px",
+        "overflow": "auto",
+        "children": [
+          {
+            "tag": "a",
+            "classes": "c-quick-access_link || o-typography -title-small",
+            "href": "https://festivent.ca/infos-festivaliers/",
+            "rect": {
+              "w": 463,
+              "h": 72,
+              "y": 910
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "span",
+                "rect": {
+                  "w": 143,
+                  "h": 20,
+                  "y": 956
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-quick-access_label",
+                    "text": "Infos festivaliers",
+                    "rect": {
+                      "w": 143,
+                      "h": 20,
+                      "y": 956
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline-block"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 463,
+                  "h": 2,
+                  "y": 980
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 463,
+                      "h": 0,
+                      "y": 981
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "a",
+            "classes": "c-quick-access_link || o-typography -title-small",
+            "href": "https://festivent.ca/infos-benevoles/",
+            "rect": {
+              "w": 463,
+              "h": 72,
+              "y": 982
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "span",
+                "rect": {
+                  "w": 130,
+                  "h": 20,
+                  "y": 1028
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-quick-access_label",
+                    "text": "Infos bénévoles",
+                    "rect": {
+                      "w": 130,
+                      "h": 20,
+                      "y": 1028
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline-block"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 463,
+                  "h": 2,
+                  "y": 1052
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 463,
+                      "h": 0,
+                      "y": 1053
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "a",
+            "classes": "c-quick-access_link || o-typography -title-small",
+            "href": "https://festivent.ca/lieux-et-scenes/",
+            "rect": {
+              "w": 463,
+              "h": 72,
+              "y": 1054
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "span",
+                "rect": {
+                  "w": 123,
+                  "h": 20,
+                  "y": 1100
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-quick-access_label",
+                    "text": "Lieux et scènes",
+                    "rect": {
+                      "w": 123,
+                      "h": 20,
+                      "y": 1100
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline-block"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 463,
+                  "h": 2,
+                  "y": 1124
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 463,
+                      "h": 0,
+                      "y": 1125
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "a",
+            "classes": "c-quick-access_link || o-typography -title-small",
+            "href": "https://festivent.ca/foire-aux-questions/",
+            "rect": {
+              "w": 463,
+              "h": 72,
+              "y": 1126
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "span",
+                "rect": {
+                  "w": 163,
+                  "h": 20,
+                  "y": 1172
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-quick-access_label",
+                    "text": "Foire aux questions",
+                    "rect": {
+                      "w": 163,
+                      "h": 20,
+                      "y": 1172
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline-block"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 463,
+                  "h": 2,
+                  "y": 1196
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 463,
+                      "h": 0,
+                      "y": 1197
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "a",
+            "classes": "c-quick-access_link || o-typography -title-small",
+            "href": "https://festivent.ca/nous-joindre/",
+            "rect": {
+              "w": 463,
+              "h": 72,
+              "y": 1198
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "15px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "span",
+                "rect": {
+                  "w": 128,
+                  "h": 20,
+                  "y": 1244
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-quick-access_label",
+                    "text": "Contacte-nous",
+                    "rect": {
+                      "w": 128,
+                      "h": 20,
+                      "y": 1244
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline-block"
+                  }
+                ]
+              },
+              {
+                "tag": "svg",
+                "classes": {},
+                "rect": {
+                  "w": 463,
+                  "h": 2,
+                  "y": 1268
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "line",
+                    "classes": {},
+                    "text": "",
+                    "rect": {
+                      "w": 463,
+                      "h": 0,
+                      "y": 1269
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-quick-access_footer",
+            "rect": {
+              "w": 463,
+              "h": 80,
+              "y": 1630
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "children": [
+              {
+                "tag": "a",
+                "classes": "c-btn -fullwidth -secondary",
+                "href": "https://festivent.ca/wp-content/uploads/2025/08/plansite-festivent.pdf",
+                "rect": {
+                  "w": 415,
+                  "h": 56,
+                  "y": 1710
+                },
+                "display": "flex",
+                "position": "relative",
+                "borderRadius": "28px",
+                "children": [
+                  {
+                    "tag": "span",
+                    "classes": "c-btn_label",
+                    "text": "Plan du site 2025",
+                    "rect": {
+                      "w": 130,
+                      "h": 26,
+                      "y": 1727
+                    },
+                    "display": "block"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "button",
+        "classes": "c-quick-access_btn || o-typography -label-medium",
+        "rect": {
+          "w": 463,
+          "h": 56,
+          "y": 910
+        },
+        "bg": "rgb(199, 234, 251)",
+        "color": "rgb(21, 78, 133)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "700",
+        "textTransform": "uppercase",
+        "display": "flex",
+        "borderRadius": "28px",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "span",
+            "text": "Infos pratiques",
+            "rect": {
+              "w": 146,
+              "h": 17,
+              "y": 931
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "c-icon -oblong -t-secondary || c-quick-access_icon",
+            "rect": {
+              "w": 56,
+              "h": 40,
+              "y": 918
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "flex",
+            "position": "relative",
+            "borderRadius": "20px",
+            "children": [
+              {
+                "tag": "i",
+                "classes": "o-icon -chevron-down",
+                "text": "",
+                "rect": {
+                  "w": 24,
+                  "h": 24,
+                  "y": 926
+                },
+                "textTransform": "uppercase",
+                "display": "flex"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "classes": "dev-utils",
+    "rect": {
+      "w": 1440,
+      "h": 900,
+      "y": 0
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "position": "fixed",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "dev-grid o-container",
+        "rect": {
+          "w": 1440,
+          "h": 900,
+          "y": 0
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "grid",
+        "position": "fixed",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          },
+          {
+            "tag": "div",
+            "classes": "dev-grid_col",
+            "text": "",
+            "rect": {
+              "w": 98,
+              "h": 0,
+              "y": 900
+            },
+            "bg": "rgb(255, 255, 255)",
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "main",
+    "id": "swup",
+    "rect": {
+      "w": 1440,
+      "h": 9734,
+      "y": -11774
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "overflow": "clip",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "c-curtain is-loaded",
+        "rect": {
+          "w": 1440,
+          "h": 900,
+          "y": 0
+        },
+        "bg": "rgb(248, 158, 93)",
+        "color": "rgb(254, 247, 222)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "fixed",
+        "children": [
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.png",
+            "rect": {
+              "w": 1440,
+              "h": 680,
+              "y": -680
+            },
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+            "rect": {
+              "w": 2029,
+              "h": 928,
+              "y": 600
+            },
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "div",
+            "classes": "c-curtain_content",
+            "rect": {
+              "w": 1440,
+              "h": 39,
+              "y": 471
+            },
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "absolute",
+            "children": [
+              {
+                "tag": "p",
+                "classes": "o-typography -title-small",
+                "rect": {
+                  "w": 140,
+                  "h": 39,
+                  "y": 432
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "br",
+                    "text": "",
+                    "rect": {
+                      "w": 0,
+                      "h": 23,
+                      "y": 430
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              },
+              {
+                "tag": "p",
+                "classes": "o-typography -title-small",
+                "rect": {
+                  "w": 113,
+                  "h": 39,
+                  "y": 432
+                },
+                "textTransform": "uppercase",
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "br",
+                    "text": "",
+                    "rect": {
+                      "w": 0,
+                      "h": 23,
+                      "y": 430
+                    },
+                    "textTransform": "uppercase",
+                    "display": "inline"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "span",
+            "classes": "c-curtain_progress || o-typography -display-medium",
+            "text": "100%",
+            "rect": {
+              "w": 223,
+              "h": 97,
+              "y": -497
+            },
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "87.9999px",
+            "fontWeight": "700",
+            "textTransform": "uppercase",
+            "display": "block",
+            "position": "absolute"
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "classes": "c-hero",
+        "rect": {
+          "w": 1440,
+          "h": 2013,
+          "y": -11774
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-hero_wrapper || t-primary-300",
+            "rect": {
+              "w": 1440,
+              "h": 1204,
+              "y": -11774
+            },
+            "bg": "rgb(248, 158, 93)",
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "position": "relative",
+            "overflow": "hidden",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "c-hero_background",
+                "rect": {
+                  "w": 1440,
+                  "h": 1204,
+                  "y": -11774
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+                    "rect": {
+                      "w": 1000,
+                      "h": 1025,
+                      "y": -12194
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+                    "rect": {
+                      "w": 2709,
+                      "h": 1793,
+                      "y": -12674
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+                    "rect": {
+                      "w": 2029,
+                      "h": 928,
+                      "y": -11174
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+                    "rect": {
+                      "w": 2800,
+                      "h": 1751,
+                      "y": -11355
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+                    "rect": {
+                      "w": 4954,
+                      "h": 3097,
+                      "y": -12687
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere.png",
+                    "rect": {
+                      "w": 675,
+                      "h": 675,
+                      "y": -12427
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere-blur.png",
+                    "rect": {
+                      "w": 1017,
+                      "h": 1017,
+                      "y": -12786
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere.png",
+                    "rect": {
+                      "w": 1119,
+                      "h": 1119,
+                      "y": -12810
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere-blur.png",
+                    "rect": {
+                      "w": 401,
+                      "h": 401,
+                      "y": -12163
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-hero_inner || o-grid o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 1068,
+                  "y": -11638
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "c-hero_overline || u-gc-3/11 u-gc-full@laptop",
+                    "rect": {
+                      "w": 927,
+                      "h": 98,
+                      "y": -11582
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "p",
+                        "classes": "c-overline -lg || o-typography -headline-medium",
+                        "text": "Du 29 juillet",
+                        "rect": {
+                          "w": 203,
+                          "h": 67,
+                          "y": -11579
+                        },
+                        "bg": "rgb(199, 234, 251)",
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      },
+                      {
+                        "tag": "p",
+                        "classes": "c-overline -lg || o-typography -headline-medium",
+                        "text": "au 2 août 2026",
+                        "rect": {
+                          "w": 235,
+                          "h": 55,
+                          "y": -11542
+                        },
+                        "bg": "rgb(199, 234, 251)",
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-hero_title || u-gc-3/11 u-gc-full@laptop",
+                    "rect": {
+                      "w": 927,
+                      "h": 295,
+                      "y": -11460
+                    },
+                    "display": "flex",
+                    "overflow": "hidden",
+                    "children": [
+                      {
+                        "tag": "svg",
+                        "classes": {},
+                        "rect": {
+                          "w": 911,
+                          "h": 295,
+                          "y": -11460
+                        },
+                        "display": "block",
+                        "overflow": "hidden",
+                        "children": [
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 113,
+                              "h": 138,
+                              "y": -11325
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 186,
+                              "h": 273,
+                              "y": -11460
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 4,
+                              "h": 9,
+                              "y": -11247
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 128,
+                              "h": 182,
+                              "y": -11347
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 7,
+                              "h": 14,
+                              "y": -11261
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 171,
+                              "h": 286,
+                              "y": -11452
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 54,
+                              "h": 24,
+                              "y": -11209
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 118,
+                              "h": 126,
+                              "y": -11348
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 57,
+                              "h": 135,
+                              "y": -11323
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 6,
+                              "h": 2,
+                              "y": -11447
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 272,
+                              "h": 288,
+                              "y": -11454
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 104,
+                              "h": 136,
+                              "y": -11324
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 9,
+                              "h": 36,
+                              "y": -11271
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 1,
+                              "h": 4,
+                              "y": -11234
+                            },
+                            "display": "inline"
+                          },
+                          {
+                            "tag": "path",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 101,
+                              "h": 136,
+                              "y": -11324
+                            },
+                            "display": "inline"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-hero_parners || u-gc-full",
+                    "rect": {
+                      "w": 1400,
+                      "h": 99,
+                      "y": -11133
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "c-hero_partner",
+                        "rect": {
+                          "w": 224,
+                          "h": 99,
+                          "y": -11133
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "children": [
+                          {
+                            "tag": "p",
+                            "classes": "o-typography -title-small",
+                            "text": "Partenaire en titre",
+                            "rect": {
+                              "w": 154,
+                              "h": 20,
+                              "y": -11133
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-hero_logo || o-mask",
+                            "text": "",
+                            "rect": {
+                              "w": 168,
+                              "h": 56,
+                              "y": -11090
+                            },
+                            "bg": "rgb(254, 247, 222)",
+                            "display": "block"
+                          },
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 2,
+                              "h": 99,
+                              "y": -11133
+                            },
+                            "display": "block",
+                            "position": "absolute"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-hero_partner",
+                        "rect": {
+                          "w": 224,
+                          "h": 99,
+                          "y": -11133
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "children": [
+                          {
+                            "tag": "p",
+                            "classes": "o-typography -title-small",
+                            "text": "Présenté par",
+                            "rect": {
+                              "w": 105,
+                              "h": 20,
+                              "y": -11133
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-hero_logo || o-mask",
+                            "text": "",
+                            "rect": {
+                              "w": 168,
+                              "h": 56,
+                              "y": -11090
+                            },
+                            "bg": "rgb(254, 247, 222)",
+                            "display": "block"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-hero_link || u-gc-3/11 u-gc-full@laptop",
+                    "rect": {
+                      "w": 927,
+                      "h": 144,
+                      "y": -10914
+                    },
+                    "display": "block",
+                    "children": [
+                      {
+                        "tag": "a",
+                        "classes": "c-btn -jumbo",
+                        "href": "https://festivent.ca/billetterie/",
+                        "rect": {
+                          "w": 927,
+                          "h": 144,
+                          "y": -10914
+                        },
+                        "textTransform": "uppercase",
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "72px",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 925,
+                              "h": 142,
+                              "y": -10913
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "span",
+                            "classes": "c-btn_label",
+                            "text": "J'achète mon billet!",
+                            "rect": {
+                              "w": 341,
+                              "h": 32,
+                              "y": -10854
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-hero_video || c-bulge",
+            "rect": {
+              "w": 1440,
+              "h": 900,
+              "y": -10661
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "relative",
+            "children": [
+              {
+                "tag": "video",
+                "rect": {
+                  "w": 1440,
+                  "h": 1100,
+                  "y": -10561
+                },
+                "display": "block",
+                "position": "absolute",
+                "overflow": "clip"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "classes": "o-section -collapse u-relative",
+        "rect": {
+          "w": 1440,
+          "h": 1386,
+          "y": -9761
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "relative",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "o-section_inner",
+            "rect": {
+              "w": 1440,
+              "h": 1162,
+              "y": -9697
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_header -compact o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 272,
+                  "y": -9697
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-section_heading",
+                    "rect": {
+                      "w": 927,
+                      "h": 272,
+                      "y": -9697
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "p",
+                        "classes": "c-overline || o-typography -headline-small",
+                        "text": "Prog complète - À venir!",
+                        "rect": {
+                          "w": 271,
+                          "h": 54,
+                          "y": -9697
+                        },
+                        "bg": "rgb(199, 234, 251)",
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      },
+                      {
+                        "tag": "h2",
+                        "classes": "o-section_title || o-typography -display-medium",
+                        "text": "Premiers artistes 2026",
+                        "rect": {
+                          "w": 927,
+                          "h": 194,
+                          "y": -9618
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "o-section_content o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 810,
+                  "y": -9345
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "img",
+                    "classes": "o-section_shape",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur.png",
+                    "rect": {
+                      "w": 800,
+                      "h": 800,
+                      "y": -10161
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "classes": "o-section_shape",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur.png",
+                    "rect": {
+                      "w": 800,
+                      "h": 800,
+                      "y": -9455
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "classes": "o-section_shape",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolifiere-blue.png",
+                    "rect": {
+                      "w": 640,
+                      "h": 640,
+                      "y": -9046
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee",
+                    "rect": {
+                      "w": 1400,
+                      "h": 602,
+                      "y": -9345
+                    },
+                    "display": "block",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "o-marquee_wrapper",
+                        "rect": {
+                          "w": 4260,
+                          "h": 602,
+                          "y": -9345
+                        },
+                        "display": "inline-flex",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "o-marquee_content",
+                            "rect": {
+                              "w": 1420,
+                              "h": 602,
+                              "y": -9345
+                            },
+                            "display": "flex"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "o-marquee_content",
+                            "rect": {
+                              "w": 1420,
+                              "h": 602,
+                              "y": -9345
+                            },
+                            "display": "flex"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "o-marquee_content",
+                            "rect": {
+                              "w": 1420,
+                              "h": 602,
+                              "y": -9345
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-grid || u-mt-800",
+                    "rect": {
+                      "w": 1400,
+                      "h": 144,
+                      "y": -8679
+                    },
+                    "display": "grid",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "u-gc-3/11 u-gc-full@laptop",
+                        "rect": {
+                          "w": 927,
+                          "h": 144,
+                          "y": -8679
+                        },
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "a",
+                            "classes": "c-btn -jumbo",
+                            "href": "https://festivent.ca/programmation/",
+                            "rect": {
+                              "w": 927,
+                              "h": 144,
+                              "y": -8679
+                            },
+                            "textTransform": "uppercase",
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "72px"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "c-background || c-bulge",
+        "rect": {
+          "w": 1440,
+          "h": 1566,
+          "y": -8466
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "relative",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png",
+            "rect": {
+              "w": 720,
+              "h": 720,
+              "y": -8826
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+            "rect": {
+              "w": 940,
+              "h": 929,
+              "y": -8783
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-landscape.png",
+            "rect": {
+              "w": 2983,
+              "h": 1331,
+              "y": -8323
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "section",
+            "classes": "o-section -collapse -roomy",
+            "rect": {
+              "w": 1440,
+              "h": 720,
+              "y": -8375
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_inner",
+                "rect": {
+                  "w": 1440,
+                  "h": 400,
+                  "y": -8215
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-section_content o-container",
+                    "rect": {
+                      "w": 1440,
+                      "h": 400,
+                      "y": -8215
+                    },
+                    "display": "block",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "o-grid",
+                        "rect": {
+                          "w": 1400,
+                          "h": 400,
+                          "y": -8215
+                        },
+                        "display": "grid",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "u-gc-2/12 u-gc-full@laptop",
+                            "rect": {
+                              "w": 1163,
+                              "h": 400,
+                              "y": -8215
+                            },
+                            "display": "block"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "section",
+            "classes": "o-section -collapse -roomy -no-spacing-bottom",
+            "rect": {
+              "w": 1440,
+              "h": 754,
+              "y": -7655
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_inner",
+                "rect": {
+                  "w": 1440,
+                  "h": 754,
+                  "y": -7655
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-section_header -compact o-container",
+                    "rect": {
+                      "w": 1440,
+                      "h": 221,
+                      "y": -7655
+                    },
+                    "display": "grid",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "o-section_heading",
+                        "rect": {
+                          "w": 927,
+                          "h": 221,
+                          "y": -7655
+                        },
+                        "display": "flex",
+                        "children": [
+                          {
+                            "tag": "h2",
+                            "classes": "o-section_title || o-typography -display-small",
+                            "text": "Profite de 2 scènes côte à côte",
+                            "rect": {
+                              "w": 927,
+                              "h": 141,
+                              "y": -7655
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          },
+                          {
+                            "tag": "a",
+                            "classes": "c-btn",
+                            "href": "https://festivent.ca/lieux-et-scenes/",
+                            "rect": {
+                              "w": 215,
+                              "h": 56,
+                              "y": -7490
+                            },
+                            "textTransform": "uppercase",
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "28px"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-section_content o-container",
+                    "rect": {
+                      "w": 1440,
+                      "h": 453,
+                      "y": -7354
+                    },
+                    "display": "block",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "c-cta-s1",
+                        "rect": {
+                          "w": 453,
+                          "h": 453,
+                          "y": -7354
+                        },
+                        "display": "block",
+                        "position": "relative",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "c-cta-s1_media",
+                            "rect": {
+                              "w": 484,
+                              "h": 484,
+                              "y": -7353
+                            },
+                            "display": "block",
+                            "position": "relative",
+                            "borderRadius": "16px",
+                            "overflow": "hidden"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "classes": "o-section -secondary-500 -collapse || t-secondary-500",
+        "rect": {
+          "w": 1440,
+          "h": 2084,
+          "y": -6901
+        },
+        "bg": "rgb(21, 78, 133)",
+        "color": "rgb(199, 234, 251)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "o-section_inner",
+            "rect": {
+              "w": 1440,
+              "h": 1860,
+              "y": -6837
+            },
+            "color": "rgb(199, 234, 251)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_header -spacious o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 272,
+                  "y": -6837
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-section_heading",
+                    "rect": {
+                      "w": 927,
+                      "h": 272,
+                      "y": -6837
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "p",
+                        "classes": "c-overline || o-typography -headline-small",
+                        "text": "Famille & montgolfières",
+                        "rect": {
+                          "w": 269,
+                          "h": 54,
+                          "y": -6836
+                        },
+                        "bg": "rgb(254, 247, 222)",
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      },
+                      {
+                        "tag": "h2",
+                        "classes": "o-section_title || o-typography -display-medium",
+                        "text": "Activités pour petits et grands",
+                        "rect": {
+                          "w": 927,
+                          "h": 194,
+                          "y": -6758
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "o-section_content o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 1428,
+                  "y": -6404
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "a",
+                    "classes": "c-media-text-s2 || o-grid -gutters-y-200 -cols-2 -cols-1@laptop",
+                    "href": "https://festivent.ca/famille/",
+                    "rect": {
+                      "w": 1400,
+                      "h": 690,
+                      "y": -6404
+                    },
+                    "display": "grid",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "c-media-text-s2_content",
+                        "rect": {
+                          "w": 690,
+                          "h": 690,
+                          "y": -6404
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "16px",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 688,
+                              "h": 688,
+                              "y": -6403
+                            },
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-media-text-s2_heading",
+                            "rect": {
+                              "w": 640,
+                              "h": 316,
+                              "y": -6379
+                            },
+                            "display": "flex"
+                          },
+                          {
+                            "tag": "span",
+                            "classes": "c-btn -fullwidth || c-media-text-s2_link",
+                            "rect": {
+                              "w": 640,
+                              "h": 56,
+                              "y": -5795
+                            },
+                            "textTransform": "uppercase",
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "28px"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-media-text-s2_media",
+                        "rect": {
+                          "w": 690,
+                          "h": 690,
+                          "y": -6404
+                        },
+                        "display": "block",
+                        "position": "relative",
+                        "borderRadius": "16px",
+                        "overflow": "hidden",
+                        "children": [
+                          {
+                            "tag": "img",
+                            "classes": "c-media-text-s2_image",
+                            "text": "",
+                            "src": "https://festivent.ca/wp-content/uploads/2025/10/famille-fv25.jpg",
+                            "rect": {
+                              "w": 690,
+                              "h": 690,
+                              "y": -6404
+                            },
+                            "display": "block",
+                            "position": "absolute",
+                            "overflow": "clip"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "a",
+                    "classes": "c-media-text-s2 || o-grid -gutters-y-200 -cols-2 -cols-1@laptop",
+                    "href": "https://festivent.ca/programmation/?type=aerienne",
+                    "rect": {
+                      "w": 1400,
+                      "h": 690,
+                      "y": -5666
+                    },
+                    "display": "grid",
+                    "children": [
+                      {
+                        "tag": "div",
+                        "classes": "c-media-text-s2_content",
+                        "rect": {
+                          "w": 690,
+                          "h": 690,
+                          "y": -5666
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "16px",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 688,
+                              "h": 688,
+                              "y": -5665
+                            },
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-media-text-s2_heading",
+                            "rect": {
+                              "w": 640,
+                              "h": 318,
+                              "y": -5641
+                            },
+                            "display": "flex"
+                          },
+                          {
+                            "tag": "span",
+                            "classes": "c-btn -fullwidth || c-media-text-s2_link",
+                            "rect": {
+                              "w": 640,
+                              "h": 56,
+                              "y": -5057
+                            },
+                            "textTransform": "uppercase",
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "28px"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-media-text-s2_media",
+                        "rect": {
+                          "w": 690,
+                          "h": 690,
+                          "y": -5666
+                        },
+                        "display": "block",
+                        "position": "relative",
+                        "borderRadius": "16px",
+                        "overflow": "hidden",
+                        "children": [
+                          {
+                            "tag": "img",
+                            "classes": "c-media-text-s2_image",
+                            "text": "",
+                            "src": "https://festivent.ca/wp-content/uploads/2025/10/31072025-mongolfieres-elisabethjolyphotographe-3475.jpg",
+                            "rect": {
+                              "w": 690,
+                              "h": 690,
+                              "y": -5666
+                            },
+                            "display": "block",
+                            "position": "absolute",
+                            "overflow": "clip"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "classes": "o-section -secondary-700 -no-spacing || t-secondary-700",
+        "rect": {
+          "w": 1440,
+          "h": 1799,
+          "y": -4816
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "o-section_inner",
+            "rect": {
+              "w": 1440,
+              "h": 1799,
+              "y": -4816
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_content",
+                "rect": {
+                  "w": 1440,
+                  "h": 1799,
+                  "y": -4816
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "c-cta-s2",
+                    "rect": {
+                      "w": 1440,
+                      "h": 1799,
+                      "y": -4816
+                    },
+                    "display": "block",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "img",
+                        "classes": "c-cta-s2_background",
+                        "text": "",
+                        "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.jpg",
+                        "rect": {
+                          "w": 1440,
+                          "h": 1799,
+                          "y": -4816
+                        },
+                        "display": "block",
+                        "position": "absolute",
+                        "overflow": "clip"
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "o-container",
+                        "rect": {
+                          "w": 1440,
+                          "h": 1087,
+                          "y": -4576
+                        },
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "c-cta-s2_heading",
+                            "rect": {
+                              "w": 1400,
+                              "h": 416,
+                              "y": -4736
+                            },
+                            "display": "flex"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-cta-s2_content || o-grid",
+                            "rect": {
+                              "w": 1400,
+                              "h": 567,
+                              "y": -4056
+                            },
+                            "display": "grid"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "section",
+        "classes": "o-section -collapse",
+        "rect": {
+          "w": 1440,
+          "h": 977,
+          "y": -3017
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "o-section_inner",
+            "rect": {
+              "w": 1440,
+              "h": 753,
+              "y": -2953
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-section_header o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 97,
+                  "y": -2953
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-section_heading",
+                    "rect": {
+                      "w": 927,
+                      "h": 97,
+                      "y": -2953
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "h2",
+                        "classes": "o-section_title || o-typography -display-medium",
+                        "text": "Prépare ta visite",
+                        "rect": {
+                          "w": 778,
+                          "h": 97,
+                          "y": -2953
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "o-section_content o-container",
+                "rect": {
+                  "w": 1440,
+                  "h": 536,
+                  "y": -2736
+                },
+                "display": "block",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-layout -col -gutter -gutters-y-500",
+                    "rect": {
+                      "w": 1400,
+                      "h": 536,
+                      "y": -2736
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "a",
+                        "classes": "c-media-card || o-grid",
+                        "href": "https://festivent.ca/infos-festivaliers/",
+                        "rect": {
+                          "w": 1400,
+                          "h": 248,
+                          "y": -2736
+                        },
+                        "display": "grid",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "c-media-card_media || u-gc-1/4 u-gc-1/5@laptop u-gc-full@tablet",
+                            "rect": {
+                              "w": 335,
+                              "h": 248,
+                              "y": -2736
+                            },
+                            "display": "block",
+                            "position": "relative",
+                            "borderRadius": "16px",
+                            "overflow": "hidden"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-media-card_content || u-gc-4/13 u-gc-5/13@laptop u-gc-full@tablet",
+                            "rect": {
+                              "w": 1065,
+                              "h": 248,
+                              "y": -2736
+                            },
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "16px"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-media-card || o-grid",
+                        "href": "https://festivent.ca/zones-experience/",
+                        "rect": {
+                          "w": 1400,
+                          "h": 248,
+                          "y": -2448
+                        },
+                        "display": "grid",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "c-media-card_media || u-gc-1/4 u-gc-1/5@laptop u-gc-full@tablet",
+                            "rect": {
+                              "w": 335,
+                              "h": 248,
+                              "y": -2448
+                            },
+                            "display": "block",
+                            "position": "relative",
+                            "borderRadius": "16px",
+                            "overflow": "hidden"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "c-media-card_content || u-gc-4/13 u-gc-5/13@laptop u-gc-full@tablet",
+                            "rect": {
+                              "w": 1065,
+                              "h": 248,
+                              "y": -2448
+                            },
+                            "display": "flex",
+                            "position": "relative",
+                            "borderRadius": "16px"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "classes": "c-socials-cta || c-bulge || t-secondary-200",
+    "rect": {
+      "w": 1440,
+      "h": 949,
+      "y": -2132
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "position": "relative",
+    "overflow": "hidden",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "c-socials-cta_background",
+        "rect": {
+          "w": 1440,
+          "h": 949,
+          "y": -2132
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "absolute",
+        "children": [
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+            "rect": {
+              "w": 1080,
+              "h": 1107,
+              "y": -2045
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          },
+          {
+            "tag": "img",
+            "text": "",
+            "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+            "rect": {
+              "w": 1393,
+              "h": 1410,
+              "y": -1721
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "overflow": "clip"
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "c-socials-cta_inner",
+        "rect": {
+          "w": 1440,
+          "h": 858,
+          "y": -2040
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "relative",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-socials-cta_gallery",
+            "rect": {
+              "w": 1440,
+              "h": 858,
+              "y": -2040
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "c-socials-cta_media",
+                "rect": {
+                  "w": 220,
+                  "h": 220,
+                  "y": -2275
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "classes": "c-socials-cta_image",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/uploads/2025/07/olivia-lapierre-forin-99.jpg",
+                    "rect": {
+                      "w": 220,
+                      "h": 220,
+                      "y": -2256
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "borderRadius": "24px",
+                    "overflow": "clip"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-socials-cta_media",
+                "rect": {
+                  "w": 310,
+                  "h": 310,
+                  "y": -2285
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "classes": "c-socials-cta_image",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/uploads/2025/07/20150801_festivent_lifeincolor-276-credit-stephanegaudreau-1.jpg",
+                    "rect": {
+                      "w": 310,
+                      "h": 310,
+                      "y": -2305
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "borderRadius": "24px",
+                    "overflow": "clip"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-socials-cta_media",
+                "rect": {
+                  "w": 198,
+                  "h": 198,
+                  "y": -1669
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "classes": "c-socials-cta_image",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/uploads/2025/07/20240801_ambiance_sebastiendion_sd2_6710.jpg",
+                    "rect": {
+                      "w": 198,
+                      "h": 198,
+                      "y": -1674
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "borderRadius": "24px",
+                    "overflow": "clip"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-socials-cta_media",
+                "rect": {
+                  "w": 271,
+                  "h": 271,
+                  "y": -1633
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "classes": "c-socials-cta_image",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/uploads/2025/07/020823_ambiance_sebdion_042-2560x1708.jpg",
+                    "rect": {
+                      "w": 271,
+                      "h": 271,
+                      "y": -1614
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "borderRadius": "24px",
+                    "overflow": "clip"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "o-grid || o-container",
+            "rect": {
+              "w": 1440,
+              "h": 858,
+              "y": -2040
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "grid",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "c-socials-cta_content || u-gc-4/10 u-gc-2/12@laptop u-gc-full@tablet",
+                "rect": {
+                  "w": 690,
+                  "h": 858,
+                  "y": -2040
+                },
+                "display": "flex",
+                "children": [
+                  {
+                    "tag": "p",
+                    "classes": "c-overline || o-typography -headline-small || c-socials-cta_overline",
+                    "text": "Ne manque rien!",
+                    "rect": {
+                      "w": 189,
+                      "h": 49,
+                      "y": -1797
+                    },
+                    "bg": "rgb(254, 247, 222)",
+                    "textTransform": "uppercase",
+                    "display": "block"
+                  },
+                  {
+                    "tag": "h2",
+                    "classes": "c-socials-cta_title",
+                    "rect": {
+                      "w": 552,
+                      "h": 211,
+                      "y": -1722
+                    },
+                    "textTransform": "uppercase",
+                    "display": "block",
+                    "children": [
+                      {
+                        "tag": "br",
+                        "text": "",
+                        "rect": {
+                          "w": 0,
+                          "h": 99,
+                          "y": -1737
+                        },
+                        "textTransform": "uppercase",
+                        "display": "inline"
+                      },
+                      {
+                        "tag": "br",
+                        "text": "",
+                        "rect": {
+                          "w": 0,
+                          "h": 99,
+                          "y": -1666
+                        },
+                        "textTransform": "uppercase",
+                        "display": "inline"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-layout -gutters-x-100",
+                    "rect": {
+                      "w": 216,
+                      "h": 48,
+                      "y": -1471
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "a",
+                        "classes": "c-icon",
+                        "href": "https://www.facebook.com/festivent/",
+                        "rect": {
+                          "w": 48,
+                          "h": 48,
+                          "y": -1471
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "50%",
+                        "children": [
+                          {
+                            "tag": "i",
+                            "classes": "o-icon -facebook",
+                            "text": "",
+                            "rect": {
+                              "w": 24,
+                              "h": 24,
+                              "y": -1459
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-icon",
+                        "href": "https://www.instagram.com/festiventlevis/",
+                        "rect": {
+                          "w": 48,
+                          "h": 48,
+                          "y": -1471
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "50%",
+                        "children": [
+                          {
+                            "tag": "i",
+                            "classes": "o-icon -instagram",
+                            "text": "",
+                            "rect": {
+                              "w": 24,
+                              "h": 24,
+                              "y": -1459
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-icon",
+                        "href": "https://www.tiktok.com/@festiventlevis",
+                        "rect": {
+                          "w": 48,
+                          "h": 48,
+                          "y": -1471
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "50%",
+                        "children": [
+                          {
+                            "tag": "i",
+                            "classes": "o-icon -tiktok",
+                            "text": "",
+                            "rect": {
+                              "w": 24,
+                              "h": 24,
+                              "y": -1459
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-icon",
+                        "href": "https://www.youtube.com/user/Festiventlevis",
+                        "rect": {
+                          "w": 48,
+                          "h": 48,
+                          "y": -1471
+                        },
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "50%",
+                        "children": [
+                          {
+                            "tag": "i",
+                            "classes": "o-icon -youtube",
+                            "text": "",
+                            "rect": {
+                              "w": 24,
+                              "h": 24,
+                              "y": -1459
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "footer",
+    "classes": "c-footer",
+    "rect": {
+      "w": 1440,
+      "h": 2174,
+      "y": -1274
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "c-footer_wrapper || c-bulge",
+        "rect": {
+          "w": 1440,
+          "h": 1718,
+          "y": -1274
+        },
+        "color": "rgb(254, 247, 222)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "relative",
+        "borderRadius": "0px 0px 8px 8px",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "o-container",
+            "rect": {
+              "w": 1440,
+              "h": 1627,
+              "y": -1183
+            },
+            "color": "rgb(254, 247, 222)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "c-footer_background",
+                "rect": {
+                  "w": 1440,
+                  "h": 1718,
+                  "y": -1274
+                },
+                "display": "block",
+                "position": "absolute",
+                "children": [
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+                    "rect": {
+                      "w": 3000,
+                      "h": 1288,
+                      "y": 213
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+                    "rect": {
+                      "w": 1000,
+                      "h": 1025,
+                      "y": -580
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png",
+                    "rect": {
+                      "w": 1000,
+                      "h": 1000,
+                      "y": -355
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/dark-blue-blur.png",
+                    "rect": {
+                      "w": 5756,
+                      "h": 4470,
+                      "y": -3732
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  },
+                  {
+                    "tag": "img",
+                    "text": "",
+                    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/ferris-wheel.png",
+                    "rect": {
+                      "w": 2642,
+                      "h": 2642,
+                      "y": -1146
+                    },
+                    "display": "block",
+                    "position": "absolute",
+                    "overflow": "clip"
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "o-grid",
+                "rect": {
+                  "w": 1400,
+                  "h": 864,
+                  "y": -1183
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_cta || u-gc-3/11 u-gc-2/12@lapto u-gc-full@tablet || t-secondary-700",
+                    "rect": {
+                      "w": 927,
+                      "h": 864,
+                      "y": -1183
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "p",
+                        "classes": "c-overline || o-typography -headline-small -reverse || c-footer_cta-overline",
+                        "text": "En vente dès maintenant!",
+                        "rect": {
+                          "w": 274,
+                          "h": 55,
+                          "y": -942
+                        },
+                        "bg": "rgb(254, 247, 222)",
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      },
+                      {
+                        "tag": "h2",
+                        "classes": "c-footer_cta-title || o-typography -display-medium",
+                        "text": "Rejoins la fête, prends ton billet!",
+                        "rect": {
+                          "w": 927,
+                          "h": 194,
+                          "y": -856
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-btn",
+                        "href": "https://festivent.ca/billetterie/",
+                        "rect": {
+                          "w": 180,
+                          "h": 56,
+                          "y": -614
+                        },
+                        "textTransform": "uppercase",
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "28px",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 178,
+                              "h": 54,
+                              "y": -613
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "span",
+                            "classes": "c-btn_label",
+                            "text": "Billetterie",
+                            "rect": {
+                              "w": 98,
+                              "h": 17,
+                              "y": -593
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-footer_inner | o-grid -cols-2 -cols-1@laptop -gutters-none",
+                "rect": {
+                  "w": 1400,
+                  "h": 526,
+                  "y": -318
+                },
+                "bg": "rgb(254, 247, 222)",
+                "display": "grid",
+                "borderRadius": "8px",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_col",
+                    "rect": {
+                      "w": 700,
+                      "h": 526,
+                      "y": -318
+                    },
+                    "display": "flex",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "h2",
+                        "classes": "o-typography -display-small",
+                        "rect": {
+                          "w": 620,
+                          "h": 211,
+                          "y": -278
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "br",
+                            "text": "",
+                            "rect": {
+                              "w": 0,
+                              "h": 99,
+                              "y": -293
+                            },
+                            "textTransform": "uppercase",
+                            "display": "inline"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-btn",
+                        "href": "https://festivent.us11.list-manage.com/subscribe?u=2bc4738db3e3400192a382236&id=60c1ed8b95",
+                        "rect": {
+                          "w": 317,
+                          "h": 56,
+                          "y": -35
+                        },
+                        "textTransform": "uppercase",
+                        "display": "flex",
+                        "position": "relative",
+                        "borderRadius": "28px",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 315,
+                              "h": 54,
+                              "y": -34
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "span",
+                            "classes": "c-btn_label",
+                            "text": "Abonne-toi à l’infolettre",
+                            "rect": {
+                              "w": 235,
+                              "h": 17,
+                              "y": -14
+                            },
+                            "textTransform": "uppercase",
+                            "display": "block"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-footer_socials",
+                        "rect": {
+                          "w": 216,
+                          "h": 48,
+                          "y": 120
+                        },
+                        "display": "block",
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classes": "o-layout -gutters-x-100",
+                            "rect": {
+                              "w": 216,
+                              "h": 48,
+                              "y": 120
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_col",
+                    "rect": {
+                      "w": 700,
+                      "h": 526,
+                      "y": -318
+                    },
+                    "display": "block",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "svg",
+                        "classes": {},
+                        "rect": {
+                          "w": 2,
+                          "h": 526,
+                          "y": -318
+                        },
+                        "display": "block",
+                        "position": "absolute",
+                        "children": [
+                          {
+                            "tag": "line",
+                            "classes": {},
+                            "text": "",
+                            "rect": {
+                              "w": 0,
+                              "h": 526,
+                              "y": -318
+                            },
+                            "display": "inline"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-footer_row",
+                        "rect": {
+                          "w": 700,
+                          "h": 227,
+                          "y": -318
+                        },
+                        "display": "block",
+                        "position": "relative",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 692,
+                              "h": 2,
+                              "y": -318
+                            },
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "nav",
+                            "classes": "c-footer_nav -main",
+                            "rect": {
+                              "w": 652,
+                              "h": 147,
+                              "y": -278
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      },
+                      {
+                        "tag": "div",
+                        "classes": "c-footer_row || o-grid -cols-2 -cols-1@tablet -gutters-y-500",
+                        "rect": {
+                          "w": 700,
+                          "h": 299,
+                          "y": -91
+                        },
+                        "display": "grid",
+                        "position": "relative",
+                        "children": [
+                          {
+                            "tag": "svg",
+                            "classes": {},
+                            "rect": {
+                              "w": 692,
+                              "h": 2,
+                              "y": -91
+                            },
+                            "display": "block",
+                            "position": "absolute"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "o-grid_item",
+                            "rect": {
+                              "w": 316,
+                              "h": 219,
+                              "y": -51
+                            },
+                            "display": "block"
+                          },
+                          {
+                            "tag": "div",
+                            "classes": "o-grid_item",
+                            "rect": {
+                              "w": 316,
+                              "h": 219,
+                              "y": -51
+                            },
+                            "display": "block"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "tag": "div",
+                "classes": "c-footer_legal || o-grid -cols-3 -cols-1@tablet -gutters-y-500",
+                "rect": {
+                  "w": 1400,
+                  "h": 117,
+                  "y": 328
+                },
+                "display": "grid",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_col",
+                    "rect": {
+                      "w": 453,
+                      "h": 93,
+                      "y": 328
+                    },
+                    "display": "flex",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "a",
+                        "classes": "c-footer_link || o-typography -title-medium",
+                        "text": "Politique de confidentialité",
+                        "href": "https://festivent.ca/politique-de-confidentialite/",
+                        "rect": {
+                          "w": 453,
+                          "h": 26,
+                          "y": 328
+                        },
+                        "display": "block"
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-footer_link || o-typography -title-medium",
+                        "text": "Conditions de vente",
+                        "href": "https://festivent.ca/conditions-de-vente/",
+                        "rect": {
+                          "w": 453,
+                          "h": 26,
+                          "y": 362
+                        },
+                        "display": "block"
+                      },
+                      {
+                        "tag": "a",
+                        "classes": "c-footer_link || o-typography -title-medium",
+                        "text": "Site web par Les Prétentieux",
+                        "href": "https://lespretentieux.com",
+                        "rect": {
+                          "w": 453,
+                          "h": 26,
+                          "y": 395
+                        },
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_col",
+                    "rect": {
+                      "w": 453,
+                      "h": 26,
+                      "y": 395
+                    },
+                    "display": "block",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "text": "© 2025 | Festivent",
+                        "rect": {
+                          "w": 140,
+                          "h": 24,
+                          "y": 395
+                        },
+                        "display": "inline"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "c-footer_col",
+                    "rect": {
+                      "w": 453,
+                      "h": 48,
+                      "y": 373
+                    },
+                    "display": "block",
+                    "position": "relative",
+                    "children": [
+                      {
+                        "tag": "a",
+                        "classes": "c-icon -t-primary",
+                        "href": "javascript:;",
+                        "rect": {
+                          "w": 48,
+                          "h": 48,
+                          "y": 373
+                        },
+                        "display": "inline-flex",
+                        "position": "relative",
+                        "borderRadius": "50%",
+                        "children": [
+                          {
+                            "tag": "i",
+                            "classes": "o-icon -arrow-up",
+                            "text": "",
+                            "rect": {
+                              "w": 24,
+                              "h": 24,
+                              "y": 385
+                            },
+                            "display": "flex"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tag": "div",
+        "classes": "c-footer_sticky",
+        "rect": {
+          "w": 1440,
+          "h": 456,
+          "y": 444
+        },
+        "bg": "rgb(15, 51, 86)",
+        "color": "rgb(255, 255, 255)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "sticky",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "c-footer_marquee || o-marquee",
+            "rect": {
+              "w": 1440,
+              "h": 168,
+              "y": 588
+            },
+            "color": "rgb(21, 78, 133)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "position": "absolute",
+            "children": [
+              {
+                "tag": "div",
+                "classes": "o-marquee_wrapper",
+                "rect": {
+                  "w": 6391,
+                  "h": 168,
+                  "y": 588
+                },
+                "display": "inline-flex",
+                "children": [
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content",
+                    "rect": {
+                      "w": 2090,
+                      "h": 168,
+                      "y": 588
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -display-large",
+                        "text": "Merci à nos partenaires",
+                        "rect": {
+                          "w": 2090,
+                          "h": 168,
+                          "y": 588
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content",
+                    "rect": {
+                      "w": 2090,
+                      "h": 168,
+                      "y": 588
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -display-large",
+                        "text": "Merci à nos partenaires",
+                        "rect": {
+                          "w": 2090,
+                          "h": 168,
+                          "y": 588
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "classes": "o-marquee_content",
+                    "rect": {
+                      "w": 2090,
+                      "h": 168,
+                      "y": 588
+                    },
+                    "display": "flex",
+                    "children": [
+                      {
+                        "tag": "span",
+                        "classes": "o-typography -display-large",
+                        "text": "Merci à nos partenaires",
+                        "rect": {
+                          "w": 2090,
+                          "h": 168,
+                          "y": 588
+                        },
+                        "textTransform": "uppercase",
+                        "display": "block"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "c-footer_partners || o-container",
+            "rect": {
+              "w": 1440,
+              "h": 456,
+              "y": 444
+            },
+            "color": "rgb(255, 255, 255)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "flex",
+            "children": [
+              {
+                "tag": "img",
+                "text": "",
+                "src": "https://festivent.ca/wp-content/uploads/2025/07/15c3e803ca76627f6ac7dbd62547faf7ced1e0a6.jpg",
+                "rect": {
+                  "w": 233,
+                  "h": 194,
+                  "y": 575
+                },
+                "display": "block",
+                "borderRadius": "8px",
+                "overflow": "clip"
+              },
+              {
+                "tag": "img",
+                "text": "",
+                "src": "https://festivent.ca/wp-content/uploads/2025/07/0e938455772deb206c2ca796ef7310875de83780.jpg",
+                "rect": {
+                  "w": 233,
+                  "h": 194,
+                  "y": 575
+                },
+                "display": "block",
+                "borderRadius": "8px",
+                "overflow": "clip"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tag": "div",
+    "classes": "c-overlay",
+    "text": "",
+    "rect": {
+      "w": 1440,
+      "h": 900,
+      "y": 0
+    },
+    "bg": "rgb(0, 0, 0)",
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "position": "fixed"
+  },
+  {
+    "tag": "div",
+    "rect": {
+      "w": 1440,
+      "h": 0,
+      "y": 900
+    },
+    "color": "rgb(241, 92, 86)",
+    "font": "\"Metro Sans\"",
+    "fontSize": "17px",
+    "fontWeight": "400",
+    "display": "block",
+    "children": [
+      {
+        "tag": "div",
+        "classes": "grecaptcha-badge",
+        "rect": {
+          "w": 256,
+          "h": 60,
+          "y": 826
+        },
+        "color": "rgb(241, 92, 86)",
+        "font": "\"Metro Sans\"",
+        "fontSize": "17px",
+        "fontWeight": "400",
+        "display": "block",
+        "position": "fixed",
+        "borderRadius": "2px",
+        "overflow": "hidden",
+        "children": [
+          {
+            "tag": "div",
+            "classes": "grecaptcha-logo",
+            "rect": {
+              "w": 256,
+              "h": 60,
+              "y": 826
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block",
+            "children": [
+              {
+                "tag": "iframe",
+                "text": "",
+                "src": "https://www.google.com/recaptcha/api2/anchor?ar=1&k=6LcCmAQsAAAAAEDHHUB-Ll2kVGy9aBcEy1SGzJRd&co=aHR0cHM6Ly9mZXN0aXZlbnQuY2E6NDQz&hl=it&v=QvLuXwupqtKCyjBw2xIzFLIf&size=invisible&anchor-ms=20000&execute-ms=30000&cb=zdrcvrykbzs0",
+                "rect": {
+                  "w": 256,
+                  "h": 60,
+                  "y": 826
+                },
+                "display": "inline",
+                "overflow": "clip"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "classes": "grecaptcha-error",
+            "text": "",
+            "rect": {
+              "w": 256,
+              "h": 0,
+              "y": 886
+            },
+            "color": "rgb(241, 92, 86)",
+            "font": "\"Metro Sans\"",
+            "fontSize": "17px",
+            "fontWeight": "400",
+            "display": "block"
+          }
+        ]
+      }
+    ]
+  }
+]

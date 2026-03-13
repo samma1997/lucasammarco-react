@@ -1,0 +1,9 @@
+{
+  "classes": "c-curtain is-loaded",
+  "display": "block",
+  "opacity": "0",
+  "zIndex": "60",
+  "transition": "opacity 0.1s linear 1.2s",
+  "innerHTML": "\n\t<img src=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.png\" srcset=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.png 2560w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky@1440.png 1440w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky@720.png 720w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky@360.png 360w\" sizes=\"100vw\" alt=\"\" loading=\"lazy\">\n\t<img src=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png\" srcset=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png 2560w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur@1440.png 1440w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur@720.png 720w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur@360.png 360w\" sizes=\"100vw\" alt=\"\" loading=\"lazy\">\n\t<div class=\"c-curtain_content\" data-curtain=\"content\" style=\"translate: none; rotate: none; scale: none; transform: translate(0%, -50%) translate(0px, 40px); opacity: 1; visibility: inherit;\">\n\t\t<p class=\"o-typography -title-small\">Remplissage d’air<br>chaud...</p>\n\t\t<p class=\"o-typography -title-small\">Vérification<br>des nacelles...</p>\n\t</div>\n\t<span class=\"c-curtain_progress || o-typography -display-medium\" data-curtain=\"progress\" style=\"opacity: 1; visibility: inherit;\">100%</span>\n",
+  "progress": "100"
+}

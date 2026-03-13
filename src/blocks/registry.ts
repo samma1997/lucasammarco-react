@@ -1,0 +1,63 @@
+import type { BlockMeta } from './types'
+
+import { meta as cardStackHorizontal } from './museum-of-money/card-stack-horizontal/meta'
+import { meta as reviewsStaggerGrid } from './museum-of-money/reviews-stagger-grid/meta'
+import { meta as slideshowParallaxWipe } from './museum-of-money/slideshow-parallax-wipe/meta'
+import { meta as cashCascadeGame } from './museum-of-money/cash-cascade-game/meta'
+import { meta as heroCinematicReveal } from './the-grind/hero-cinematic-reveal/meta'
+import { meta as gridZoomMosaic } from './the-grind/grid-zoom-mosaic/meta'
+import { meta as festiventFull } from './festivent/full-page/meta'
+// Festivent individual blocks
+import { meta as fvMarqueeTicker } from './festivent/marquee-ticker/meta'
+import { meta as fvHeaderAutohide } from './festivent/header-autohide/meta'
+import { meta as fvHeroBalloon } from './festivent/hero-balloon/meta'
+import { meta as fvVideoDome } from './festivent/video-dome/meta'
+import { meta as fvArtistsCarousel } from './festivent/artists-carousel/meta'
+import { meta as fvSpotifyEmbed } from './festivent/spotify-embed/meta'
+import { meta as fvTwoScenesCta } from './festivent/two-scenes-cta/meta'
+import { meta as fvActivitiesGrid } from './festivent/activities-grid/meta'
+import { meta as fvSkyGallery } from './festivent/sky-gallery/meta'
+import { meta as fvVisitCards } from './festivent/visit-cards/meta'
+import { meta as fvSocialCta } from './festivent/social-cta/meta'
+import { meta as fvFooterCtaTickets } from './festivent/footer-cta-tickets/meta'
+import { meta as fvFooterFestival } from './festivent/footer-festival/meta'
+import { meta as fvPartnersMarquee } from './festivent/partners-marquee/meta'
+import { meta as fvStickyButton } from './festivent/sticky-button/meta'
+
+export const blockRegistry: BlockMeta[] = [
+  cardStackHorizontal,
+  reviewsStaggerGrid,
+  slideshowParallaxWipe,
+  cashCascadeGame,
+  heroCinematicReveal,
+  gridZoomMosaic,
+  festiventFull,
+  // Festivent individual blocks (FV1–FV15)
+  fvMarqueeTicker,
+  fvHeaderAutohide,
+  fvHeroBalloon,
+  fvVideoDome,
+  fvArtistsCarousel,
+  fvSpotifyEmbed,
+  fvTwoScenesCta,
+  fvActivitiesGrid,
+  fvSkyGallery,
+  fvVisitCards,
+  fvSocialCta,
+  fvFooterCtaTickets,
+  fvFooterFestival,
+  fvPartnersMarquee,
+  fvStickyButton,
+]
+
+export function getBlockMeta(id: string): BlockMeta | undefined {
+  return blockRegistry.find(b => b.id === id)
+}
+
+export function getBlocksByCategory(category: string): BlockMeta[] {
+  return blockRegistry.filter(b => b.category === category)
+}
+
+export function getAllCategories(): string[] {
+  return [...new Set(blockRegistry.map(b => b.category))]
+}

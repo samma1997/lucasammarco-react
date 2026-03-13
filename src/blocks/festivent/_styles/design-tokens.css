@@ -1,0 +1,17 @@
+:root {
+  --fv-primary-200: #fef7de;
+  --fv-primary-300: #f89e5d;
+  --fv-primary-500: #f15c56;
+  --fv-primary-700: #b93f3a;
+  --fv-secondary-200: #c7eafb;
+  --fv-secondary-500: #154e85;
+  --fv-secondary-700: #0f3356;
+  --fv-neutral-100: #fff;
+  --fv-neutral-900: #000;
+  --fv-on-primary-200: #f15c56;
+  --fv-on-primary-200-alt: #154e85;
+  --fv-on-secondary-200: #154e85;
+  --fv-font-body: 'Metro Sans', sans-serif;
+  --fv-font-heading: 'Metro Sans', sans-serif;
+  --fv-font-condensed: 'futura-pt-condensed', sans-serif;
+}

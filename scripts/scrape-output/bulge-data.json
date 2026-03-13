@@ -1,0 +1,58 @@
+[
+  {
+    "index": 0,
+    "classes": "c-hero_video || c-bulge",
+    "borderRadius": "0px",
+    "overflow": "visible",
+    "width": "1440px",
+    "height": "900px",
+    "transform": "none",
+    "clipPath": "circle(28800px at 50% 28891px)",
+    "position": "relative",
+    "innerHTML": "\n\t\t<video autoplay=\"\" muted=\"\" loop=\"\" playsinline=\"\" data-module-parallax=\"m29\" data-parallax-speed=\"2\" data-parallax-direction=\"down\" style=\"translate: none; rotate: none; scale: none; transform: translate3d(0px, -185.5px, 0px);\">\n\t\t\t<source src=\"https://festivent.ca/wp-content/uploads/2025/11/siteweb_2025_v09.mp4\" type=\"video/mp4\">\n\t\t</video>\n\t",
+    "hasVideo": true,
+    "videoSrc": "https://festivent.ca/wp-content/uploads/2025/11/siteweb_2025_v09.mp4"
+  },
+  {
+    "index": 1,
+    "classes": "c-background || c-bulge",
+    "borderRadius": "0px",
+    "overflow": "hidden",
+    "width": "1440px",
+    "height": "1565.53px",
+    "transform": "none",
+    "clipPath": "circle(28800px at 50% 28891px)",
+    "position": "relative",
+    "innerHTML": "\n\t\t<img src=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png\" srcset=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png 2560w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt@1440.png 1440w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt@720.png 720w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt@360.png 360w\" size",
+    "hasVideo": false,
+    "videoSrc": null
+  },
+  {
+    "index": 2,
+    "classes": "c-socials-cta || c-bulge || t-secondary-200",
+    "borderRadius": "0px",
+    "overflow": "hidden",
+    "width": "1440px",
+    "height": "949.375px",
+    "transform": "none",
+    "clipPath": "circle(28800px at 50% 28891px)",
+    "position": "relative",
+    "innerHTML": "\n\t<div class=\"c-socials-cta_background\">\n\t\t<img src=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png\" srcset=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png 2560w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt@1440.png 1440w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt@720.png 720w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/bl",
+    "hasVideo": false,
+    "videoSrc": null
+  },
+  {
+    "index": 3,
+    "classes": "c-footer_wrapper || c-bulge",
+    "borderRadius": "0px 0px 8px 8px",
+    "overflow": "hidden",
+    "width": "1440px",
+    "height": "1718.45px",
+    "transform": "none",
+    "clipPath": "circle(28800px at 50% 28891px)",
+    "position": "relative",
+    "innerHTML": "\n\t\t<div class=\"o-container\">\n\n\t\t\t<div class=\"c-footer_background\">\n\t\t\t\t<img src=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png\" srcset=\"https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png 2560w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur@1440.png 1440w, https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur@720.png 720w, https://festivent.ca/wp-content/themes/festivent/assets/src/i",
+    "hasVideo": false,
+    "videoSrc": null
+  }
+]

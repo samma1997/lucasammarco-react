@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/jtv7rsc.css");
+
+@font-face {
+  font-family: 'Metro Sans';
+  font-weight: 700;
+  src: url('/blocks/festivent/fonts/metrosans-bold-webfont.woff2') format('woff2'),
+       url('/blocks/festivent/fonts/metrosans-bold-webfont.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Metro Sans';
+  font-weight: 400;
+  src: url('/blocks/festivent/fonts/metrosans-regular-webfont.woff2') format('woff2'),
+       url('/blocks/festivent/fonts/metrosans-regular-webfont.woff') format('woff');
+  font-display: swap;
+}

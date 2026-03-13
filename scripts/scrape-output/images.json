@@ -1,0 +1,612 @@
+[
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.png",
+    "alt": "",
+    "width": 1440,
+    "height": 680,
+    "renderedWidth": 1440,
+    "renderedHeight": 680,
+    "classes": "",
+    "parentClasses": "c-curtain is-loaded"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 2028.7369384765625,
+    "renderedHeight": 927.6043090820312,
+    "classes": "",
+    "parentClasses": "c-curtain is-loaded"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+    "alt": "",
+    "width": 720,
+    "height": 738,
+    "renderedWidth": 1000,
+    "renderedHeight": 1025,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 2709.18798828125,
+    "renderedHeight": 1792.94140625,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 2028.7369384765625,
+    "renderedHeight": 927.6044921875,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 2800.20458984375,
+    "renderedHeight": 1750.736328125,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 4954.2080078125,
+    "renderedHeight": 3097.455078125,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 674.546630859375,
+    "renderedHeight": 674.546875,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere-blur.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 1017.3001098632812,
+    "renderedHeight": 1017.2998046875,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 1119.01416015625,
+    "renderedHeight": 1119.013671875,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolfiere-blur.png",
+    "alt": "",
+    "width": 360,
+    "height": 360,
+    "renderedWidth": 401.3125,
+    "renderedHeight": 401.3125,
+    "classes": "",
+    "parentClasses": "c-hero_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 800,
+    "renderedHeight": 800,
+    "classes": "o-section_shape",
+    "parentClasses": "o-section_content o-container"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 800,
+    "renderedHeight": 800,
+    "classes": "o-section_shape",
+    "parentClasses": "o-section_content o-container"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/montgolifiere-blue.png",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 640,
+    "renderedHeight": 640,
+    "classes": "o-section_shape",
+    "parentClasses": "o-section_content o-container"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/sb-lq-jeudi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/ppr-lq-vendredi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/tos-lq-dim-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/sb-lq-jeudi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/ppr-lq-vendredi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/tos-lq-dim-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/sb-lq-jeudi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/ppr-lq-vendredi-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/tos-lq-dim-26.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venir-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2026/02/artiste-a-venirhq-74.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 206,
+    "renderedWidth": 335,
+    "renderedHeight": 209.375,
+    "classes": "c-artists_image",
+    "parentClasses": "c-artists_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png",
+    "alt": "",
+    "width": 1035,
+    "height": 1035,
+    "renderedWidth": 720,
+    "renderedHeight": 720,
+    "classes": "",
+    "parentClasses": "c-background || c-bulge"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+    "alt": "",
+    "width": 720,
+    "height": 738,
+    "renderedWidth": 939.7476196289062,
+    "renderedHeight": 928.9892578125,
+    "classes": "",
+    "parentClasses": "c-background || c-bulge"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-landscape.png",
+    "alt": "",
+    "width": 1440,
+    "height": 422,
+    "renderedWidth": 2982.805419921875,
+    "renderedHeight": 1331.2841796875,
+    "classes": "",
+    "parentClasses": "c-background || c-bulge"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/09/20240802_225447.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 472,
+    "renderedWidth": 483.8480224609375,
+    "renderedHeight": 483.84814453125,
+    "classes": "c-cta-s1_image",
+    "parentClasses": "c-cta-s1_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/10/famille-fv25.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 720,
+    "renderedWidth": 690,
+    "renderedHeight": 690,
+    "classes": "c-media-text-s2_image",
+    "parentClasses": "c-media-text-s2_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/10/31072025-mongolfieres-elisabethjolyphotographe-3475.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 1080,
+    "renderedWidth": 690,
+    "renderedHeight": 690,
+    "classes": "c-media-text-s2_image",
+    "parentClasses": "c-media-text-s2_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/sky.jpg",
+    "alt": "",
+    "width": 582,
+    "height": 1440,
+    "renderedWidth": 1440,
+    "renderedHeight": 1799.125,
+    "classes": "c-cta-s2_background",
+    "parentClasses": "c-cta-s2"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/a85c17c216a5fa00ad24c9e9777258e9e1684058.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 480,
+    "renderedWidth": 472.845458984375,
+    "renderedHeight": 582.6318359375,
+    "classes": "c-cta-s2_image",
+    "parentClasses": "c-cta-s2_gallery || u-gc-5/9 u-gc-3/7@tablet u-gc-2/6@mobile"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/2ee2f331dcddb2a05a5143825768bf4f22a5cdde-2560x1704.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 479,
+    "renderedWidth": 472.845458984375,
+    "renderedHeight": 582.6318359375,
+    "classes": "c-cta-s2_image",
+    "parentClasses": "c-cta-s2_gallery || u-gc-5/9 u-gc-3/7@tablet u-gc-2/6@mobile"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/eli_joly_fv2023-06-13201914.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 480,
+    "renderedWidth": 472.845458984375,
+    "renderedHeight": 582.6318359375,
+    "classes": "c-cta-s2_image",
+    "parentClasses": "c-cta-s2_gallery || u-gc-5/9 u-gc-3/7@tablet u-gc-2/6@mobile"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/a85c17c216a5fa00ad24c9e9777258e9e1684058.jpg",
+    "alt": "",
+    "width": 720,
+    "height": 480,
+    "renderedWidth": 472.845458984375,
+    "renderedHeight": 582.6318359375,
+    "classes": "c-cta-s2_image",
+    "parentClasses": "c-cta-s2_gallery || u-gc-5/9 u-gc-3/7@tablet u-gc-2/6@mobile"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/10/01082025-ambiance-elisabethjolyphotographe-2101.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 335,
+    "renderedHeight": 248,
+    "classes": "c-media-card_image",
+    "parentClasses": "c-media-card_media || u-gc-1/4 u-gc-1/5@laptop u-gc-full@tablet"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/10/20250730-ambiance3-elisabethjolyphotographe-2667.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 335,
+    "renderedHeight": 248,
+    "classes": "c-media-card_image",
+    "parentClasses": "c-media-card_media || u-gc-1/4 u-gc-1/5@laptop u-gc-full@tablet"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+    "alt": "",
+    "width": 720,
+    "height": 738,
+    "renderedWidth": 1080,
+    "renderedHeight": 1107,
+    "classes": "",
+    "parentClasses": "c-socials-cta_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+    "alt": "",
+    "width": 720,
+    "height": 738,
+    "renderedWidth": 1393.484375,
+    "renderedHeight": 1409.62158203125,
+    "classes": "",
+    "parentClasses": "c-socials-cta_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/olivia-lapierre-forin-99.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 219.984375,
+    "renderedHeight": 219.984375,
+    "classes": "c-socials-cta_image",
+    "parentClasses": "c-socials-cta_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/20150801_festivent_lifeincolor-276-credit-stephanegaudreau-1.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 310.27093505859375,
+    "renderedHeight": 310.27099609375,
+    "classes": "c-socials-cta_image",
+    "parentClasses": "c-socials-cta_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/20240801_ambiance_sebastiendion_sd2_6710.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 197.9039306640625,
+    "renderedHeight": 197.9039306640625,
+    "classes": "c-socials-cta_image",
+    "parentClasses": "c-socials-cta_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/020823_ambiance_sebdion_042-2560x1708.jpg",
+    "alt": "",
+    "width": 360,
+    "height": 240,
+    "renderedWidth": 271.06585693359375,
+    "renderedHeight": 271.0657958984375,
+    "classes": "c-socials-cta_image",
+    "parentClasses": "c-socials-cta_media"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/red-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 618,
+    "renderedWidth": 3000,
+    "renderedHeight": 1287.5,
+    "classes": "",
+    "parentClasses": "c-footer_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/blue-blur-alt.png",
+    "alt": "",
+    "width": 720,
+    "height": 738,
+    "renderedWidth": 1000,
+    "renderedHeight": 1025,
+    "classes": "",
+    "parentClasses": "c-footer_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/orange-blur-alt.png",
+    "alt": "",
+    "width": 1035,
+    "height": 1035,
+    "renderedWidth": 1000,
+    "renderedHeight": 1000,
+    "classes": "",
+    "parentClasses": "c-footer_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/dark-blue-blur.png",
+    "alt": "",
+    "width": 1440,
+    "height": 520,
+    "renderedWidth": 5756.1943359375,
+    "renderedHeight": 4470.021484375,
+    "classes": "",
+    "parentClasses": "c-footer_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/themes/festivent/assets/src/images/ferris-wheel.png",
+    "alt": "",
+    "width": 1440,
+    "height": 1440,
+    "renderedWidth": 2635.94287109375,
+    "renderedHeight": 2635.94287109375,
+    "classes": "",
+    "parentClasses": "c-footer_background"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/15c3e803ca76627f6ac7dbd62547faf7ced1e0a6.jpg",
+    "alt": "",
+    "width": 33,
+    "height": 28,
+    "renderedWidth": 233.328125,
+    "renderedHeight": 194.4375,
+    "classes": "",
+    "parentClasses": "c-footer_partners || o-container"
+  },
+  {
+    "src": "https://festivent.ca/wp-content/uploads/2025/07/0e938455772deb206c2ca796ef7310875de83780.jpg",
+    "alt": "",
+    "width": 33,
+    "height": 28,
+    "renderedWidth": 233.328125,
+    "renderedHeight": 194.4375,
+    "classes": "",
+    "parentClasses": "c-footer_partners || o-container"
+  }
+]

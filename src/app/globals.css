@@ -1,236 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import "tailwindcss";
 
 /* ============================================================
-   @FONT-FACE — Custom Fonts (matching original site)
-   ============================================================ */
-
-@font-face {
-  font-family: 'Bueno';
-  src: url('/fonts/Bueno-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('/fonts/Aileron-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('/fonts/Aileron-Italic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('/fonts/Aileron-SemiBold.woff2') format('woff2');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Aileron';
-  src: url('/fonts/Aileron-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Facultyglyphic';
-  src: url('/fonts/FacultyGlyphic-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Robotocondensed';
-  src: url('/fonts/RobotoCondensed-Medium.woff2') format('woff2');
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* ============================================================
-   CSS CUSTOM PROPERTIES — MoMoney Design System
+   CATALOG THEME — Block Library UI
    ============================================================ */
 
 :root {
-  /* Swatch palette */
-  --black: #190f0a;
-  --white: #f1f0ec;
-  --green-bg: #00592b;
-  --green-text: #1ce585;
-  --blue-bg: #9eb5ff;
-  --blue-text: #0023d1;
-  --pink-bg: #f580db;
-  --yellow-bg: #ffec00;
-  --orange-bg: #ff7c24;
-  --red-bg: #ff0037;
-  --theme-text-dark: #401011;
+  /* Catalog dark UI palette */
+  --catalog-bg:           #0a0a0a;
+  --catalog-surface:      #111111;
+  --catalog-surface-2:    #1a1a1a;
+  --catalog-border:       rgba(255, 255, 255, 0.08);
+  --catalog-border-hover: rgba(255, 255, 255, 0.16);
+  --catalog-text:         #f5f5f5;
+  --catalog-text-muted:   rgba(245, 245, 245, 0.45);
+  --catalog-text-subtle:  rgba(245, 245, 245, 0.25);
+  --catalog-accent:       #7c3aed;
+  --catalog-accent-hover: #6d28d9;
+  --catalog-accent-light: rgba(124, 58, 237, 0.12);
 
-  /* Opacity variants */
-  --white-o10: color-mix(in srgb, var(--white) 10%, transparent);
-  --white-o20: color-mix(in srgb, var(--white) 20%, transparent);
-  --black-o10: color-mix(in srgb, var(--black) 10%, transparent);
-  --black-o20: color-mix(in srgb, var(--black) 20%, transparent);
-  --green-text-o10: color-mix(in srgb, var(--green-text) 10%, transparent);
-  --green-text-o20: color-mix(in srgb, var(--green-text) 20%, transparent);
-  --blue-text-o10: color-mix(in srgb, var(--blue-text) 10%, transparent);
-  --blue-text-o20: color-mix(in srgb, var(--blue-text) 20%, transparent);
+  /* Spacing */
+  --catalog-header-h:     3.5rem;
+  --catalog-sidebar-w:    14rem;
+  --catalog-radius:       0.5rem;
+  --catalog-radius-lg:    0.875rem;
 
-  /* Fluid screen scale */
-  --screen-min: 20rem;   /* 320px */
-  --screen-max: 150rem;  /* 2400px */
-  --screen-design: 90rem; /* 1440px */
-
-  /* -------------------------------------------------------
-     Fluid typography — clamp(min, preferred, max)
-     Formula: min + (max - min) * (100vw - screen-min) / (screen-max - screen-min)
-     ------------------------------------------------------- */
-  --font-size-display: clamp(3.75rem, calc(3.75rem + (17.676 - 3.75) * ((100vw - 20rem) / (150 - 20))), 17.676rem);
-  --font-size-h1:      clamp(3.5rem,  calc(3.5rem  + (13.716 - 3.5)  * ((100vw - 20rem) / (150 - 20))), 13.716rem);
-  --font-size-h2:      clamp(3rem,    calc(3rem    + (8.574  - 3)    * ((100vw - 20rem) / (150 - 20))), 8.574rem);
-  --font-size-h3:      clamp(1.375rem,calc(1.375rem+ (2.534  - 1.375)* ((100vw - 20rem) / (150 - 20))), 2.534rem);
-  --font-size-h4:      clamp(1.125rem,calc(1.125rem+ (1.591  - 1.125)* ((100vw - 20rem) / (150 - 20))), 1.591rem);
-  --font-size-h5:      clamp(0.875rem,calc(0.875rem+ (1.108  - 0.875)* ((100vw - 20rem) / (150 - 20))), 1.108rem);
-  --font-size-h6:      clamp(0.875rem,calc(0.875rem+ (1.108  - 0.875)* ((100vw - 20rem) / (150 - 20))), 1.108rem);
-  --font-size-text-large: clamp(1.125rem,calc(1.125rem + (1.358 - 1.125) * ((100vw - 20rem) / (150 - 20))), 1.358rem);
-  --font-size-text-main:  clamp(0.9375rem,calc(0.9375rem + (1.1705 - 0.9375) * ((100vw - 20rem) / (150 - 20))), 1.1705rem);
-  --font-size-text-small: clamp(0.75rem, calc(0.75rem + (0.983 - 0.75) * ((100vw - 20rem) / (150 - 20))), 0.983rem);
-
-  /* Fluid spacing */
-  --space-075:  clamp(0.6875rem, calc(0.6875rem + (0.804  - 0.6875) * ((100vw - 20rem) / (150 - 20))), 0.804rem);
-  --space-1:    clamp(0.9375rem, calc(0.9375rem + (1.054  - 0.9375) * ((100vw - 20rem) / (150 - 20))), 1.054rem);
-  --space-15:   clamp(1.375rem,  calc(1.375rem  + (1.608  - 1.375)  * ((100vw - 20rem) / (150 - 20))), 1.608rem);
-  --space-2:    clamp(1.625rem,  calc(1.625rem  + (2.324  - 1.625)  * ((100vw - 20rem) / (150 - 20))), 2.324rem);
-  --space-25:   clamp(2.25rem,   calc(2.25rem   + (2.716  - 2.25)   * ((100vw - 20rem) / (150 - 20))), 2.716rem);
-  --space-3:    clamp(2rem,      calc(2rem       + (3.858  - 2)      * ((100vw - 20rem) / (150 - 20))), 3.858rem);
-  --space-4:    clamp(3rem,      calc(3rem       + (4.858  - 3)      * ((100vw - 20rem) / (150 - 20))), 4.858rem);
-  --space-6:    clamp(4rem,      calc(4rem       + (7.716  - 4)      * ((100vw - 20rem) / (150 - 20))), 7.716rem);
-
-  /* Section spacing */
-  --section-space-small:    clamp(2.5rem,  calc(2.5rem  + (7.142  - 2.5)  * ((100vw - 20rem) / (150 - 20))), 7.142rem);
-  --section-space-main:     clamp(3.5rem,  calc(3.5rem  + (10     - 3.5)  * ((100vw - 20rem) / (150 - 20))), 10rem);
-  --section-space-large:    clamp(5rem,    calc(5rem    + (16.142 - 5)    * ((100vw - 20rem) / (150 - 20))), 16.142rem);
-  --section-space-page-top: clamp(9rem,    calc(9rem    + (20.142 - 9)    * ((100vw - 20rem) / (150 - 20))), 20.142rem);
-
-  /* Site margin */
-  --site-margin: clamp(1rem, calc(1rem + (1.25 - 1) * ((100vw - 20rem) / (150 - 20))), 1.25rem);
-
-  /* Custom elastic easing for buttons */
-  --elastic-ease-out: linear(
-    0, 0.006, 0.024 2.3%, 0.101 4.6%, 0.539 11.4%, 0.699 13.3%, 0.821 14.8%,
-    0.916 16.1%, 0.989 17.4%, 1.046 18.7%, 1.088 20.1%, 1.116 21.6%,
-    1.132 23.3%, 1.137 25.2%, 1.133 27.1%, 1.121 28.9%, 1.101 30.6%,
-    1.075 32.3%, 1.045 34.1%, 1.012 36%, 0.977 38%, 0.945 40%, 0.914 42.2%,
-    0.887 44.5%, 0.864 47%, 0.844 49.9%, 0.831 53.3%, 0.826 57.5%, 0.834 63.5%,
-    0.853 70%, 0.878 76.6%, 0.905 83.5%, 0.931 90.5%, 0.952 97.5%, 1
-  );
-
-  /* Line heights */
-  --lh-tight:  0.8;
-  --lh-normal: 1.2;
-  --lh-body:   1.4;
-
-  /* Letter spacing */
-  --ls-0:    0em;
-  --ls-001:  0.01em;
-  --ls-002:  0.02em;
-
-  /* Default theme: green */
-  --theme-bg:               var(--green-bg);
-  --theme-text:             var(--green-text);
-  --theme-sticker:          var(--pink-bg);
-  --theme-button-bg:        var(--white);
-  --theme-button-text:      var(--black);
-  --theme-selection-bg:     var(--green-text);
-  --theme-selection-text:   var(--green-bg);
-  --theme-border:           var(--green-text-o20);
+  /* Typography */
+  --catalog-font:         'Inter', system-ui, -apple-system, sans-serif;
+  --catalog-font-mono:    'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
 }
 
 /* ============================================================
-   COLOR THEMES
-   ============================================================ */
-
-.theme-green {
-  --theme-bg:             var(--green-bg);
-  --theme-text:           var(--green-text);
-  --theme-sticker:        var(--pink-bg);
-  --theme-button-bg:      var(--white);
-  --theme-button-text:    var(--black);
-  --theme-selection-bg:   var(--green-text);
-  --theme-selection-text: var(--green-bg);
-  --theme-border:         var(--green-text-o20);
-}
-
-.theme-blue {
-  --theme-bg:             var(--blue-bg);
-  --theme-text:           var(--blue-text);
-  --theme-sticker:        var(--yellow-bg);
-  --theme-button-bg:      var(--white);
-  --theme-button-text:    var(--blue-text);
-  --theme-selection-bg:   var(--blue-text);
-  --theme-selection-text: var(--blue-bg);
-  --theme-border:         var(--blue-text-o20);
-}
-
-.theme-pink {
-  --theme-bg:             var(--pink-bg);
-  --theme-text:           var(--theme-text-dark);
-  --theme-sticker:        var(--green-text);
-  --theme-button-bg:      var(--white);
-  --theme-button-text:    var(--theme-text-dark);
-  --theme-selection-bg:   var(--theme-text-dark);
-  --theme-selection-text: var(--pink-bg);
-  --theme-border:         color-mix(in srgb, var(--theme-text-dark) 20%, transparent);
-}
-
-.theme-yellow {
-  --theme-bg:             var(--yellow-bg);
-  --theme-text:           var(--theme-text-dark);
-  --theme-sticker:        var(--pink-bg);
-  --theme-button-bg:      var(--black);
-  --theme-button-text:    var(--yellow-bg);
-  --theme-selection-bg:   var(--theme-text-dark);
-  --theme-selection-text: var(--yellow-bg);
-  --theme-border:         color-mix(in srgb, var(--theme-text-dark) 20%, transparent);
-}
-
-.theme-light {
-  --theme-bg:             var(--white);
-  --theme-text:           var(--black);
-  --theme-sticker:        var(--pink-bg);
-  --theme-button-bg:      var(--black);
-  --theme-button-text:    var(--white);
-  --theme-selection-bg:   var(--black);
-  --theme-selection-text: var(--white);
-  --theme-border:         var(--black-o20);
-}
-
-.theme-dark {
-  --theme-bg:             var(--black);
-  --theme-text:           var(--white);
-  --theme-sticker:        var(--pink-bg);
-  --theme-button-bg:      var(--white);
-  --theme-button-text:    var(--black);
-  --theme-selection-bg:   var(--white);
-  --theme-selection-text: var(--black);
-  --theme-border:         var(--white-o20);
-}
-
-/* ============================================================
-   GLOBAL RESET & BASE
+   GLOBAL RESET
    ============================================================ */
 
 *,
@@ -247,81 +47,24 @@ html {
   text-size-adjust: 100%;
 }
 
-/* Lenis smooth scroll */
-html.lenis,
-html.lenis body {
-  height: auto;
-}
-
-.lenis.lenis-smooth {
-  scroll-behavior: auto !important;
-}
-
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-smooth iframe {
-  pointer-events: none;
-}
-
 body {
-  font-family: 'Aileron', Arial, sans-serif;
-  font-size: var(--font-size-text-main);
+  font-family: var(--catalog-font);
+  font-size: 0.9375rem;
   font-weight: 400;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-002);
-  background-color: var(--theme-bg);
-  color: var(--theme-text);
-  transition:
-    background-color 0.4s ease,
-    color 0.4s ease;
+  line-height: 1.5;
+  background-color: var(--catalog-bg);
+  color: var(--catalog-text);
   overflow-x: hidden;
-  cursor: url("/images/cursors/cursor-pointer.svg") 8 4, auto;
 }
 
 /* ============================================================
-   CUSTOM CURSOR STYLES
+   FOCUS VISIBLE
    ============================================================ */
 
-/* Links and buttons */
-a,
-button,
-[role="button"],
-label,
-select,
-.cursor-pointer {
-  cursor: url("/images/cursors/cursor-pointer-links.svg") 8 4, pointer;
-}
-
-/* Text inputs */
-input[type="text"],
-input[type="email"],
-input[type="search"],
-input[type="password"],
-input[type="number"],
-input[type="tel"],
-input[type="url"],
-textarea,
-[contenteditable="true"],
-.cursor-text {
-  cursor: url("/images/cursors/cursor-text.svg") 4 12, text;
-}
-
-/* Draggable / grab states */
-[data-draggable],
-.cursor-grab {
-  cursor: url("/images/cursors/cursor-grab.svg") 12 8, grab;
-}
-
-[data-draggable].is-dragging,
-.cursor-dragging,
-[data-dragging="true"] {
-  cursor: url("/images/cursors/cursor-dragging.svg") 12 8, grabbing;
+:focus-visible {
+  outline: 2px solid var(--catalog-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
 }
 
 /* ============================================================
@@ -329,140 +72,8 @@ textarea,
    ============================================================ */
 
 ::selection {
-  background-color: var(--theme-selection-bg, var(--theme-text));
-  color: var(--theme-selection-text, var(--theme-bg));
-}
-
-/* ============================================================
-   FLUID TYPOGRAPHY CLASSES
-   ============================================================ */
-
-.u-text-display {
-  font-family: 'Bueno', Impact, sans-serif;
-  font-size: var(--font-size-display);
-  font-weight: 700;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--ls-0);
-  text-transform: uppercase;
-}
-
-h1,
-.u-text-h1 {
-  font-family: 'Bueno', Impact, sans-serif;
-  font-size: var(--font-size-h1);
-  font-weight: 700;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--ls-0);
-  text-transform: uppercase;
-}
-
-h2,
-.u-text-h2 {
-  font-family: 'Bueno', Impact, sans-serif;
-  font-size: var(--font-size-h2);
-  font-weight: 700;
-  line-height: var(--lh-tight);
-  letter-spacing: var(--ls-0);
-  text-transform: uppercase;
-}
-
-h3,
-.u-text-h3 {
-  font-family: 'Facultyglyphic', 'Palatino Linotype', sans-serif;
-  font-size: var(--font-size-h3);
-  font-weight: 400;
-  line-height: var(--lh-normal);
-  letter-spacing: var(--ls-0);
-}
-
-h4,
-.u-text-h4 {
-  font-family: 'Robotocondensed', Arial, sans-serif;
-  font-size: var(--font-size-h4);
-  font-weight: 500;
-  line-height: var(--lh-normal);
-  letter-spacing: var(--ls-0);
-}
-
-h5,
-.u-text-h5 {
-  font-family: 'Robotocondensed', Arial, sans-serif;
-  font-size: var(--font-size-h5);
-  font-weight: 500;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-002);
-}
-
-h6,
-.u-text-h6 {
-  font-family: 'Robotocondensed', Arial, sans-serif;
-  font-size: var(--font-size-h6);
-  font-weight: 500;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-002);
-}
-
-.u-text-large {
-  font-size: var(--font-size-text-large);
-  font-weight: 400;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-002);
-}
-
-.u-text-main {
-  font-size: var(--font-size-text-main);
-  font-weight: 400;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-002);
-}
-
-.u-text-small {
-  font-size: var(--font-size-text-small);
-  font-weight: 400;
-  line-height: var(--lh-body);
-  letter-spacing: var(--ls-001);
-}
-
-/* ============================================================
-   LAYOUT UTILITIES
-   ============================================================ */
-
-.u-container {
-  width: 100%;
-  max-width: 100rem; /* 1600px */
-  margin-inline: auto;
-  padding-inline: var(--site-margin);
-}
-
-.u-container-full {
-  width: 100%;
-  padding-inline: var(--site-margin);
-}
-
-/* ============================================================
-   BUTTON BASE ARCHITECTURE
-   ============================================================ */
-
-/* Perspective container required for 3D flip */
-.btn_main_wrap,
-.btn_secondary_wrap {
-  display: inline-flex;
-  position: relative;
-  perspective: 800px;
-  perspective-origin: 50% 0%;
-  cursor: url("/images/cursors/cursor-pointer-links.svg") 8 4, pointer;
-  -webkit-tap-highlight-color: transparent;
-  user-select: none;
-}
-
-/* ============================================================
-   FOCUS VISIBLE (accessibility)
-   ============================================================ */
-
-:focus-visible {
-  outline: 2px solid var(--theme-text);
-  outline-offset: 3px;
-  border-radius: 2px;
+  background-color: var(--catalog-accent);
+  color: #fff;
 }
 
 /* ============================================================
@@ -476,9 +87,5 @@ h6,
     animation-duration: 0.01ms !important;
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
-  }
-
-  html.lenis {
-    scroll-behavior: auto;
   }
 }
