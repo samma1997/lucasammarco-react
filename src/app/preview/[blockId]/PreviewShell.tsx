@@ -1,6 +1,7 @@
 'use client'
 
-import { useEffect, useState } from 'react'
+import { useEffect } from 'react'
+import gsap from 'gsap'
 
 interface PreviewShellProps {
   isEmbed: boolean
@@ -8,19 +9,15 @@ interface PreviewShellProps {
   children: React.ReactNode
 }
 
-/**
- * In embed mode (?embed=1), used inside catalog iframe thumbnails:
- * - Hides the "Back to catalog" button
- * - After 2s forces all elements visible (catches GSAP opacity:0 stuck states)
- * - Hides loading curtains immediately
- */
 export default function PreviewShell({ isEmbed, needsScroll, children }: PreviewShellProps) {
-  const [forceVisible, setForceVisible] = useState(false)
-
+  // In embed mode: after a short delay, kill all GSAP tweens that keep
+  // elements at opacity 0 and force everything visible
   useEffect(() => {
     if (!isEmbed) return
-    // Force visibility after animations have had time to play
-    const timer = setTimeout(() => setForceVisible(true), 2500)
+    const timer = setTimeout(() => {
+      // Force-complete any entrance animations so the preview isn't blank
+      gsap.globalTimeline.progress(1)
+    }, 800)
     return () => clearTimeout(timer)
   }, [isEmbed])
 
@@ -28,18 +25,12 @@ export default function PreviewShell({ isEmbed, needsScroll, children }: Preview
     <div style={{ minHeight: '100vh' }}>
       {isEmbed && (
         <style>{`
-          /* Hide curtains/overlays immediately in embed */
-          .fv-curtain { display: none !important; }
-          /* Hide any loading overlays */
-          [class*="curtain"], [class*="loader"], [class*="loading"] {
+          .fv-curtain,
+          [class*="curtain"],
+          [class*="loader"],
+          [class*="loading"] {
             display: none !important;
           }
-          ${forceVisible ? `
-          /* Force all elements visible after timeout */
-          [style*="opacity: 0"], [style*="opacity:0"] {
-            opacity: 1 !important;
-          }
-          ` : ''}
         `}</style>
       )}
 
@@ -67,9 +58,7 @@ export default function PreviewShell({ isEmbed, needsScroll, children }: Preview
       )}
 
       {needsScroll ? (
-        <div style={{ height: '300vh' }}>
-          {children}
-        </div>
+        <div style={{ height: '300vh' }}>{children}</div>
       ) : (
         children
       )}
