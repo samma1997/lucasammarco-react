@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import type { BlockMeta } from '@/blocks/types'
 
@@ -8,32 +8,35 @@ interface BlockCardProps {
   block: BlockMeta
 }
 
-/* Color map per collection — sfondo preview placeholder */
 const COLLECTION_COLORS: Record<string, { bg: string; accent: string }> = {
   'museum-of-money': { bg: '#1a1a2e', accent: '#c9a962' },
   'the-grind': { bg: '#0d0d0d', accent: '#ff4444' },
   festivent: { bg: '#154e85', accent: '#f15c56' },
 }
 
-const CATEGORY_ICONS: Record<string, string> = {
-  hero: '🏔',
-  cards: '🃏',
-  reviews: '⭐',
-  slideshow: '🎠',
-  games: '🎮',
-  navigation: '🧭',
-  footer: '🦶',
-  faq: '❓',
-  location: '📍',
-  cta: '📣',
-  button: '🔘',
-  page: '📄',
-}
-
 export default function BlockCard({ block }: BlockCardProps) {
   const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
+  const [isVisible, setIsVisible] = useState(false)
+  const cardRef = useRef<HTMLDivElement>(null)
   const colors = COLLECTION_COLORS[block.collection] || { bg: '#1a1a1a', accent: '#1ce585' }
+
+  // Lazy load iframe when card enters viewport
+  useEffect(() => {
+    const el = cardRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true)
+          observer.disconnect()
+        }
+      },
+      { rootMargin: '200px' },
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [])
 
   const handleClick = useCallback(() => {
     router.push(`/preview/${block.id}`)
@@ -41,6 +44,7 @@ export default function BlockCard({ block }: BlockCardProps) {
 
   return (
     <div
+      ref={cardRef}
       onClick={handleClick}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -53,14 +57,12 @@ export default function BlockCard({ block }: BlockCardProps) {
           : '1px solid rgba(255,255,255,0.06)',
         cursor: 'pointer',
         transition: 'border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease',
-        boxShadow: isHovered
-          ? '0 0 20px rgba(28, 229, 133, 0.08)'
-          : 'none',
+        boxShadow: isHovered ? '0 0 20px rgba(28, 229, 133, 0.08)' : 'none',
         transform: isHovered ? 'translateY(-2px)' : 'translateY(0)',
         fontFamily: 'system-ui, -apple-system, sans-serif',
       }}
     >
-      {/* Preview placeholder — lightweight, no iframe */}
+      {/* Live preview iframe */}
       <div
         style={{
           width: '100%',
@@ -68,23 +70,29 @@ export default function BlockCard({ block }: BlockCardProps) {
           overflow: 'hidden',
           position: 'relative',
           background: `linear-gradient(135deg, ${colors.bg} 0%, ${colors.bg}dd 60%, ${colors.accent}33 100%)`,
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'center',
         }}
       >
-        {/* Category icon */}
-        <span style={{
-          fontSize: '3rem',
-          opacity: 0.3,
-          filter: 'grayscale(0.5)',
-          transition: 'opacity 0.3s, transform 0.3s',
-          transform: isHovered ? 'scale(1.15)' : 'scale(1)',
-        }}>
-          {CATEGORY_ICONS[block.category] || '📦'}
-        </span>
+        {isVisible && (
+          <iframe
+            src={`/preview/${block.id}`}
+            title={block.title}
+            loading="lazy"
+            style={{
+              width: '1440px',
+              height: '900px',
+              border: 'none',
+              transform: 'scale(0.243)',
+              transformOrigin: 'top left',
+              pointerEvents: 'none',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+            }}
+            tabIndex={-1}
+          />
+        )}
 
-        {/* Sigla badge — top left */}
+        {/* Sigla badge */}
         <div
           style={{
             position: 'absolute',
@@ -106,7 +114,7 @@ export default function BlockCard({ block }: BlockCardProps) {
           {block.sigla}
         </div>
 
-        {/* "Preview" button on hover */}
+        {/* Preview button on hover */}
         {isHovered && (
           <div style={{
             position: 'absolute',
@@ -119,6 +127,7 @@ export default function BlockCard({ block }: BlockCardProps) {
             backgroundColor: '#1ce585',
             color: '#0a0a0a',
             letterSpacing: '0.03em',
+            zIndex: 2,
           }}>
             Preview →
           </div>
@@ -134,43 +143,32 @@ export default function BlockCard({ block }: BlockCardProps) {
           background: colors.accent,
           opacity: isHovered ? 1 : 0.4,
           transition: 'opacity 0.2s',
+          zIndex: 2,
         }} />
       </div>
 
-      {/* Metadata section */}
+      {/* Metadata */}
       <div style={{ padding: '1rem' }}>
-        <div
-          style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '0.5rem',
-            marginBottom: '0.5rem',
-          }}
-        >
-          <span
-            style={{
-              fontFamily: 'ui-monospace, monospace',
-              fontSize: '0.75rem',
-              fontWeight: 700,
-              color: '#1ce585',
-              letterSpacing: '0.05em',
-            }}
-          >
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
+          <span style={{
+            fontFamily: 'ui-monospace, monospace',
+            fontSize: '0.75rem',
+            fontWeight: 700,
+            color: '#1ce585',
+            letterSpacing: '0.05em',
+          }}>
             {block.sigla}
           </span>
-          <span
-            style={{
-              fontWeight: 500,
-              fontSize: '0.9375rem',
-              color: '#f1f0ec',
-              lineHeight: 1.3,
-            }}
-          >
+          <span style={{
+            fontWeight: 500,
+            fontSize: '0.9375rem',
+            color: '#f1f0ec',
+            lineHeight: 1.3,
+          }}>
             {block.title}
           </span>
         </div>
 
-        {/* Description */}
         <p style={{
           fontSize: '0.8rem',
           color: 'rgba(255,255,255,0.35)',
@@ -185,50 +183,28 @@ export default function BlockCard({ block }: BlockCardProps) {
         </p>
 
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
-          {/* Category badge */}
-          <span
-            style={{
-              display: 'inline-block',
-              padding: '0.2rem 0.6rem',
-              borderRadius: '9999px',
-              fontSize: '0.75rem',
-              fontWeight: 500,
-              backgroundColor: 'rgba(28, 229, 133, 0.12)',
-              color: '#1ce585',
-            }}
-          >
+          <span style={{
+            display: 'inline-block',
+            padding: '0.2rem 0.6rem',
+            borderRadius: '9999px',
+            fontSize: '0.75rem',
+            fontWeight: 500,
+            backgroundColor: 'rgba(28, 229, 133, 0.12)',
+            color: '#1ce585',
+          }}>
             {block.category.charAt(0).toUpperCase() + block.category.slice(1)}
           </span>
-
-          {/* Collection badge */}
-          <span
-            style={{
-              display: 'inline-block',
-              padding: '0.2rem 0.6rem',
-              borderRadius: '9999px',
-              fontSize: '0.75rem',
-              fontWeight: 500,
-              backgroundColor: 'rgba(255,255,255,0.06)',
-              color: 'rgba(255,255,255,0.4)',
-            }}
-          >
+          <span style={{
+            display: 'inline-block',
+            padding: '0.2rem 0.6rem',
+            borderRadius: '9999px',
+            fontSize: '0.75rem',
+            fontWeight: 500,
+            backgroundColor: 'rgba(255,255,255,0.06)',
+            color: 'rgba(255,255,255,0.4)',
+          }}>
             {block.collection}
           </span>
-        </div>
-
-        {/* Source reference */}
-        <div
-          style={{
-            marginTop: '0.5rem',
-            fontSize: '0.65rem',
-            color: 'rgba(255,255,255,0.25)',
-            fontFamily: 'ui-monospace, monospace',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-            whiteSpace: 'nowrap',
-          }}
-        >
-          ref: {block.sourceUrl.replace('https://', '').replace('www.', '')}
         </div>
       </div>
     </div>
