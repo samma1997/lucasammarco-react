@@ -2,6 +2,7 @@ import { blockRegistry } from '@/blocks/registry'
 import { notFound } from 'next/navigation'
 import dynamic from 'next/dynamic'
 import type { ComponentType } from 'react'
+import PreviewShell from './PreviewShell'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const blockComponents: Record<string, ComponentType<any>> = {
@@ -15,7 +16,7 @@ const blockComponents: Record<string, ComponentType<any>> = {
   'grid-zoom-mosaic': dynamic(() => import('@/blocks/the-grind/grid-zoom-mosaic')),
   // Festivent
   'festivent-full': dynamic(() => import('@/blocks/festivent/full-page')),
-  // Festivent individual blocks (FV1–FV15)
+  // Festivent individual blocks
   'marquee-ticker': dynamic(() => import('@/blocks/festivent/marquee-ticker')),
   'header-autohide': dynamic(() => import('@/blocks/festivent/header-autohide')),
   'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon')),
@@ -29,8 +30,16 @@ export function generateStaticParams() {
   return blockRegistry.map(block => ({ blockId: block.id }))
 }
 
-export default async function PreviewPage({ params }: { params: Promise<{ blockId: string }> }) {
+export default async function PreviewPage({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ blockId: string }>
+  searchParams: Promise<{ embed?: string }>
+}) {
   const { blockId } = await params
+  const { embed } = await searchParams
+  const isEmbed = embed === '1'
   const BlockComponent = blockComponents[blockId]
 
   if (!BlockComponent) {
@@ -40,34 +49,8 @@ export default async function PreviewPage({ params }: { params: Promise<{ blockI
   const meta = blockRegistry.find(b => b.id === blockId)
 
   return (
-    <div style={{ minHeight: '100vh' }}>
-      <a
-        href="/"
-        style={{
-          position: 'fixed',
-          top: '1rem',
-          left: '1rem',
-          zIndex: 9999,
-          padding: '0.5rem 1rem',
-          background: 'rgba(0,0,0,0.8)',
-          color: '#fff',
-          borderRadius: '0.5rem',
-          textDecoration: 'none',
-          fontSize: '0.875rem',
-          fontFamily: 'system-ui, sans-serif',
-          backdropFilter: 'blur(8px)',
-          border: '1px solid rgba(255,255,255,0.1)',
-        }}
-      >
-        ← Back to catalog
-      </a>
-
-      {meta?.needsScroll && (
-        <div style={{ height: '300vh' }}>
-          <BlockComponent />
-        </div>
-      )}
-      {!meta?.needsScroll && <BlockComponent />}
-    </div>
+    <PreviewShell isEmbed={isEmbed} needsScroll={meta?.needsScroll}>
+      <BlockComponent />
+    </PreviewShell>
   )
 }

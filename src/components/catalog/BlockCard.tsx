@@ -74,12 +74,12 @@ export default function BlockCard({ block }: BlockCardProps) {
       >
         {isVisible && (
           <iframe
-            src={`/preview/${block.id}`}
+            src={`/preview/${block.id}?embed=1`}
             title={block.title}
-            loading="lazy"
+            width={1440}
+            height={900}
+            sandbox="allow-scripts allow-same-origin"
             style={{
-              width: '1440px',
-              height: '900px',
               border: 'none',
               transform: 'scale(0.243)',
               transformOrigin: 'top left',
