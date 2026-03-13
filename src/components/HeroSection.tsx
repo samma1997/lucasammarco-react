@@ -197,7 +197,7 @@ export default function HeroSection() {
         >
           <span
             style={{
-              fontFamily: 'Montserrat, sans-serif',
+              fontFamily: "'Bueno', Impact, sans-serif",
               fontWeight: 900,
               fontSize: 'clamp(20rem, 60vw, 80rem)',
               lineHeight: 1,
@@ -229,7 +229,7 @@ export default function HeroSection() {
         {/* Main headline */}
         <h1
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "'Bueno', Impact, sans-serif",
             fontWeight: 900,
             fontSize: 'clamp(3.5rem, 10vw, 14rem)',
             lineHeight: 0.85,
@@ -246,7 +246,7 @@ export default function HeroSection() {
         {/* Sub-headline */}
         <p
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "'Bueno', Impact, sans-serif",
             fontWeight: 700,
             fontSize: 'clamp(1.1rem, 2.5vw, 2.2rem)',
             textTransform: 'uppercase',
@@ -261,7 +261,7 @@ export default function HeroSection() {
         {/* Body copy */}
         <p
           style={{
-            fontFamily: 'Montserrat, sans-serif',
+            fontFamily: "'Aileron', Arial, sans-serif",
             fontWeight: 400,
             fontSize: 'clamp(0.95rem, 1.4vw, 1.25rem)',
             lineHeight: 1.55,
@@ -286,8 +286,8 @@ export default function HeroSection() {
               padding: 'clamp(0.75rem, 1.5vw, 1rem) clamp(1.5rem, 3vw, 2.5rem)',
               backgroundColor: '#1ce585',
               color: '#00592b',
-              fontFamily: 'Montserrat, sans-serif',
-              fontWeight: 800,
+              fontFamily: "'Robotocondensed', Arial, sans-serif",
+              fontWeight: 500,
               fontSize: 'clamp(0.85rem, 1.2vw, 1.05rem)',
               textTransform: 'uppercase',
               letterSpacing: '0.08em',
