@@ -21,24 +21,24 @@ const ArrowSVG = () => (
 
 const useCases = [
   {
-    href: '/en/use-case/superhead',
+    href: '/progetti',
     title: 'Superhead',
-    subtitle: 'Premium mountain stay booking platform',
-    description: '360 Brand Development and Product Development',
+    subtitle: 'Piattaforma booking soggiorni premium in montagna',
+    description: 'Brand Development e Product Development a 360°',
     image: '/images/superhead.jpg',
   },
   {
-    href: '/en/use-case/pellegrin',
+    href: '/progetti',
     title: 'Pellegrin',
-    subtitle: 'Jewelry house in Provence',
-    description: 'Development strategy and digitalization',
+    subtitle: 'Maison di gioielli in Provenza',
+    description: 'Strategia di sviluppo e digitalizzazione',
     image: '/images/pellegrin.png',
   },
   {
-    href: '/en/use-case/lumara-vision',
+    href: '/progetti',
     title: 'Lumara Vision',
-    subtitle: 'Solution for digitizing maritime oil and gas operations',
-    description: 'UX and app development',
+    subtitle: 'Soluzione per la digitalizzazione delle operazioni marittime oil & gas',
+    description: 'UX e sviluppo app',
     image: '/images/lumara.png',
   },
 ]

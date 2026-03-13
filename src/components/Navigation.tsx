@@ -8,15 +8,15 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const expertiseItems = [
-  { href: '/en/expertise/business-plan-financier-pilotable', label: 'Managed financial business plan' },
-  { href: '/en/expertise/pitch-deck-investisseur', label: 'Investor pitch deck' },
-  { href: '/en/expertise/analyse-et-positionnement-strategique', label: 'Analysis and strategic positioning' },
-  { href: '/en/expertise/plateforme-de-support-client', label: 'Customer support platform' },
-  { href: '/en/expertise/deploiement-de-programme-crm', label: 'CRM program deployment' },
-  { href: '/en/expertise/strategie-data-ia-et-automation', label: 'Data strategy, AI and automation' },
-  { href: '/en/expertise/experience-mobile', label: 'Seamless mobile experience' },
-  { href: '/en/expertise/site-e-commerce', label: 'Efficient e-commerce site' },
-  { href: '/en/expertise/site-vitrine', label: 'Tailored corporate brand site' },
+  { href: '/expertise/analisi-strategica', label: 'Analisi e Posizionamento Strategico' },
+  { href: '/expertise/audit-seo', label: 'Audit SEO & Ottimizzazione' },
+  { href: '/expertise/geo-local-seo', label: 'Strategia GEO & Local SEO' },
+  { href: '/expertise/data-strategy', label: 'Data Strategy & AI' },
+  { href: '/expertise/automazione-ai', label: 'Automazione AI & Workflow' },
+  { href: '/expertise/app-mobile', label: 'App Mobile Cross-Platform' },
+  { href: '/expertise/ecommerce', label: 'E-Commerce Avanzato' },
+  { href: '/expertise/sito-vetrina', label: 'Sito Vetrina & Corporate' },
+  { href: '/expertise/web-app-saas', label: 'Web App & Piattaforme SaaS' },
 ]
 
 export default function Navigation() {
@@ -259,7 +259,7 @@ export default function Navigation() {
   return (
     <>
       <div data-wf--nav--variant="base" className="navigation" ref={navRef}>
-        <Link href="/en" aria-current="page" className="nav--logo w-inline-block w--current">
+        <Link href="/" aria-current="page" className="nav--logo w-inline-block w--current">
           <div className="logo nav__link w-embed">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 27" fill="currentColor">
               <path d="M7.29989 9.92547C7.29989 7.24932 8.88829 5.72493 12.0651 5.3523H0V0.643631H19.9733V5.3523H15.2081C13.5521 5.3523 12.7072 6.91057 12.7072 9.92547V24.3564H7.29989V9.92547Z" fill="currentColor" />
@@ -272,16 +272,16 @@ export default function Navigation() {
         </Link>
 
         <div className="nav--item">
-          <a href="#" className="nav-tag color-white nav-link nav-link--offre">Offer</a>
-          <Link href="/en/notre-approche" className="nav-tag color-white nav-link">Approach</Link>
-          <a href="#" className="nav-tag color-white nav-link nav-link--expertise">ExpertiseS</a>
-          <Link href="/en/projets" className="nav-tag color-white nav-link">Projects</Link>
-          <Link href="/en/qui-sommes-nous" className="nav-tag color-white nav-link">About</Link>
+          <a href="#" className="nav-tag color-white nav-link nav-link--offre">Servizi</a>
+          <Link href="/approccio" className="nav-tag color-white nav-link">Approccio</Link>
+          <a href="#" className="nav-tag color-white nav-link nav-link--expertise">Expertise</a>
+          <Link href="/progetti" className="nav-tag color-white nav-link">Progetti</Link>
+          <Link href="/chi-sono" className="nav-tag color-white nav-link">Chi Sono</Link>
 
           <div className="nav--dropdown nav-dropdown--offre">
-            <Link href="/en/strategie-business-et-produit" className="nav-dropdown__link split-nav nav-link">Business and Product Strategy</Link>
-            <Link href="/en/design-dexperiences" className="nav-dropdown__link split-nav nav-link">Experience design</Link>
-            <Link href="/en/transformation-digitale-et-plan-de-croissance" className="nav-dropdown__link split-nav nav-link">Digital and methodological transformation</Link>
+            <Link href="/servizi/seo-geo" className="nav-dropdown__link split-nav nav-link">SEO & GEO as a Service</Link>
+            <Link href="/servizi/software" className="nav-dropdown__link split-nav nav-link">Sviluppo Software Custom</Link>
+            <Link href="/servizi/trasformazione-digitale" className="nav-dropdown__link split-nav nav-link">Trasformazione Digitale & AI</Link>
           </div>
 
           <div className="nav--dropdown nav-dropdown--expertise">
@@ -302,16 +302,16 @@ export default function Navigation() {
             <div className="w-locales-list">
               <div role="list" className="w-locales-items">
                 <div role="listitem" className="w-locales-item">
-                  <Link hrefLang="fr" href="/fr" className="nav-tag color-white nav-link">fr</Link>
+                  <Link hrefLang="it" href="/" className="nav-tag color-white nav-link w--current">it</Link>
                 </div>
                 <div role="listitem" className="w-locales-item">
-                  <Link hrefLang="en" href="/en" aria-current="page" className="nav-tag color-white nav-link w--current">en</Link>
+                  <Link hrefLang="en" href="/" className="nav-tag color-white nav-link">en</Link>
                 </div>
               </div>
             </div>
           </div>
           <div className="nav--button">
-            <Link href="/en/contactez-nous" className="button-small w-inline-block">
+            <Link href="/contatti" className="button-small w-inline-block">
               <div className="button-small__arrow left">
                 <div className="div-hide">
                   <div className="w-embed">
@@ -323,8 +323,8 @@ export default function Navigation() {
               </div>
               <div className="button-small__center">
                 <div className="div-hide">
-                  <div className="btn-s color-white nav-link">Contact us</div>
-                  <div className="btn-s color-white nav-link hide">Contact us</div>
+                  <div className="btn-s color-white nav-link">Contattaci</div>
+                  <div className="btn-s color-white nav-link hide">Contattaci</div>
                 </div>
               </div>
               <div className="button-small__arrow right">
@@ -360,34 +360,34 @@ export default function Navigation() {
       <div className="nav-mobile-panel">
         <div className="div-block-9">
           <ul role="list" className="nav-mobile__list-link">
-            <li className="nav-mobile__list-item"><a href="#" className="nav-mobile__link nav-mobile__link-offres">Deals</a></li>
-            <li className="nav-mobile__list-item"><Link href="/en/notre-approche" className="nav-mobile__link">Approach</Link></li>
+            <li className="nav-mobile__list-item"><a href="#" className="nav-mobile__link nav-mobile__link-offres">Servizi</a></li>
+            <li className="nav-mobile__list-item"><Link href="/approccio" className="nav-mobile__link">Approccio</Link></li>
             <li className="nav-mobile__list-item"><a href="#" className="nav-mobile__link nav-mobile__link-expertise">Expertise</a></li>
-            <li className="nav-mobile__list-item"><Link href="/en/projets" className="nav-mobile__link">Projects</Link></li>
-            <li className="nav-mobile__list-item"><Link href="/en/qui-sommes-nous" className="nav-mobile__link">About</Link></li>
-            <li className="nav-mobile__list-item"><Link href="/en/contactez-nous" className="nav-mobile__link">Contact</Link></li>
+            <li className="nav-mobile__list-item"><Link href="/progetti" className="nav-mobile__link">Progetti</Link></li>
+            <li className="nav-mobile__list-item"><Link href="/chi-sono" className="nav-mobile__link">Chi Sono</Link></li>
+            <li className="nav-mobile__list-item"><Link href="/contatti" className="nav-mobile__link">Contatti</Link></li>
           </ul>
           <div className="nav--lang">
             <div className="w-locales-list">
               <div role="list" className="w-locales-items">
-                <div role="listitem" className="w-locales-item"><Link hrefLang="fr" href="/fr" className="nav-lang color-black">fr</Link></div>
-                <div role="listitem" className="w-locales-item"><Link hrefLang="en" href="/en" className="nav-lang color-black w--current">en</Link></div>
+                <div role="listitem" className="w-locales-item"><Link hrefLang="it" href="/" className="nav-lang color-black w--current">it</Link></div>
+                <div role="listitem" className="w-locales-item"><Link hrefLang="en" href="/" className="nav-lang color-black">en</Link></div>
               </div>
             </div>
           </div>
         </div>
         <div className="bot clipping-text nav">
           <div className="footer-bot-info">
-            <p className="claim-s max-w-footer split">Consulting firm in strategy, product and digital innovation.</p>
+            <p className="claim-s max-w-footer split">Web Developer & SEO Specialist — Monza, Italia</p>
           </div>
           <div className="h-line-mobile on-mobile clipping-item"></div>
           <div className="right right-align">
             <div className="footer-mobile">
-              <a href="https://www.linkedin.com/company/tiwis-consulting" className="link-block w-inline-block">
+              <a href="https://www.linkedin.com/in/lucasammarco/" className="link-block w-inline-block">
                 <div className="div-hide"><div className="nav-tag color-white">Linkedin</div><div className="nav-tag hide color-white">Linkedin</div></div>
               </a>
-              <a href="mailto:Hello@tiwis.fr" className="link-block w-inline-block">
-                <div className="div-hide"><div className="nav-tag color-white">Hello@tiwis.fr</div><div className="nav-tag hide color-white">Hello@tiwis.fr</div></div>
+              <a href="mailto:info@lucasammarco.com" className="link-block w-inline-block">
+                <div className="div-hide"><div className="nav-tag color-white">info@lucasammarco.com</div><div className="nav-tag hide color-white">info@lucasammarco.com</div></div>
               </a>
             </div>
           </div>
@@ -398,12 +398,12 @@ export default function Navigation() {
           <div className="submenu__block">
             <div className="nav-mobile__submenu-back">
               <img src="/images/vector.png" loading="lazy" alt="" className="svg-back" />
-              <div className="submenu-back">Deals</div>
+              <div className="submenu-back">Servizi</div>
             </div>
             <ul role="list" className="nav-submobile__list-link">
-              <li className="nav-submobile__list-item"><Link href="/en/strategie-business-et-produit" className="nav-submobile__link">Business and Product Strategy</Link></li>
-              <li className="nav-submobile__list-item"><Link href="/en/design-dexperiences" className="nav-submobile__link">Experience design</Link></li>
-              <li className="nav-submobile__list-item"><Link href="/en/transformation-digitale-et-plan-de-croissance" className="nav-submobile__link">Digital and methodological transformation</Link></li>
+              <li className="nav-submobile__list-item"><Link href="/servizi/seo-geo" className="nav-submobile__link">SEO & GEO as a Service</Link></li>
+              <li className="nav-submobile__list-item"><Link href="/servizi/software" className="nav-submobile__link">Sviluppo Software Custom</Link></li>
+              <li className="nav-submobile__list-item"><Link href="/servizi/trasformazione-digitale" className="nav-submobile__link">Trasformazione Digitale & AI</Link></li>
             </ul>
           </div>
         </div>

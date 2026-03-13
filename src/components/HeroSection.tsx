@@ -96,7 +96,7 @@ export default function Hero() {
       <a
         ref={buttonBigRef}
         data-follow="btn"
-        href="/en/contactez-nous"
+        href="/contatti"
         className="button-big w-inline-block"
       >
         <div className="button-big__content">

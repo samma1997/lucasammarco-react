@@ -8,23 +8,20 @@ import Navigation from '@/components/Navigation'
 import SmoothScrollProvider from '@/components/SmoothScrollProvider'
 
 export const metadata: Metadata = {
-  title: 'TIWIS | Strategic sparring partners and drivers of your growth',
+  title: 'Luca Sammarco | Web Developer & SEO Specialist — Monza',
   description:
-    'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
+    'Luca Sammarco: sviluppo web, SEO, GEO, software custom e soluzioni AI per far crescere il tuo business online. Monza, Italia.',
   openGraph: {
-    title: 'TIWIS | Strategic sparring partners and drivers of your growth',
+    title: 'Luca Sammarco | Web Developer & SEO Specialist — Monza',
     description:
-      'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
+      'Luca Sammarco: sviluppo web, SEO, GEO, software custom e soluzioni AI per far crescere il tuo business online. Monza, Italia.',
     type: 'website',
-    images: [
-      'https://cdn.prod.website-files.com/68f77e49c7ca6bd68b326c3d/69457111016b9c2b2ec75eb8_Tiwis_Screen.jpg',
-    ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'TIWIS | Strategic sparring partners and drivers of your growth',
+    title: 'Luca Sammarco | Web Developer & SEO Specialist — Monza',
     description:
-      'Tiwis supports companies in defining their strategy, designing digital experiences and implementing their growth operationally, with an agile and pragmatic approach.',
+      'Luca Sammarco: sviluppo web, SEO, GEO, software custom e soluzioni AI per far crescere il tuo business online. Monza, Italia.',
   },
 }
 

@@ -18,7 +18,7 @@ export default function CTASection() {
             or simply need to challenge<br />
             the status quo?
           </div>
-          <Link href="/en/contactez-nous" className="button-small is-footer-variant w-inline-block">
+          <Link href="/contatti" className="button-small is-footer-variant w-inline-block">
             <div className="button-small__arrow left bg-white">
               <div className="div-hide">
                 <div className="w-embed">
@@ -67,39 +67,39 @@ export default function CTASection() {
         <div className="h-line on-mobile"></div>
         <div className="right right-align">
           <div className="footer-mobile">
-            <a href="https://www.linkedin.com/company/tiwis-consulting" className="link-block w-inline-block">
+            <a href="https://www.linkedin.com/in/lucasammarco/" className="link-block w-inline-block">
               <div className="div-hide">
                 <div className="nav-tag color-white">Linkedin</div>
                 <div className="nav-tag hide color-white">Linkedin</div>
               </div>
             </a>
-            <a href="mailto:Hello@tiwis.fr" className="link-block w-inline-block">
+            <a href="mailto:info@lucasammarco.com" className="link-block w-inline-block">
               <div className="div-hide">
-                <div className="nav-tag color-white">Hello@tiwis.fr</div>
-                <div className="nav-tag hide color-white">Hello@tiwis.fr</div>
+                <div className="nav-tag color-white">info@lucasammarco.com</div>
+                <div className="nav-tag hide color-white">info@lucasammarco.com</div>
               </div>
             </a>
           </div>
-          <a href="mailto:Hello@tiwis.fr" className="link-block no-mobile w-inline-block">
+          <a href="mailto:info@lucasammarco.com" className="link-block no-mobile w-inline-block">
             <div className="div-hide">
-              <div className="nav-tag color-white first">Hello@tiwis.fr</div>
-              <div className="nav-tag hide color-white two">Hello@tiwis.fr</div>
+              <div className="nav-tag color-white first">info@lucasammarco.com</div>
+              <div className="nav-tag hide color-white two">info@lucasammarco.com</div>
             </div>
           </a>
-          <a href="https://www.linkedin.com/company/tiwis-consulting" className="link-block no-mobile w-inline-block">
+          <a href="https://www.linkedin.com/in/lucasammarco/" className="link-block no-mobile w-inline-block">
             <div className="div-hide">
               <div className="nav-tag color-white first">Linkedin</div>
               <div className="nav-tag hide color-white two">Linkedin</div>
             </div>
           </a>
-          <Link href="/en/mentions-legales" className="link-block ml-link w-inline-block">
+          <Link href="/informazioni-legali" className="link-block ml-link w-inline-block">
             <div className="div-hide">
-              <div className="nav-tag color-white first">Legal mentions</div>
+              <div className="nav-tag color-white first">Informazioni legali</div>
             </div>
           </Link>
-          <a href="https://www.linkedin.com/in/clementmerouani/" className="link-block last-link w-inline-block">
+          <a href="https://www.linkedin.com/in/lucasammarco/" className="link-block last-link w-inline-block">
             <div className="div-hide">
-              <div className="nav-tag color-white first">Website by Flot Noir Studio</div>
+              <div className="nav-tag color-white first">Luca Sammarco</div>
             </div>
           </a>
         </div>
