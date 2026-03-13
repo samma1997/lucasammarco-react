@@ -17,8 +17,6 @@ const blockComponents: Record<string, ComponentType<any>> = {
   // Festivent
   'festivent-full': dynamic(() => import('@/blocks/festivent/full-page')),
   // Festivent individual blocks
-  'marquee-ticker': dynamic(() => import('@/blocks/festivent/marquee-ticker')),
-  'header-autohide': dynamic(() => import('@/blocks/festivent/header-autohide')),
   'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon')),
   'artists-carousel': dynamic(() => import('@/blocks/festivent/artists-carousel')),
   'activities-grid': dynamic(() => import('@/blocks/festivent/activities-grid')),

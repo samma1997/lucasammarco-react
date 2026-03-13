@@ -14,13 +14,6 @@ const COLLECTION_COLORS: Record<string, { bg: string; accent: string }> = {
   festivent: { bg: '#154e85', accent: '#f15c56' },
 }
 
-/* ---------- scale math ----------
-   We render an iframe at 1440 × 900 and scale it to fit
-   the card's 16:10 preview area.
-   The card column is ~1/3 of 1400px max → ~440px.
-   scale = 440 / 1440 ≈ 0.305
-   We use CSS calc() so it stays fluid.
-   -------------------------------- */
 const IFRAME_W = 1440
 const IFRAME_H = 900
 
@@ -28,10 +21,11 @@ export default function BlockCard({ block }: BlockCardProps) {
   const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
   const [shouldLoad, setShouldLoad] = useState(false)
+  const [scale, setScale] = useState(0.3)
   const wrapRef = useRef<HTMLDivElement>(null)
   const colors = COLLECTION_COLORS[block.collection] || { bg: '#1a1a1a', accent: '#1ce585' }
 
-  /* Lazy-load: mount iframe only when card is near viewport */
+  // Lazy-load iframe when card is near viewport
   useEffect(() => {
     const el = wrapRef.current
     if (!el) return
@@ -41,6 +35,18 @@ export default function BlockCard({ block }: BlockCardProps) {
     )
     io.observe(el)
     return () => io.disconnect()
+  }, [])
+
+  // Dynamically compute scale based on actual card width
+  useEffect(() => {
+    const el = wrapRef.current
+    if (!el) return
+    const ro = new ResizeObserver(([entry]) => {
+      const w = entry.contentRect.width
+      if (w > 0) setScale(w / IFRAME_W)
+    })
+    ro.observe(el)
+    return () => ro.disconnect()
   }, [])
 
   const handleClick = useCallback(() => {
@@ -66,7 +72,7 @@ export default function BlockCard({ block }: BlockCardProps) {
         fontFamily: 'system-ui, -apple-system, sans-serif',
       }}
     >
-      {/* ---- live preview area ---- */}
+      {/* Live preview area */}
       <div
         ref={wrapRef}
         style={{
@@ -78,35 +84,22 @@ export default function BlockCard({ block }: BlockCardProps) {
         }}
       >
         {shouldLoad && (
-          <div style={{
-            position: 'absolute',
-            inset: 0,
-            overflow: 'hidden',
-          }}>
-            {/* The wrapper div scales the iframe to exactly fit the card width.
-                We use a CSS custom property trick: the wrapper is the same size
-                as the parent (via inset:0) and the iframe inside is scaled down. */}
-            <iframe
-              src={`/preview/${block.id}?embed=1`}
-              title={block.title}
-              style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: `${IFRAME_W}px`,
-                height: `${IFRAME_H}px`,
-                border: 'none',
-                transformOrigin: 'top left',
-                /* scale factor: card-preview-width / IFRAME_W
-                   card-preview-width = 100% of parent = the aspect-ratio box.
-                   We approximate with a known scale; CSS can't do this dynamically
-                   without JS, so we use a reasonable fixed scale. */
-                transform: `scale(${1 / (IFRAME_W / 360)})`,
-                pointerEvents: 'none',
-              }}
-              tabIndex={-1}
-            />
-          </div>
+          <iframe
+            src={`/preview/${block.id}?embed=1`}
+            title={block.title}
+            style={{
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: `${IFRAME_W}px`,
+              height: `${IFRAME_H}px`,
+              border: 'none',
+              transformOrigin: 'top left',
+              transform: `scale(${scale})`,
+              pointerEvents: 'none',
+            }}
+            tabIndex={-1}
+          />
         )}
 
         {/* Sigla badge */}
@@ -140,7 +133,7 @@ export default function BlockCard({ block }: BlockCardProps) {
         }} />
       </div>
 
-      {/* ---- metadata ---- */}
+      {/* Metadata */}
       <div style={{ padding: '1rem' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.5rem' }}>
           <span style={{
