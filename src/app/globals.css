@@ -2,6 +2,66 @@
 @import "tailwindcss";
 
 /* ============================================================
+   @FONT-FACE — Custom Fonts (matching original site)
+   ============================================================ */
+
+@font-face {
+  font-family: 'Bueno';
+  src: url('/fonts/Bueno-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('/fonts/Aileron-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('/fonts/Aileron-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('/fonts/Aileron-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Aileron';
+  src: url('/fonts/Aileron-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Facultyglyphic';
+  src: url('/fonts/FacultyGlyphic-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Robotocondensed';
+  src: url('/fonts/RobotoCondensed-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================================
    CSS CUSTOM PROPERTIES — MoMoney Design System
    ============================================================ */
 
@@ -210,7 +270,7 @@ html.lenis body {
 }
 
 body {
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: 'Aileron', Arial, sans-serif;
   font-size: var(--font-size-text-main);
   font-weight: 400;
   line-height: var(--lh-body);
@@ -278,6 +338,7 @@ textarea,
    ============================================================ */
 
 .u-text-display {
+  font-family: 'Bueno', Impact, sans-serif;
   font-size: var(--font-size-display);
   font-weight: 700;
   line-height: var(--lh-tight);
@@ -287,6 +348,7 @@ textarea,
 
 h1,
 .u-text-h1 {
+  font-family: 'Bueno', Impact, sans-serif;
   font-size: var(--font-size-h1);
   font-weight: 700;
   line-height: var(--lh-tight);
@@ -296,6 +358,7 @@ h1,
 
 h2,
 .u-text-h2 {
+  font-family: 'Bueno', Impact, sans-serif;
   font-size: var(--font-size-h2);
   font-weight: 700;
   line-height: var(--lh-tight);
@@ -305,6 +368,7 @@ h2,
 
 h3,
 .u-text-h3 {
+  font-family: 'Facultyglyphic', 'Palatino Linotype', sans-serif;
   font-size: var(--font-size-h3);
   font-weight: 400;
   line-height: var(--lh-normal);
@@ -313,6 +377,7 @@ h3,
 
 h4,
 .u-text-h4 {
+  font-family: 'Robotocondensed', Arial, sans-serif;
   font-size: var(--font-size-h4);
   font-weight: 500;
   line-height: var(--lh-normal);
@@ -321,6 +386,7 @@ h4,
 
 h5,
 .u-text-h5 {
+  font-family: 'Robotocondensed', Arial, sans-serif;
   font-size: var(--font-size-h5);
   font-weight: 500;
   line-height: var(--lh-body);
@@ -329,6 +395,7 @@ h5,
 
 h6,
 .u-text-h6 {
+  font-family: 'Robotocondensed', Arial, sans-serif;
   font-size: var(--font-size-h6);
   font-weight: 500;
   line-height: var(--lh-body);
