@@ -1,0 +1,114 @@
+/* ============================================================
+   FlipButton — 3D Flip hover effect matching museumofmoney.com
+   ============================================================ */
+
+.wrap {
+  display: inline-flex;
+  position: relative;
+  perspective: 800px;
+  perspective-origin: 50% 0%;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  /* Active / press compression */
+  transition: transform 0.1s ease;
+}
+
+.wrap:active {
+  transform: scaleX(0.955) scaleY(0.954);
+}
+
+/* -------------------------------------------------------
+   Background layer — pill shape behind the button
+   ------------------------------------------------------- */
+.bg {
+  position: absolute;
+  inset: 0;
+  border-radius: 100vw;
+  background-color: var(--theme-button-bg);
+  transform-origin: 50% 100%;
+  pointer-events: none;
+}
+
+/* -------------------------------------------------------
+   Face — shared by front and back
+   ------------------------------------------------------- */
+.face {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75em 1.5em;
+  border-radius: 100vw;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: var(--font-size-text-main, 1rem);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  line-height: 1;
+  white-space: nowrap;
+  transform-origin: 50% 0%;
+  transition:
+    transform 0.65s var(--elastic-ease-out),
+    opacity 0.65s var(--elastic-ease-out);
+  will-change: transform, opacity;
+}
+
+.text {
+  position: relative;
+  pointer-events: none;
+}
+
+/* -------------------------------------------------------
+   Front face — default visible state
+   ------------------------------------------------------- */
+.front {
+  position: relative;
+  color: var(--theme-button-text);
+  background-color: transparent;
+  transform: rotateX(0deg) translateY(0);
+  opacity: 1;
+}
+
+/* -------------------------------------------------------
+   Back face — hidden by default (rotated away)
+   ------------------------------------------------------- */
+.back {
+  position: absolute;
+  inset: 0;
+  color: var(--theme-button-text);
+  background-color: transparent;
+  transform: rotateX(-85deg) translateY(-2rem);
+  opacity: 0;
+}
+
+/* -------------------------------------------------------
+   Hover — only on hover-capable devices (mouse / trackpad)
+   ------------------------------------------------------- */
+@media (hover: hover) and (pointer: fine) {
+  .wrap:hover .front {
+    transform: rotateX(85deg) translateY(-2rem);
+    opacity: 0;
+  }
+
+  .wrap:hover .back {
+    transform: rotateX(0deg) translateY(0);
+    opacity: 1;
+  }
+}
+
+/* -------------------------------------------------------
+   Variant modifiers
+   Secondary variant can have a border instead of filled bg
+   ------------------------------------------------------- */
+.primary .bg {
+  background-color: var(--theme-button-bg);
+}
+
+.secondary .bg {
+  background-color: transparent;
+  border: 1.5px solid currentColor;
+}
+
+.secondary .front,
+.secondary .back {
+  color: var(--theme-text);
+}

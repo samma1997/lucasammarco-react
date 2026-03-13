@@ -1,0 +1,95 @@
+# MoMoney Museum - Complete Asset URL List
+# Generated from https://www.museumofmoney.com/
+
+# ============================================
+# EXHIBIT CARD IMAGES (AVIF)
+# ============================================
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527ba6994549b989f8f46d_exhibit_placeholder-5.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527cf74384ec8ee32096b2_exhibit_placeholder-9.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527c8f651311de912bd560_exhibit_placeholder-7.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527aa2958a26cb938ecc64_exhibit_placeholder-1.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527c57e6923fd2bf20678d_exhibit_placeholder-6.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/68527b10c82c754386d65e4f_exhibit_placeholder-2.avif
+
+# ============================================
+# EXHIBIT SHOWCASE PHOTOS (AVIF)
+# ============================================
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976bed334374f57ba2d6644_02%20BB%20MoMoney%20Museum-BAT09910-2.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/697a70e6e10fc15113187ffc_21.%20Snap%20%26%20Flex%202.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/697a747e577ab58c0bf5445c_16.%20Lazer%20Maze.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/697a753241ff66a57d68e5e8_9.%20Catch%20the%20Counterfeits.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976bcdf8a5346d44569dcaa_02%20BB%20MoMoney%20Museum-BAT08798.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/697a7557660f6271d0dddcb1_5.%20Marketplace%20Shuffle.avif
+
+# ============================================
+# STORY/GALLERY SLIDESHOW IMAGES (AVIF)
+# ============================================
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c61c0eea9d03fa0b2712_1.%20What%20even%20is%20money.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c86709a941d9f8de8c10_20.%20Bank%20Bosses-2.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c6a1f77b70f7c5d78985_5.%20Marketplace%20Shuffle.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c6e4a442659c9dc80638_14.%20Money%20Gallery%201.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c95a17bf5bb2f290b808_16.%20Lazer%20Maze.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c76622bf4018cd90ae6a_18.%20Vault%20Posedown.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c4b6d30a481d20700a7d_02%20BB%20MoMoney%20Museum-BAT08313.avif
+https://cdn.prod.website-files.com/6846d87a35249ce8a8e70716/6976c71f852f421d92068a61_21.%20Snap%20%26%20Flex%202.avif
+
+# ============================================
+# REVIEWER AVATAR IMAGES (AVIF)
+# ============================================
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b066a2ff5057324c39df_MM_Male_C.avif
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b0655055199fdf8e0e6f_MM_Female_C.avif
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b0654bac60af2ff2b355_MM_Female_B.avif
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b066a2ff5057324c39f6_MM_Male_A.avif
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b06596f2164862674cf1_MM_Male_B.avif
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6852b066abded64d1cdc40b1_MM_Female_A.avif
+
+# ============================================
+# GAME SVG ASSETS - PIGGY BANK
+# ============================================
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6866e01bff9583cd2b13f5ef_Piggy.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/686798bedff796666b730825_Piggy_alt.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/686be7847339dde89347d7b3_Piggy_walking.svg
+
+# ============================================
+# GAME SVG ASSETS - COINS
+# ============================================
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6866e01b2ca0b50d70f77b20_coin-1.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6866e01b42c6e69fc34a6ea9_coin-5.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6866e01b84a30e2e4a77356e_coin-10.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6866e01bc5b82dd8cf229ef9_coin-25.svg
+
+# ============================================
+# CUSTOM CURSOR SVGs
+# ============================================
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/685020772e431a751ff5fbef_Cursor_%20Pointer.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6850207768efd1a9fc610efe_Cursor_%20Text.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/685020770b2138255626c49d_Cursor_%20Pointer%20Links.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6850207766201db15b1120f7_Cursor_%20Grab.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6850207745868ac1ee4bcf0d_Cursor_%20Dragging.svg
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/685abe0eba30dc6ef4792933_Flip%20Cursor.svg
+
+# ============================================
+# LOCATION BACKGROUND IMAGE
+# ============================================
+https://cdn.prod.website-files.com/684433cbdb896cfecac10c42/6976cedbb60a7f59e9fee805_27683d5ab5dc16b03e4c73cb049604dd_060A4190-2.avif
+
+# ============================================
+# PLACEHOLDER
+# ============================================
+https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg
+
+# ============================================
+# AUDIO
+# ============================================
+https://cdn.jsdelivr.net/gh/madebykin/momoney/ka-ching.mp3
+
+# ============================================
+# EXTERNAL SCRIPTS
+# ============================================
+https://cdn.intellimize.co/snippet/117814131.js
+https://analytics.tiktok.com/i18n/pixel/events.js
+
+# ============================================
+# FONT
+# ============================================
+https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap
