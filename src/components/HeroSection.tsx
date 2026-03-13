@@ -207,7 +207,7 @@ export default function HeroSection() {
               whiteSpace: 'nowrap',
             }}
           >
-            $
+            $$
           </span>
         </div>
       </div>
@@ -234,45 +234,30 @@ export default function HeroSection() {
             fontSize: 'clamp(3.5rem, 10vw, 14rem)',
             lineHeight: 0.85,
             letterSpacing: '-0.03em',
-            textTransform: 'uppercase',
             color: '#f1f0ec',
             margin: 0,
           }}
         >
-          GET TO KNOW<br />
-          YOUR DOUGH
+          Get to know<br />
+          <span style={{ position: 'relative', zIndex: 2 }}>your dough</span>
         </h1>
-
-        {/* Sub-headline */}
-        <p
-          style={{
-            fontFamily: "'Bueno', Impact, sans-serif",
-            fontWeight: 700,
-            fontSize: 'clamp(1.1rem, 2.5vw, 2.2rem)',
-            textTransform: 'uppercase',
-            letterSpacing: '0.06em',
-            color: '#1ce585',
-            margin: 0,
-          }}
-        >
-          WE PUT THE FUN IN FUNDS
-        </p>
 
         {/* Body copy */}
         <p
           style={{
-            fontFamily: "'Aileron', Arial, sans-serif",
-            fontWeight: 400,
-            fontSize: 'clamp(0.95rem, 1.4vw, 1.25rem)',
-            lineHeight: 1.55,
+            fontFamily: "'Robotocondensed', Arial, sans-serif",
+            fontWeight: 500,
+            fontSize: 'clamp(1rem, 1.8vw, 1.5rem)',
+            lineHeight: 1.45,
             color: 'rgba(241,240,236,0.75)',
             maxWidth: '38rem',
             margin: 0,
+            textTransform: 'uppercase',
+            letterSpacing: '0.02em',
           }}
         >
           Money: it&apos;s all about change. Discover its story at MoMoney, the
-          interactive Museum of Money — where finance meets fun and every dollar
-          holds a story worth telling.
+          interactive Museum of Money.
         </p>
 
         {/* CTA */}
