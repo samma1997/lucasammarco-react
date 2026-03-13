@@ -1,7 +1,8 @@
 'use client'
 
-import { useState, useCallback, useRef, useEffect } from 'react'
+import { useState, useCallback, useRef, useEffect, Suspense } from 'react'
 import { useRouter } from 'next/navigation'
+import dynamic from 'next/dynamic'
 import type { BlockMeta } from '@/blocks/types'
 
 interface BlockCardProps {
@@ -14,14 +15,34 @@ const COLLECTION_COLORS: Record<string, { bg: string; accent: string }> = {
   festivent: { bg: '#154e85', accent: '#f15c56' },
 }
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const blockComponents: Record<string, React.ComponentType<any>> = {
+  'card-stack-horizontal': dynamic(() => import('@/blocks/museum-of-money/card-stack-horizontal'), { ssr: false }),
+  'reviews-stagger-grid': dynamic(() => import('@/blocks/museum-of-money/reviews-stagger-grid'), { ssr: false }),
+  'slideshow-parallax-wipe': dynamic(() => import('@/blocks/museum-of-money/slideshow-parallax-wipe'), { ssr: false }),
+  'cash-cascade-game': dynamic(() => import('@/blocks/museum-of-money/cash-cascade-game'), { ssr: false }),
+  'hero-cinematic-reveal': dynamic(() => import('@/blocks/the-grind/hero-cinematic-reveal'), { ssr: false }),
+  'grid-zoom-mosaic': dynamic(() => import('@/blocks/the-grind/grid-zoom-mosaic'), { ssr: false }),
+  'festivent-full': dynamic(() => import('@/blocks/festivent/full-page'), { ssr: false }),
+  'marquee-ticker': dynamic(() => import('@/blocks/festivent/marquee-ticker'), { ssr: false }),
+  'header-autohide': dynamic(() => import('@/blocks/festivent/header-autohide'), { ssr: false }),
+  'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon'), { ssr: false }),
+  'artists-carousel': dynamic(() => import('@/blocks/festivent/artists-carousel'), { ssr: false }),
+  'activities-grid': dynamic(() => import('@/blocks/festivent/activities-grid'), { ssr: false }),
+  'sky-gallery': dynamic(() => import('@/blocks/festivent/sky-gallery'), { ssr: false }),
+  'visit-cards': dynamic(() => import('@/blocks/festivent/visit-cards'), { ssr: false }),
+}
+
 export default function BlockCard({ block }: BlockCardProps) {
   const router = useRouter()
   const [isHovered, setIsHovered] = useState(false)
   const [isVisible, setIsVisible] = useState(false)
+  const [forceShow, setForceShow] = useState(false)
   const cardRef = useRef<HTMLDivElement>(null)
   const colors = COLLECTION_COLORS[block.collection] || { bg: '#1a1a1a', accent: '#1ce585' }
+  const BlockComponent = blockComponents[block.id]
 
-  // Lazy load iframe when card enters viewport
+  // Lazy mount when card enters viewport
   useEffect(() => {
     const el = cardRef.current
     if (!el) return
@@ -32,11 +53,18 @@ export default function BlockCard({ block }: BlockCardProps) {
           observer.disconnect()
         }
       },
-      { rootMargin: '200px' },
+      { rootMargin: '300px' },
     )
     observer.observe(el)
     return () => observer.disconnect()
   }, [])
+
+  // Force visibility after animations have played
+  useEffect(() => {
+    if (!isVisible) return
+    const timer = setTimeout(() => setForceShow(true), 2000)
+    return () => clearTimeout(timer)
+  }, [isVisible])
 
   const handleClick = useCallback(() => {
     router.push(`/preview/${block.id}`)
@@ -62,7 +90,7 @@ export default function BlockCard({ block }: BlockCardProps) {
         fontFamily: 'system-ui, -apple-system, sans-serif',
       }}
     >
-      {/* Live preview iframe */}
+      {/* Live preview — scaled component */}
       <div
         style={{
           width: '100%',
@@ -72,24 +100,28 @@ export default function BlockCard({ block }: BlockCardProps) {
           background: `linear-gradient(135deg, ${colors.bg} 0%, ${colors.bg}dd 60%, ${colors.accent}33 100%)`,
         }}
       >
-        {isVisible && (
-          <iframe
-            src={`/preview/${block.id}?embed=1`}
-            title={block.title}
-            width={1440}
-            height={900}
-            sandbox="allow-scripts allow-same-origin"
-            style={{
-              border: 'none',
-              transform: 'scale(0.243)',
-              transformOrigin: 'top left',
-              pointerEvents: 'none',
-              position: 'absolute',
-              top: 0,
-              left: 0,
-            }}
-            tabIndex={-1}
-          />
+        {isVisible && BlockComponent && (
+          <div style={{
+            width: '1440px',
+            height: '900px',
+            transform: 'scale(0.25)',
+            transformOrigin: 'top left',
+            pointerEvents: 'none',
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            overflow: 'hidden',
+          }}>
+            {forceShow && (
+              <style>{`
+                .fv-curtain { display: none !important; }
+                [class*="curtain"] { display: none !important; }
+              `}</style>
+            )}
+            <Suspense fallback={null}>
+              <BlockComponent />
+            </Suspense>
+          </div>
         )}
 
         {/* Sigla badge */}
