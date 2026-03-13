@@ -21,16 +21,10 @@ const blockComponents: Record<string, ComponentType<any>> = {
   'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon')),
   'video-dome': dynamic(() => import('@/blocks/festivent/video-dome')),
   'artists-carousel': dynamic(() => import('@/blocks/festivent/artists-carousel')),
-  'spotify-embed': dynamic(() => import('@/blocks/festivent/spotify-embed')),
   'two-scenes-cta': dynamic(() => import('@/blocks/festivent/two-scenes-cta')),
   'activities-grid': dynamic(() => import('@/blocks/festivent/activities-grid')),
   'sky-gallery': dynamic(() => import('@/blocks/festivent/sky-gallery')),
   'visit-cards': dynamic(() => import('@/blocks/festivent/visit-cards')),
-  'social-cta': dynamic(() => import('@/blocks/festivent/social-cta')),
-  'footer-cta-tickets': dynamic(() => import('@/blocks/festivent/footer-cta-tickets')),
-  'footer-festival': dynamic(() => import('@/blocks/festivent/footer-festival')),
-  'partners-marquee': dynamic(() => import('@/blocks/festivent/partners-marquee')),
-  'sticky-button': dynamic(() => import('@/blocks/festivent/sticky-button')),
 }
 
 export function generateStaticParams() {
