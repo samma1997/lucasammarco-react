@@ -11,9 +11,7 @@ import { meta as festiventFull } from './festivent/full-page/meta'
 import { meta as fvMarqueeTicker } from './festivent/marquee-ticker/meta'
 import { meta as fvHeaderAutohide } from './festivent/header-autohide/meta'
 import { meta as fvHeroBalloon } from './festivent/hero-balloon/meta'
-import { meta as fvVideoDome } from './festivent/video-dome/meta'
 import { meta as fvArtistsCarousel } from './festivent/artists-carousel/meta'
-import { meta as fvTwoScenesCta } from './festivent/two-scenes-cta/meta'
 import { meta as fvActivitiesGrid } from './festivent/activities-grid/meta'
 import { meta as fvSkyGallery } from './festivent/sky-gallery/meta'
 import { meta as fvVisitCards } from './festivent/visit-cards/meta'
@@ -30,9 +28,7 @@ export const blockRegistry: BlockMeta[] = [
   fvMarqueeTicker,
   fvHeaderAutohide,
   fvHeroBalloon,
-  fvVideoDome,
   fvArtistsCarousel,
-  fvTwoScenesCta,
   fvActivitiesGrid,
   fvSkyGallery,
   fvVisitCards,

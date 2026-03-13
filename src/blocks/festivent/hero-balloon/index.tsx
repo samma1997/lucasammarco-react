@@ -49,6 +49,12 @@ const KEYFRAMES = `
   }
   @media (max-width: 768px) {
     .fv-hero-sponsors { flex-direction: column !important; gap: 1.5rem !important; }
+    .fv-hero-balloon-1 { width: clamp(180px, 40vw, 632px) !important; }
+    .fv-hero-balloon-2 { width: clamp(280px, 55vw, 1000px) !important; }
+    .fv-hero-balloon-3 { width: clamp(300px, 60vw, 1100px) !important; }
+    .fv-hero-balloon-4 { width: clamp(120px, 25vw, 376px) !important; }
+    .fv-blur-deco { display: none !important; }
+    .fv-hero-cta-btn { padding: 0 2rem !important; font-size: clamp(0.85rem, 2.5vw, 1.1rem) !important; }
   }
 `
 
@@ -141,22 +147,22 @@ export default function HeroBalloon() {
         }} />
 
         {/* Montgolfieres */}
-        <img src={`${IMG}/montgolfiere.png`} alt="" style={{
+        <img className="fv-hero-balloon-1" src={`${IMG}/montgolfiere.png`} alt="" style={{
           position: 'absolute', bottom: 0, right: 0,
           width: 632, pointerEvents: 'none', zIndex: 1,
           animation: 'fv-hero-fly-1 20s linear infinite',
         }} />
-        <img src={`${IMG}/montgolfiere-blur.png`} alt="" style={{
+        <img className="fv-hero-balloon-2" src={`${IMG}/montgolfiere-blur.png`} alt="" style={{
           position: 'absolute', bottom: 0, left: 0,
           width: 1000, pointerEvents: 'none',
           animation: 'fv-hero-fly-2 20s linear infinite',
         }} />
-        <img src={`${IMG}/montgolfiere.png`} alt="" style={{
+        <img className="fv-hero-balloon-3" src={`${IMG}/montgolfiere.png`} alt="" style={{
           position: 'absolute', bottom: 0, left: 0,
           width: 1100, pointerEvents: 'none',
           animation: 'fv-hero-fly-3 20s linear infinite',
         }} />
-        <img src={`${IMG}/montgolfiere-blur.png`} alt="" style={{
+        <img className="fv-hero-balloon-4" src={`${IMG}/montgolfiere-blur.png`} alt="" style={{
           position: 'absolute', bottom: 0, left: '45%',
           width: 376, pointerEvents: 'none',
           filter: 'blur(20px)',
@@ -256,7 +262,7 @@ export default function HeroBalloon() {
 
           {/* Jumbo CTA button */}
           <div className="fv-hero-cta" style={{ marginTop: '2.5rem', opacity: 0 }}>
-            <a href="#tickets" style={{
+            <a href="#tickets" className="fv-hero-cta-btn" style={{
               display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
