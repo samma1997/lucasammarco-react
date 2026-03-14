@@ -12,6 +12,7 @@ const COLLECTION_COLORS: Record<string, { bg: string; accent: string }> = {
   'museum-of-money': { bg: '#1a1a2e', accent: '#c9a962' },
   'the-grind': { bg: '#0d0d0d', accent: '#ff4444' },
   festivent: { bg: '#154e85', accent: '#f15c56' },
+  'merit-first': { bg: '#0a0a0a', accent: '#3b82f6' },
 }
 
 const IFRAME_W = 1440
