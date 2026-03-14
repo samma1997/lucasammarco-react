@@ -48,13 +48,35 @@ const KEYFRAMES = `
     transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
   }
   @media (max-width: 768px) {
-    .fv-hero-sponsors { flex-direction: column !important; gap: 1.5rem !important; }
-    .fv-hero-balloon-1 { width: clamp(180px, 40vw, 632px) !important; }
-    .fv-hero-balloon-2 { width: clamp(280px, 55vw, 1000px) !important; }
-    .fv-hero-balloon-3 { width: clamp(300px, 60vw, 1100px) !important; }
-    .fv-hero-balloon-4 { width: clamp(120px, 25vw, 376px) !important; }
+    .fv-hero-section { padding: 2rem 1rem 3rem !important; }
+    .fv-hero-logo-wrap { width: 92vw !important; }
+    .fv-hero-badge-line1 { font-size: clamp(18px, 5vw, 28px) !important; }
+    .fv-hero-badge-line2 {
+      font-size: clamp(18px, 5vw, 28px) !important;
+      margin-top: 0.6em !important;
+      margin-left: -0.4em !important;
+      transform: rotate(2deg) translate(-5%) !important;
+    }
+    .fv-hero-date-wrap { margin-bottom: 0.5rem !important; }
+    .fv-hero-sponsors {
+      flex-direction: column !important;
+      gap: 1rem !important;
+      margin-top: 1.2rem !important;
+    }
+    .fv-hero-sponsors span { font-size: 0.7rem !important; }
+    .fv-hero-sponsors div { font-size: 0.85rem !important; padding: 0.4rem 1rem !important; }
+    .fv-hero-balloon-1 { width: clamp(150px, 35vw, 632px) !important; }
+    .fv-hero-balloon-2 { width: clamp(200px, 45vw, 1000px) !important; }
+    .fv-hero-balloon-3 { width: clamp(220px, 50vw, 1100px) !important; }
+    .fv-hero-balloon-4 { width: clamp(100px, 22vw, 376px) !important; }
     .fv-blur-deco { display: none !important; }
-    .fv-hero-cta-btn { padding: 0 2rem !important; font-size: clamp(0.85rem, 2.5vw, 1.1rem) !important; }
+    .fv-hero-cta-btn {
+      padding: 0 1.5rem !important;
+      height: 48px !important;
+      border-radius: 24px !important;
+      font-size: 0.85rem !important;
+    }
+    .fv-hero-cta { margin-top: 1.5rem !important; }
   }
 `
 
@@ -112,7 +134,7 @@ export default function HeroBalloon() {
       )}
 
       {/* Hero Section */}
-      <section style={{
+      <section className="fv-hero-section" style={{
         minHeight: '100vh',
         position: 'relative',
         overflow: 'hidden',
@@ -172,7 +194,7 @@ export default function HeroBalloon() {
         {/* Content */}
         <div style={{ position: 'relative', zIndex: 2, maxWidth: 1100 }}>
           {/* Date badge */}
-          <div style={{ marginBottom: '1.5rem' }}>
+          <div className="fv-hero-date-wrap" style={{ marginBottom: '1.5rem' }}>
             <div className="fv-hero-badge-line1" style={{
               fontFamily: "'futura-pt-condensed', sans-serif",
               fontWeight: 800,
@@ -205,7 +227,7 @@ export default function HeroBalloon() {
 
           {/* Large Festivent SVG logo */}
           <div className="fv-hero-logo" style={{ opacity: 0, display: 'flex', justifyContent: 'center' }}>
-            <div style={{ width: '80vw', maxWidth: 1100 }}>
+            <div className="fv-hero-logo-wrap" style={{ width: '80vw', maxWidth: 1100 }}>
               <FestiventLogoSVG width={1100} color="#fff" />
             </div>
           </div>

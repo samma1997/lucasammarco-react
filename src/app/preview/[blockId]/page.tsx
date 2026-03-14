@@ -14,8 +14,6 @@ const blockComponents: Record<string, ComponentType<any>> = {
   // The Grind
   'hero-cinematic-reveal': dynamic(() => import('@/blocks/the-grind/hero-cinematic-reveal')),
   'grid-zoom-mosaic': dynamic(() => import('@/blocks/the-grind/grid-zoom-mosaic')),
-  // Festivent
-  'festivent-full': dynamic(() => import('@/blocks/festivent/full-page')),
   // Festivent individual blocks
   'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon')),
   'artists-carousel': dynamic(() => import('@/blocks/festivent/artists-carousel')),
