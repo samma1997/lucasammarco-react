@@ -6,6 +6,12 @@ import { meta as slideshowParallaxWipe } from './museum-of-money/slideshow-paral
 import { meta as cashCascadeGame } from './museum-of-money/cash-cascade-game/meta'
 import { meta as heroCinematicReveal } from './the-grind/hero-cinematic-reveal/meta'
 import { meta as gridZoomMosaic } from './the-grind/grid-zoom-mosaic/meta'
+// MeritFirst
+import { meta as mfHeroStickyScramble } from './merit-first/hero-sticky-scramble/meta'
+import { meta as mfLogosCarousel } from './merit-first/logos-carousel/meta'
+import { meta as mfCapabilitiesGrid } from './merit-first/capabilities-grid/meta'
+import { meta as mfBeamSpinCard } from './merit-first/beam-spin-card/meta'
+import { meta as mfFooterDark } from './merit-first/footer-dark/meta'
 // Festivent individual blocks
 import { meta as fvHeroBalloon } from './festivent/hero-balloon/meta'
 import { meta as fvArtistsCarousel } from './festivent/artists-carousel/meta'
@@ -20,6 +26,12 @@ export const blockRegistry: BlockMeta[] = [
   cashCascadeGame,
   heroCinematicReveal,
   gridZoomMosaic,
+  // MeritFirst
+  mfHeroStickyScramble,
+  mfLogosCarousel,
+  mfCapabilitiesGrid,
+  mfBeamSpinCard,
+  mfFooterDark,
   // Festivent individual blocks
   fvHeroBalloon,
   fvArtistsCarousel,

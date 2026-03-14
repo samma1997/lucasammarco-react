@@ -1,0 +1,141 @@
+============================================================
+MERITFIRST.US — FULL PAGE CONTENT EXTRACTION
+============================================================
+
+--- NAVIGATION ---
+- For Candidates
+- Manifesto
+- We're Hiring!
+- Login
+- Book a Demo
+
+--- HERO SECTION ---
+Heading (repeated 8x marquee): "HIRING IS BROKEN."
+Subheading (repeated 8x marquee): "FIX IT OR FAIL."
+
+Body: "You don't have to be lucky, you just have to be good."
+
+--- INTERACTIVE ASSESSMENT SECTION ---
+Question: "Can you diagnose the problem?"
+
+Steps:
+01: "You get 3 questions to investigate. No more. Ask the right ones."
+02: "The answer is hidden. You have to ask for it. Think before you dig."
+03: "Deliver your diagnosis and plan of action. What went wrong, and what should they do?"
+
+Button: "Start Assessment"
+
+--- MAIN CTA SECTION ---
+Heading: "Choose meritocracy. Try it yourself."
+Subheading: "Skills-based hiring assessments — hire on merit, not history"
+
+--- COMPANY LOGOS SECTION ---
+(18 company logos displayed in a grid)
+Avila, Bronco, FieldGuide, Candid, HelloPatient, Ramp, Patlytics,
+StandardMetrics, FitLabs, Clay, Loop, Promise, Julius, Opto, Vals,
+Edia, Numeric, LightLabs
+
+--- VALUE PROPOSITION SECTION ---
+Heading: "Opportunity Promised. Outcomes Earned."
+
+--- CAPABILITIES SECTION ---
+Heading: "Build work-sample evaluations tailored to the role and company."
+
+Description: "Design evaluations that mirror real work in minutes. AI generates tailored questions based on the role, level, and skills that matter to your team. Supports text, audio, video, code challenges, multiple choice, and document uploads."
+
+--- FOCUS SECTION ---
+Heading: "Focus on what actually matters."
+
+For Companies:
+Heading: "Build the best team and discover hidden talent."
+Body: "Evaluate candidates at scale, surface key insights, and protect your team's time."
+Button: "Book a Demo"
+
+For Candidates:
+Heading: "Stop submitting resumes into a black hole."
+Body: "Show what you can do and get hired for your real abilities, not just your credentials."
+Button: "Discover Opportunities"
+
+--- FOOTER ---
+Heading: "Choose meritocracy."
+Subheading: "America's frontier is in unlocking our hidden talent."
+
+Navigation:
+  Column 1: Platform | For Candidates | Company
+  Column 2: Manifesto | Newsroom | We're Hiring!
+
+Investors: 8VC, Slow Ventures
+Location: "Built in Texas" (with Texas outline SVG)
+
+Legal:
+  - Terms & Conditions
+  - Privacy Policy
+  - "© 2026 MeritFirst, Inc. All rights reserved."
+
+--- BUTTONS (all instances) ---
+- "Start Assessment"
+- "Try An Assessment"
+- "Book a Demo"
+- "For Candidates"
+- "For Companies"
+- "Discover Opportunities"
+
+============================================================
+DESIGN TOKENS
+============================================================
+
+--- CSS CUSTOM PROPERTIES ---
+--button-shadow-neutral-hover: 0px 1px 2px 0px #0e121b0f, inset 0 0 0 1px #d4d4d4
+--button-shadow-primary-hover: 0px 1px 2px 0px #0e121b0f, inset 0 0 0 1px #335cff
+
+--- COLORS ---
+Primary Blue: #335cff
+Black: #000
+White: #fff
+Light Gray: #d4d4d4
+Dark (with alpha): #0e121b0f
+
+--- FONTS ---
+Primary: Geist (variable font)
+Mono: Geist Mono (variable font)
+Fallback: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+
+--- THEME ---
+Default: Dark mode
+Supports: Light/Dark toggle with localStorage persistence
+System preference fallback
+
+============================================================
+ASSET INVENTORY
+============================================================
+
+Marketing Images:
+  - blur-sm.png
+  - 8vc-logo.svg
+  - slow-ventures-logo.svg
+  - texas-outline.svg
+
+Company Logos (18):
+  avila.svg, bronco.svg, fieldguide.svg, candid.svg,
+  hellopatient.svg, ramp.svg, patlytics.svg, standardmetrics.svg,
+  fitlabs.svg, clay.svg, loop.svg, promise.svg,
+  julius.svg, opto.svg, vals.svg, edia.svg,
+  numeric.svg, lightlabs.svg
+
+  PNG versions also available:
+  avila.png, bronco.png, fieldguide-color.png, candid.png,
+  clay.png, standardmetrics.png
+
+Capability Images:
+  - capabilities_ai-test-creation.png (valid)
+  - capabilities_ats-integration.png (valid)
+  - capabilities_evaluation-integrity.png (NOT FOUND on server)
+  - capabilities_candidate-experience.png (NOT FOUND on server)
+
+Merit Logos:
+  - icon-white.png
+  - icon-black.png
+
+Meta:
+  - opengraph-image.png
+  - favicon.ico

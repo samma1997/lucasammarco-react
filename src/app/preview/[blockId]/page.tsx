@@ -14,6 +14,12 @@ const blockComponents: Record<string, ComponentType<any>> = {
   // The Grind
   'hero-cinematic-reveal': dynamic(() => import('@/blocks/the-grind/hero-cinematic-reveal')),
   'grid-zoom-mosaic': dynamic(() => import('@/blocks/the-grind/grid-zoom-mosaic')),
+  // MeritFirst
+  'hero-sticky-scramble': dynamic(() => import('@/blocks/merit-first/hero-sticky-scramble')),
+  'logos-carousel': dynamic(() => import('@/blocks/merit-first/logos-carousel')),
+  'capabilities-grid': dynamic(() => import('@/blocks/merit-first/capabilities-grid')),
+  'beam-spin-card': dynamic(() => import('@/blocks/merit-first/beam-spin-card')),
+  'footer-dark': dynamic(() => import('@/blocks/merit-first/footer-dark')),
   // Festivent individual blocks
   'hero-balloon': dynamic(() => import('@/blocks/festivent/hero-balloon')),
   'artists-carousel': dynamic(() => import('@/blocks/festivent/artists-carousel')),

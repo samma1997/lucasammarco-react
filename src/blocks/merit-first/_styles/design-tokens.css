@@ -1,0 +1,16 @@
+:root {
+  --mf-base: #0a0a0a;
+  --mf-surface: #171717;
+  --mf-white: #ffffff;
+  --mf-text-foreground: rgba(255,255,255,0.95);
+  --mf-text-muted: rgba(255,255,255,0.6);
+  --mf-text-dim: rgba(255,255,255,0.4);
+  --mf-border: rgba(255,255,255,0.1);
+  --mf-border-subtle: rgba(255,255,255,0.06);
+  --mf-brand-blue: #3b82f6;
+  --mf-brand-red: #ef4444;
+  --mf-surface-hover: rgba(255,255,255,0.06);
+  --mf-content-width: 1200px;
+  --mf-tracking-hero: -0.04em;
+  --mf-tracking-section: -0.03em;
+}
